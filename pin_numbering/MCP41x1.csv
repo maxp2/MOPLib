@@ -1,0 +1,9 @@
+Pin Label,Pin Number
+CS_N,1
+SCK,2
+SDI/SDO,3
+VSS,4
+P0A,5
+P0W,6
+P0B,7
+VDD,8

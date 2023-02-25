@@ -1,0 +1,9 @@
+Pin Label,Pin Number
+OUTA,1
+INA-,2
+INA+,3
+VSS,4
+INB+,5
+INB-,6
+OUTB,7
+VDD,8
