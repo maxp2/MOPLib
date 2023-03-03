@@ -1,0 +1,52 @@
+[2023.02.25 01:41:53] [0581m.54s.321ms] [1] SC[2]: UnRegistered sub-client [DesignSearcher2] with ID [11] for session ID [2] host [CAD02] user [maxpijacki] process ID [7632]
+[2023.02.25 01:41:53] [0581m.54s.377ms] [1] SC[2]: UnRegistered sub-client [Navigator] with ID [20] for session ID [2] host [CAD02] user [maxpijacki] process ID [7632]
+[2023.02.25 01:41:53] [0581m.54s.379ms] [1] SC[2]: UnRegistered sub-client [OutputWindow] with ID [21] for session ID [2] host [CAD02] user [maxpijacki] process ID [7632]
+[2023.02.25 01:41:53] [0581m.54s.380ms] [1] SC[2]: UnRegistered sub-client [PlaceDevice] with ID [22] for session ID [2] host [CAD02] user [maxpijacki] process ID [7632]
+[2023.02.25 01:41:53] [0581m.54s.391ms] [1] SC[2]: UnRegistered sub-client [FFSSelListener] with ID [25] for session ID [2] host [CAD02] user [maxpijacki] process ID [7632]
+[2023.02.25 01:41:53] [0581m.54s.527ms] [1] SC[2]: UnRegistered sub-client [LocalSymbolsDataProvider] with ID [24] for session ID [2] host [CAD02] user [maxpijacki] process ID [7632]
+[2023.02.25 01:41:54] [0581m.54s.672ms] [1] SC[2]: UnRegistered sub-client [FFSearch_RBHost] with ID [23] for session ID [2] host [CAD02] user [maxpijacki] process ID [7632]
+[2023.02.25 01:41:54] [0581m.54s.678ms] [1] SC[2]: UnRegistered sub-client [SAE] with ID [26] for session ID [2] host [CAD02] user [maxpijacki] process ID [7632]
+[2023.02.25 01:41:54] [0581m.54s.680ms] [1] SC[2]: UnRegistered sub-client [DxConstraints] with ID [27] for session ID [2] host [CAD02] user [maxpijacki] process ID [7632]
+[2023.02.25 01:41:54] [0581m.54s.685ms] [1] SC[2]: UnRegistered sub-client [CCZAddin] with ID [28] for session ID [2] host [CAD02] user [maxpijacki] process ID [7632]
+[2023.02.25 01:41:54] [0581m.54s.686ms] [1] SC[2]: UnRegistered sub-client [DxThumbnails] with ID [29] for session ID [2] host [CAD02] user [maxpijacki] process ID [7632]
+[2023.02.25 01:41:54] [0581m.54s.717ms] [1] SC[2]: UnRegistered sub-client [MyParts] with ID [30] for session ID [2] host [CAD02] user [maxpijacki] process ID [7632]
+[2023.02.25 01:41:54] [0581m.54s.718ms] [1] SC[2]: UnRegistered sub-client [PinsList] with ID [31] for session ID [2] host [CAD02] user [maxpijacki] process ID [7632]
+[2023.02.25 01:41:54] [0581m.54s.728ms] [1] SC[2]: UnRegistered sub-client [toolboxes] with ID [32] for session ID [2] host [CAD02] user [maxpijacki] process ID [7632]
+[2023.02.25 01:41:54] [0581m.54s.895ms] [1] SC[2]: UnRegistered sub-client [DxDbSearch] with ID [33] for session ID [2] host [CAD02] user [maxpijacki] process ID [7632]
+[2023.02.25 01:41:54] [0581m.54s.896ms] [1] SC[2]: UnRegistered sub-client [HdlProject] with ID [12] for session ID [2] host [CAD02] user [maxpijacki] process ID [7632]
+[2023.02.25 01:41:54] [0581m.54s.900ms] [1] SC[2]: UnRegistered sub-client [SystemDesignDll] with ID [10] for session ID [2] host [CAD02] user [maxpijacki] process ID [7632]
+[2023.02.25 01:41:54] [0581m.54s.904ms] [1] SC[2]: UnRegistered sub-client [PartReplaceUtils] with ID [16] for session ID [2] host [CAD02] user [maxpijacki] process ID [7632]
+[2023.02.25 01:41:54] [0581m.54s.905ms] [1] SC[2]: UnRegistered sub-client [PartReplaceUtilsSelectionListener] with ID [17] for session ID [2] host [CAD02] user [maxpijacki] process ID [7632]
+[2023.02.25 01:41:55] [0581m.56s.024ms] [1] SC[2]: UnRegistered sub-client [ProjectIntegrationIcdbCacheDxD:756806200] with ID [13] for session ID [2] host [CAD02] user [maxpijacki] process ID [7632]
+[2023.02.25 01:41:55] [0581m.56s.030ms] [1] SC[2]: UnRegistered sub-client [Core::NetFlatData-3450] with ID [8] for session ID [2] host [CAD02] user [maxpijacki] process ID [7632]
+[2023.02.25 01:41:55] [0581m.56s.030ms] [1] SC[2]: UnRegistered sub-client [BlockCacheDxD:631363104] with ID [7] for session ID [2] host [CAD02] user [maxpijacki] process ID [7632]
+[2023.02.25 01:41:55] [0581m.56s.031ms] [1] SC[2]: UnRegistered sub-client [Core::DesignListener-631362768-1] with ID [6] for session ID [2] host [CAD02] user [maxpijacki] process ID [7632]
+[2023.02.25 01:41:55] [0581m.56s.033ms] [1] SC[2]: UnRegistered sub-client [SelectionHolder] with ID [4] for session ID [2] host [CAD02] user [maxpijacki] process ID [7632]
+[2023.02.25 01:41:55] [0581m.56s.035ms] [1] SC[2]: UnRegistered sub-client [SheetConnectorsCacheDxD:1677271714] with ID [14] for session ID [2] host [CAD02] user [maxpijacki] process ID [7632]
+[2023.02.25 01:41:55] [0581m.56s.035ms] [1] SC[2]: UnRegistered sub-client [NetsNamesCollectorDxD:1677271714] with ID [15] for session ID [2] host [CAD02] user [maxpijacki] process ID [7632]
+[2023.02.25 01:41:55] [0581m.56s.057ms] [1] SC[2]: UnRegistered sub-client [TransactionRollbackSubClient] with ID [2] for session ID [2] host [CAD02] user [maxpijacki] process ID [7632]
+[2023.02.25 01:41:55] [0581m.56s.059ms] [1] SC[2]: UnRegistered sub-client [DxD] with ID [1] for session ID [2] host [CAD02] user [maxpijacki] process ID [7632]
+[2023.02.25 01:41:55] [0581m.56s.085ms] [1] SC[2]: UnRegistered sub-client [xprob] with ID [18] for session ID [2] host [CAD02] user [maxpijacki] process ID [7632]
+[2023.02.25 01:41:55] [0581m.56s.102ms] [1] SC[2]: UnRegistered sub-client [SymbolEditor] with ID [3] for session ID [2] host [CAD02] user [maxpijacki] process ID [7632]
+[2023.02.25 01:41:55] [0581m.56s.189ms] [1] CMT: Removed client [2]
+[2023.02.25 01:41:55] [0581m.56s.189ms] [1] CMT: There are no clients left - waiting [1 seconds]
+[2023.02.25 01:41:57] [0581m.57s.739ms] [0] CMT: Starting server auto-close
+[2023.02.25 01:41:57] [0581m.57s.817ms] [0] S: Closing server
+[2023.02.25 01:41:57] [0581m.57s.897ms] [0] iCDB Server PI: Closing plugins
+[2023.02.25 01:41:57] [0581m.57s.906ms] [0] iCDB Server PI: Plugins closed
+[2023.02.25 01:41:57] [0581m.57s.906ms] [0] iCDB Server PI: Unloading database
+[2023.02.25 01:41:57] [0581m.57s.908ms] [0] iCDB Server PI: Saving storage
+[2023.02.25 01:41:57] [0581m.57s.908ms] [0] iCDB Server PI: Closing database
+[2023.02.25 01:41:57] [0581m.57s.914ms] [1] iCDB Server PI: Stats: Database defragmentation: max[2] avg[1] holes[0%] data[69%]
+[2023.02.25 01:41:57] [0581m.57s.914ms] [1] iCDB Server PI: Stats: Database file size [51376 (50.2 kB)]
+[2023.02.25 01:41:57] [0581m.57s.953ms] [0] iCDB Server PI: Database closed
+[2023.02.25 01:41:57] [0581m.57s.954ms] [1] iCDB Server PI: Stats: Total iCDB execution time: [424281] ticks
+[2023.02.25 01:41:57] [0581m.57s.954ms] [1] iCDB Server PI: Stats: Total iCDB execution time: [4242] microseconds
+[2023.02.25 01:41:57] [0581m.57s.954ms] [1] iCDB Server PI: Stats: Total iCDB commands count: [21]
+[2023.02.25 01:41:57] [0581m.57s.954ms] [1] iCDB Server PI: Stats: Average iCDB speed:        [4949] commands per second
+[2023.02.25 01:41:57] [0581m.57s.954ms] [1] iCDB Server PI: Stats: Mem[35045376]
+[2023.02.25 01:41:57] [0581m.57s.954ms] [1] iCDB Server PI: Stats: MemPeak[38400000]
+[2023.02.25 01:41:57] [0581m.57s.955ms] [0] Single file [C:\Users\maxpijacki\Desktop\sync\symbols\database\icdb.dat] closed with size [51376 (50.2 kB)]
+[2023.02.25 01:41:57] [0581m.58s.264ms] [0] MWT: Destroy the shutdown block reason.
+[2023.02.25 01:41:57] [0581m.58s.265ms] [0] MWT: STOP
+[2023.02.25 01:41:57] [0581m.58s.266ms] [0] S: STOP

@@ -1,0 +1,28 @@
+[2023.03.01 10:07:55] [0000m.36s.143ms] [0] WELCOME
+[2023.03.01 10:07:55] [0000m.36s.145ms] [1] iCDB Database ver.2.210, lAMCCPgGndLueXBdAPvB3g, build:19222122 created 2021-08-24 19:25:25, sources stamp:lAMCCPgGndLueXBdAPvB3g
+[2023.03.01 10:07:55] [0000m.36s.146ms] [1] Unpublished work. Copyright 2021 Siemens\r\n\r\nThis material contains trade secrets or otherwise confidential\r\ninformation owned by Siemens Industry Software Inc.\r\nor its affiliates (collectively, 'SISW'), or its licensors.\r\nAccess to and use of this information is strictly limited\r\nas set forth in the Customer's applicable agreements with SISW.
+[2023.03.01 10:07:55] [0000m.36s.146ms] [1] Base flow version [VX.2.10]
+[2023.03.01 10:07:55] [0000m.36s.147ms] [1] Install Id [2373040], Flow Id [PADS VX.2.10], Full Flow Name [PADS VX.2.10], Exact Access Date [2021/08/01]
+[2023.03.01 10:07:55] [0000m.36s.148ms] [1] Machine [CAD02]  IP [10.0.2.15,10.240.109.175,127.0.0.1]  User [maxpijacki]  PID [2748]
+[2023.03.01 10:07:55] [0000m.36s.149ms] [1] Operating system [Microsoft Windows 8 Home Premium Edition, 64-bit (build 9200)]
+[2023.03.01 10:07:55] [0000m.36s.149ms] [1] Current working dir [C:\lib\parts_lib\test_projects\Siemens]
+[2023.03.01 10:07:55] [0000m.36s.149ms] [1] PATH [C:\MentorGraphics\PADSVX.2.10\SDD_HOME\common\win32\bin;C:\MentorGraphics\PADSVX.2.10\SDD_HOME\common\win32\lib;C:\MentorGraphics\PADSVX.2.10\SDD_HOME\common\win64\lib;C:\MentorGraphics\PADSVX.2.10\SDD_HOME\common3D\win32\lib;C:\MentorGraphics\PADSVX.2.10\SDD_HOME\common\win32\jre\default\bin;C:\MentorGraphics\PADSVX.2.10\MGC_HOME.ixn\bin;C:\MentorGraphics\PADSVX.2.10\MGC_HOME.ixn\lib;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Users\maxpijacki\AppData\Local\Microsoft\WindowsApps;]
+[2023.03.01 10:07:55] [0000m.36s.149ms] [1] SDD_HOME [C:\MentorGraphics\PADSVX.2.10\SDD_HOME] on file system [NTFS]
+[2023.03.01 10:07:55] [0000m.36s.149ms] [1] SDD_PLATFORM [win32]
+[2023.03.01 10:07:55] [0000m.36s.150ms] [1] WDIR [C:\PADS Projects;C:\MentorGraphics\PADSVX.2.10\SDD_HOME\standard;]
+[2023.03.01 10:07:55] [0000m.36s.150ms] [1] Local iCDB working dir [C:\PADS Projects\iCDB] on file system [NTFS]
+[2023.03.01 10:07:55] [0000m.36s.150ms] [3] File change time:        [2023-02-25 01.41.57]
+[2023.03.01 10:07:55] [0000m.36s.150ms] [3] File modification time:  [2023-02-25 01.41.57]
+[2023.03.01 10:07:55] [0000m.36s.150ms] [3] Last change time:        [2023-02-25 01.41.57]
+[2023.03.01 10:07:55] [0000m.36s.150ms] [3] Last database open information:
+[2023.03.01 10:07:55] [0000m.36s.150ms] [3] Time:             [2023-02-24 15.48.32]
+[2023.03.01 10:07:55] [0000m.36s.150ms] [3] Location:         [C:\Users\maxpijacki\Desktop\sync\symbols\database\icdb.dat]
+[2023.03.01 10:07:55] [0000m.36s.150ms] [3] Machine:          [CAD02]
+[2023.03.01 10:07:55] [0000m.36s.150ms] [3] User:             [maxpijacki]
+[2023.03.01 10:07:55] [0000m.36s.150ms] [3] PID:              [6184]
+[2023.03.01 10:07:55] [0000m.36s.151ms] [3] Application:      [iCDB Server]
+[2023.03.01 10:07:55] [0000m.36s.151ms] [3] Operating system: [Microsoft Windows 10 Home Premium Edition, 64-bit (build 22621)]
+[2023.03.01 10:07:55] [0000m.36s.151ms] [3] Database GUID must be regenerated
+[2023.03.01 10:07:55] [0000m.36s.151ms] [3] Previous database GUID [cc2c-326c-8983-c881-0a22-9f36-a229-f360-c241-602f-bf5c-c809]
+[2023.03.01 10:07:55] [0000m.36s.154ms] [3] Current database GUID  [7a90-112a-044b-8989-b4a6-ff31-5a6f-f360-0a02-602f-bf5c-c809]
+[2023.03.01 10:07:55] [0000m.36s.154ms] [0] .

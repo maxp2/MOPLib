@@ -1,0 +1,299 @@
+[2023.03.03 13:22:38] [0000m.00s.013ms] [0] WELCOME
+[2023.03.03 13:22:38] [0000m.00s.014ms] [1] iCDB Server ver.2.210, lAMCCPgGndLueXBdAPvB3g, build:19222122 created 2021-08-24 19:25:25, sources stamp:lAMCCPgGndLueXBdAPvB3g
+[2023.03.03 13:22:38] [0000m.00s.014ms] [1] Unpublished work. Copyright 2021 Siemens\r\n\r\nThis material contains trade secrets or otherwise confidential\r\ninformation owned by Siemens Industry Software Inc.\r\nor its affiliates (collectively, 'SISW'), or its licensors.\r\nAccess to and use of this information is strictly limited\r\nas set forth in the Customer's applicable agreements with SISW.
+[2023.03.03 13:22:38] [0000m.00s.014ms] [1] Base flow version [VX.2.10]
+[2023.03.03 13:22:38] [0000m.00s.014ms] [1] Install Id [2373040], Flow Id [PADS VX.2.10], Full Flow Name [PADS VX.2.10], Exact Access Date [2021/08/01]
+[2023.03.03 13:22:38] [0000m.00s.020ms] [1] Machine [CAD02]  IP [10.0.2.15,10.240.109.175,127.0.0.1]  User [maxpijacki]  PID [4316]
+[2023.03.03 13:22:38] [0000m.00s.020ms] [1] Operating system [Microsoft Windows 10 Home Premium Edition, 64-bit (build 22621)]
+[2023.03.03 13:22:38] [0000m.00s.020ms] [1] Current working dir [C:\lib\ghepplib\test_projects\Siemens]
+[2023.03.03 13:22:38] [0000m.00s.020ms] [1] PATH [C:\MentorGraphics\PADSVX.2.10\SDD_HOME\common\win32\bin;C:\MentorGraphics\PADSVX.2.10\SDD_HOME\common\win32\lib;C:\MentorGraphics\PADSVX.2.10\SDD_HOME\common\win64\lib;C:\MentorGraphics\PADSVX.2.10\SDD_HOME\common3D\win32\lib;C:\MentorGraphics\PADSVX.2.10\SDD_HOME\common\win32\jre\default\bin;C:\MentorGraphics\PADSVX.2.10\MGC_HOME.ixn\bin;C:\MentorGraphics\PADSVX.2.10\MGC_HOME.ixn\lib;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Users\maxpijacki\AppData\Local\Microsoft\WindowsApps;]
+[2023.03.03 13:22:38] [0000m.00s.020ms] [1] SDD_HOME [C:\MentorGraphics\PADSVX.2.10\SDD_HOME] on file system [NTFS]
+[2023.03.03 13:22:38] [0000m.00s.020ms] [1] SDD_PLATFORM [win32]
+[2023.03.03 13:22:38] [0000m.00s.020ms] [1] WDIR [C:\PADS Projects;C:\MentorGraphics\PADSVX.2.10\SDD_HOME\standard;]
+[2023.03.03 13:22:38] [0000m.00s.020ms] [1] Local iCDB working dir [C:\PADS Projects\iCDB] on file system [NTFS]
+[2023.03.03 13:22:38] [0000m.00s.020ms] [2] S: Loading config files
+[2023.03.03 13:22:38] [0000m.00s.022ms] [1] Config file [C:\lib\ghepplib\test_projects\Siemens\database\cdbsvr\Server.cfg] not found
+[2023.03.03 13:22:38] [0000m.00s.023ms] [3] S: Config loaded
+[2023.03.03 13:22:38] [0000m.00s.024ms] [0] S: Project path [C:\lib\ghepplib\test_projects\Siemens\database] on file system [NTFS]
+[2023.03.03 13:22:38] [0000m.00s.025ms] [0] S: Project file (.prj) path [C:\lib\ghepplib\test_projects\Siemens\symbols.prj] on file system [NTFS]
+[2023.03.03 13:22:38] [0000m.00s.025ms] [1] S: WARNING: Database auto-repair support DISABLED
+[2023.03.03 13:22:38] [0000m.00s.025ms] [0] S: Single-user mode (auto)
+[2023.03.03 13:22:38] [0000m.00s.025ms] [0] S: Event polling mode autodetection
+[2023.03.03 13:22:38] [0000m.00s.026ms] [0] S: Started up automatically by iCDB Client: CAD02:maxpijacki:5868
+[2023.03.03 13:22:38] [0000m.00s.026ms] [0] S: Auto close mode
+[2023.03.03 13:22:38] [0000m.00s.026ms] [0] S: Database ID [6f79-ef96-ceba-8c37-eea3-2044-fa32-0460-01b2-602f-bf5c-c809]
+[2023.03.03 13:22:38] [0000m.00s.026ms] [0] PathTranslator: BEGIN dumping
+[2023.03.03 13:22:38] [0000m.00s.026ms] [0] PathTranslator: Local -> global path prefix list
+[2023.03.03 13:22:38] [0000m.00s.026ms] [0] PathTranslator: Global -> local path prefix list
+[2023.03.03 13:22:38] [0000m.00s.026ms] [0] PathTranslator: END dumping
+[2023.03.03 13:22:38] [0000m.00s.026ms] [0] S: START
+[2023.03.03 13:22:38] [0000m.00s.026ms] [0] S: Server startup lock file created
+[2023.03.03 13:22:38] [0000m.00s.026ms] [0] S: Listening for client connections on port [10000]
+[2023.03.03 13:22:38] [0000m.00s.028ms] [0] S: Server network ID [CAD02:10.0.2.15,10.240.109.175,CAD02:10000]
+[2023.03.03 13:22:38] [0000m.00s.028ms] [0] S: Server GUID [b05e-8de4-1df4-7ba5-eea3-2044-fa32-0460-01e1-602f-bf5c-c809]
+[2023.03.03 13:22:38] [0000m.00s.028ms] [0] S: Project GUID [6f79-ef96-ceba-8c37-eea3-2044-fa32-0460-01b2-602f-bf5c-c809]
+[2023.03.03 13:22:38] [0000m.00s.029ms] [0] S: Wrote data to server address file
+[2023.03.03 13:22:38] [0000m.00s.029ms] [0] S: Server startup lock file removed
+[2023.03.03 13:22:38] [0000m.00s.029ms] [1] ProjectBackupManager: Setting project file (.prj) path: [C:\lib\ghepplib\test_projects\Siemens\symbols.prj]
+[2023.03.03 13:22:38] [0000m.00s.083ms] [0] S: Plugins loaded: [PIM] [ENetGen70] 
+[2023.03.03 13:22:38] [0000m.00s.083ms] [1] ServerToolkit: INFO: Plugin not found in SDD_ICDB_BIN [C:\MentorGraphics\PADSVX.2.10\SDD_HOME\iCDB\win32\bin]
+[2023.03.03 13:22:38] [0000m.00s.083ms] [1] ServerToolkit: INFO: Plugin not found in SDD_COMMON_BIN [C:\MentorGraphics\PADSVX.2.10\SDD_HOME\common\win32\bin]
+[2023.03.03 13:22:38] [0000m.00s.083ms] [1] ServerToolkit: INFO: Plugin not found in PATH
+[2023.03.03 13:22:38] [0000m.00s.083ms] [1] ServerToolkit: INFO: Plugin not found in CWD
+[2023.03.03 13:22:38] [0000m.00s.083ms] [1] ServerToolkit: INFO: returning just plugin exe name!
+[2023.03.03 13:22:38] [0000m.00s.084ms] [0] S: Local disc access time: 45 us
+[2023.03.03 13:22:38] [0000m.00s.084ms] [0] S: File server access time: 44 us
+[2023.03.03 13:22:38] [0000m.00s.084ms] [0] Single file [C:\lib\ghepplib\test_projects\Siemens\database\icdb.dat] size [132784 (129.7 kB)]
+[2023.03.03 13:22:38] [0000m.00s.084ms] [1] Single file [C:\lib\ghepplib\test_projects\Siemens\database\icdb.dat] opened in read-write mode
+[2023.03.03 13:22:38] [0000m.00s.084ms] [0] SingleFile: [0000-0000-0000-0000] SFI header version check [1009] [1009]
+[2023.03.03 13:22:38] [0000m.00s.084ms] [0] Database GUARD OK: [132784]
+[2023.03.03 13:22:38] [0000m.00s.085ms] [0] SingleFile: [0000-0000-0000-0000] SFI header version check [1009] [1009]
+[2023.03.03 13:22:38] [0000m.00s.085ms] [0] Database GUARD OK: [132784]
+[2023.03.03 13:22:38] [0000m.00s.085ms] [0] SingleFile: [0000-0000-0000-0000] SFI header version check [1009] [1009]
+[2023.03.03 13:22:38] [0000m.00s.085ms] [0] Database GUARD OK: [132784]
+[2023.03.03 13:22:38] [0000m.00s.085ms] [0] SingleFile: [0000-0000-0000-0000] SFI header version check [1009] [1009]
+[2023.03.03 13:22:38] [0000m.00s.085ms] [0] Database GUARD OK: [132784]
+[2023.03.03 13:22:38] [0000m.00s.085ms] [0] SingleFile: [0000-0000-0000-0000] SFI header version check [1009] [1009]
+[2023.03.03 13:22:38] [0000m.00s.085ms] [0] Database GUARD OK: [132784]
+[2023.03.03 13:22:38] [0000m.00s.085ms] [0] SingleFile: [4fdf-600a-7959-59a0] SFI version check [1009] [1009]
+[2023.03.03 13:22:38] [0000m.00s.086ms] [0] SingleFile: [4fdf-600a-7959-59a0] Database SFI header has been read in [827us]
+[2023.03.03 13:22:38] [0000m.00s.090ms] [0] iCDB Server PI: Server & plugin session [62]
+[2023.03.03 13:22:38] [0000m.00s.091ms] [0] iCDB Server PI: Opening database [C:\lib\ghepplib\test_projects\Siemens\database]
+[2023.03.03 13:22:38] [0000m.00s.091ms] [0] iCDB Server PI: Database [C:\lib\ghepplib\test_projects\Siemens\database] opened
+[2023.03.03 13:22:38] [0000m.00s.109ms] [0] iCDB Database: Checking existence of constraint definitions
+[2023.03.03 13:22:38] [0000m.00s.109ms] [0] iCDB Database: Checking constraint definitions version
+[2023.03.03 13:22:38] [0000m.00s.127ms] [1] iCDB Database: Constraint definitions version [ce_ee.cns=7.10.76] up to date
+[2023.03.03 13:22:38] [0000m.00s.142ms] [0] iCDB Server PI: Initializing plugins
+[2023.03.03 13:22:38] [0000m.00s.143ms] [0] iCDB Server PI: Plugins initialized
+[2023.03.03 13:22:38] [0000m.00s.143ms] [0] S: iCDB database loaded
+[2023.03.03 13:22:38] [0000m.00s.144ms] [0] S: Starting threads
+[2023.03.03 13:22:38] [0000m.00s.144ms] [0] BT: Listening for broadcast messages on port [10000]
+[2023.03.03 13:22:38] [0000m.00s.145ms] [1] CMT: There are no clients - waiting [10 seconds]
+[2023.03.03 13:22:38] [0000m.00s.146ms] [0] IT: Session [63] for host [CAD02] user [maxpijacki] client type[0] clsvrPluginID[0] with process ID [5868] created
+[2023.03.03 13:22:38] [0000m.00s.148ms] [0] MWT: WindowProc: WM_NCCREATE
+[2023.03.03 13:22:38] [0000m.00s.149ms] [1] SC[63]: Registered sub-client [DxD] with ID [1] for session ID [63] host [CAD02] user [maxpijacki] process ID [5868]
+[2023.03.03 13:22:38] [0000m.00s.172ms] [1] SC[63]: Registered sub-client [TransactionRollbackSubClient] with ID [2] for session ID [63] host [CAD02] user [maxpijacki] process ID [5868]
+[2023.03.03 13:22:38] [0000m.00s.187ms] [1] SC[63]: Registered sub-client [SymbolEditor] with ID [3] for session ID [63] host [CAD02] user [maxpijacki] process ID [5868]
+[2023.03.03 13:22:39] [0000m.00s.191ms] [1] SC[63]: Registered sub-client [SelectionHolder] with ID [4] for session ID [63] host [CAD02] user [maxpijacki] process ID [5868]
+[2023.03.03 13:22:39] [0000m.00s.218ms] [1] SC[63]: Registered sub-client [Core::DesignListener-575203248-2] with ID [5] for session ID [63] host [CAD02] user [maxpijacki] process ID [5868]
+[2023.03.03 13:22:39] [0000m.00s.221ms] [1] SC[63]: Registered sub-client [BlockCacheDxD:575203200] with ID [6] for session ID [63] host [CAD02] user [maxpijacki] process ID [5868]
+[2023.03.03 13:22:39] [0000m.00s.225ms] [1] SC[63]: Registered sub-client [Core::NetFlatData-21616] with ID [7] for session ID [63] host [CAD02] user [maxpijacki] process ID [5868]
+[2023.03.03 13:22:39] [0000m.00s.231ms] [1] SC[63]: Registered sub-client [SystemDesignDll] with ID [8] for session ID [63] host [CAD02] user [maxpijacki] process ID [5868]
+[2023.03.03 13:22:39] [0000m.00s.233ms] [1] SC[63]: UnRegistered sub-client [SystemDesignDll] with ID [8] for session ID [63] host [CAD02] user [maxpijacki] process ID [5868]
+[2023.03.03 13:22:39] [0000m.00s.236ms] [1] SC[63]: Registered sub-client [SystemDesignDll] with ID [9] for session ID [63] host [CAD02] user [maxpijacki] process ID [5868]
+[2023.03.03 13:22:39] [0000m.00s.253ms] [1] CMT: There are [1] clients now: 63
+[2023.03.03 13:22:41] [0000m.02s.986ms] [1] SC[63]: Registered sub-client [DesignSearcher2] with ID [10] for session ID [63] host [CAD02] user [maxpijacki] process ID [5868]
+[2023.03.03 13:22:42] [0000m.04s.105ms] [1] SC[63]: Registered sub-client [HdlProject] with ID [11] for session ID [63] host [CAD02] user [maxpijacki] process ID [5868]
+[2023.03.03 13:22:42] [0000m.04s.109ms] [1] SC[63]: Registered sub-client [ProjectIntegrationIcdbCacheDxD:762427600] with ID [12] for session ID [63] host [CAD02] user [maxpijacki] process ID [5868]
+[2023.03.03 13:22:42] [0000m.04s.155ms] [1] SC[63]: Registered sub-client [SheetConnectorsCacheDxD:1677867762] with ID [13] for session ID [63] host [CAD02] user [maxpijacki] process ID [5868]
+[2023.03.03 13:22:42] [0000m.04s.165ms] [1] SC[63]: Registered sub-client [NetsNamesCollectorDxD:1677867762] with ID [14] for session ID [63] host [CAD02] user [maxpijacki] process ID [5868]
+[2023.03.03 13:22:42] [0000m.04s.187ms] [1] SC[63]: Registered sub-client [PartReplaceUtils] with ID [15] for session ID [63] host [CAD02] user [maxpijacki] process ID [5868]
+[2023.03.03 13:22:42] [0000m.04s.190ms] [1] SC[63]: Registered sub-client [PartReplaceUtilsSelectionListener] with ID [16] for session ID [63] host [CAD02] user [maxpijacki] process ID [5868]
+[2023.03.03 13:22:43] [0000m.04s.209ms] [1] SC[63]: Registered sub-client [xprob] with ID [17] for session ID [63] host [CAD02] user [maxpijacki] process ID [5868]
+[2023.03.03 13:22:43] [0000m.04s.298ms] [1] SC[63]: Registered sub-client [StartServerClient1da4] with ID [18] for session ID [63] host [CAD02] user [maxpijacki] process ID [5868]
+[2023.03.03 13:22:43] [0000m.04s.299ms] [1] SC[63]: UnRegistered sub-client [StartServerClient1da4] with ID [18] for session ID [63] host [CAD02] user [maxpijacki] process ID [5868]
+[2023.03.03 13:22:45] [0000m.06s.993ms] [1] SC[63]: Registered sub-client [Navigator] with ID [19] for session ID [63] host [CAD02] user [maxpijacki] process ID [5868]
+[2023.03.03 13:22:45] [0000m.07s.053ms] [1] SC[63]: Registered sub-client [OutputWindow] with ID [20] for session ID [63] host [CAD02] user [maxpijacki] process ID [5868]
+[2023.03.03 13:22:45] [0000m.07s.057ms] [1] SC[63]: Registered sub-client [PlaceDevice] with ID [21] for session ID [63] host [CAD02] user [maxpijacki] process ID [5868]
+[2023.03.03 13:22:46] [0000m.07s.357ms] [1] SC[63]: Registered sub-client [FFSearch_RBHost] with ID [22] for session ID [63] host [CAD02] user [maxpijacki] process ID [5868]
+[2023.03.03 13:22:46] [0000m.07s.363ms] [1] SC[63]: Registered sub-client [LocalSymbolsDataProvider] with ID [23] for session ID [63] host [CAD02] user [maxpijacki] process ID [5868]
+[2023.03.03 13:22:47] [0000m.08s.472ms] [1] SC[63]: Registered sub-client [FFSSelListener] with ID [24] for session ID [63] host [CAD02] user [maxpijacki] process ID [5868]
+[2023.03.03 13:22:47] [0000m.08s.478ms] [1] SC[63]: Registered sub-client [SAE] with ID [25] for session ID [63] host [CAD02] user [maxpijacki] process ID [5868]
+[2023.03.03 13:22:47] [0000m.08s.491ms] [1] SC[63]: Registered sub-client [DxConstraints] with ID [26] for session ID [63] host [CAD02] user [maxpijacki] process ID [5868]
+[2023.03.03 13:22:47] [0000m.08s.497ms] [1] SC[63]: Registered sub-client [CCZAddin] with ID [27] for session ID [63] host [CAD02] user [maxpijacki] process ID [5868]
+[2023.03.03 13:22:47] [0000m.08s.501ms] [1] SC[63]: Registered sub-client [DxThumbnails] with ID [28] for session ID [63] host [CAD02] user [maxpijacki] process ID [5868]
+[2023.03.03 13:22:47] [0000m.08s.505ms] [1] SC[63]: Registered sub-client [MyParts] with ID [29] for session ID [63] host [CAD02] user [maxpijacki] process ID [5868]
+[2023.03.03 13:22:47] [0000m.08s.524ms] [1] SC[63]: Registered sub-client [PinsList] with ID [30] for session ID [63] host [CAD02] user [maxpijacki] process ID [5868]
+[2023.03.03 13:22:47] [0000m.08s.542ms] [1] SC[63]: Registered sub-client [toolboxes] with ID [31] for session ID [63] host [CAD02] user [maxpijacki] process ID [5868]
+[2023.03.03 13:22:47] [0000m.08s.687ms] [1] SC[63]: Registered sub-client [ObjectHolder_765821872] with ID [32] for session ID [63] host [CAD02] user [maxpijacki] process ID [5868]
+[2023.03.03 13:22:47] [0000m.08s.691ms] [1] SC[63]: Registered sub-client [BlockCacheDxD:562794136] with ID [33] for session ID [63] host [CAD02] user [maxpijacki] process ID [5868]
+[2023.03.03 13:22:47] [0000m.08s.694ms] [1] SC[63]: Registered sub-client [GlobalNetAliasUpdater_765821352] with ID [34] for session ID [63] host [CAD02] user [maxpijacki] process ID [5868]
+[2023.03.03 13:22:47] [0000m.08s.697ms] [1] SC[63]: Registered sub-client [IcdbNetProcessorSubClientDxD:769833856] with ID [35] for session ID [63] host [CAD02] user [maxpijacki] process ID [5868]
+[2023.03.03 13:22:48] [0000m.09s.207ms] [1] SC[63]: Registered sub-client [SupplyChainDataProviderInterface] with ID [36] for session ID [63] host [CAD02] user [maxpijacki] process ID [5868]
+[2023.03.03 13:22:48] [0000m.09s.208ms] [1] SC[63]: UnRegistered sub-client [SupplyChainDataProviderInterface] with ID [36] for session ID [63] host [CAD02] user [maxpijacki] process ID [5868]
+[2023.03.03 13:22:48] [0000m.09s.438ms] [1] SC[63]: Registered sub-client [DxDbSearch] with ID [37] for session ID [63] host [CAD02] user [maxpijacki] process ID [5868]
+[2023.03.03 13:22:59] [0000m.20s.490ms] [1] SC[63]: Registered sub-client [FFSearchPreview368718112] with ID [38] for session ID [63] host [CAD02] user [maxpijacki] process ID [5868]
+[2023.03.03 13:22:59] [0000m.20s.491ms] [1] SC[63]: UnRegistered sub-client [FFSearchPreview368718112] with ID [38] for session ID [63] host [CAD02] user [maxpijacki] process ID [5868]
+[2023.03.03 13:22:59] [0000m.20s.656ms] [1] SC[63]: Registered sub-client [FFSearchPreview572500272] with ID [39] for session ID [63] host [CAD02] user [maxpijacki] process ID [5868]
+[2023.03.03 13:22:59] [0000m.20s.656ms] [1] SC[63]: UnRegistered sub-client [FFSearchPreview572500272] with ID [39] for session ID [63] host [CAD02] user [maxpijacki] process ID [5868]
+[2023.03.03 13:22:59] [0000m.21s.175ms] [1] SC[63]: Registered sub-client [FFSearchPreview368718112] with ID [40] for session ID [63] host [CAD02] user [maxpijacki] process ID [5868]
+[2023.03.03 13:22:59] [0000m.21s.176ms] [1] SC[63]: UnRegistered sub-client [FFSearchPreview368718112] with ID [40] for session ID [63] host [CAD02] user [maxpijacki] process ID [5868]
+[2023.03.03 13:23:01] [0000m.23s.110ms] [1] SC[63]: Registered sub-client [FFSearchPreview368718112] with ID [41] for session ID [63] host [CAD02] user [maxpijacki] process ID [5868]
+[2023.03.03 13:23:01] [0000m.23s.112ms] [1] SC[63]: UnRegistered sub-client [FFSearchPreview368718112] with ID [41] for session ID [63] host [CAD02] user [maxpijacki] process ID [5868]
+[2023.03.03 13:23:02] [0000m.23s.517ms] [1] SC[63]: Registered sub-client [FFSearchPreview368718112] with ID [42] for session ID [63] host [CAD02] user [maxpijacki] process ID [5868]
+[2023.03.03 13:23:02] [0000m.23s.519ms] [1] SC[63]: UnRegistered sub-client [FFSearchPreview368718112] with ID [42] for session ID [63] host [CAD02] user [maxpijacki] process ID [5868]
+[2023.03.03 13:23:02] [0000m.24s.008ms] [1] SC[63]: Registered sub-client [FFSearchPreview368718112] with ID [43] for session ID [63] host [CAD02] user [maxpijacki] process ID [5868]
+[2023.03.03 13:23:02] [0000m.24s.010ms] [1] SC[63]: UnRegistered sub-client [FFSearchPreview368718112] with ID [43] for session ID [63] host [CAD02] user [maxpijacki] process ID [5868]
+[2023.03.03 13:23:04] [0000m.25s.268ms] [1] SC[63]: Registered sub-client [FFSearchPreview572500272] with ID [44] for session ID [63] host [CAD02] user [maxpijacki] process ID [5868]
+[2023.03.03 13:23:04] [0000m.25s.269ms] [1] SC[63]: UnRegistered sub-client [FFSearchPreview572500272] with ID [44] for session ID [63] host [CAD02] user [maxpijacki] process ID [5868]
+[2023.03.03 13:23:09] [0000m.30s.663ms] [0] DFAMT: File server access time: 97 us
+[2023.03.03 13:24:32] [0001m.53s.473ms] [1] SC[63]: Registered sub-client [FFSearchPreview368718112] with ID [45] for session ID [63] host [CAD02] user [maxpijacki] process ID [5868]
+[2023.03.03 13:24:32] [0001m.53s.474ms] [1] SC[63]: UnRegistered sub-client [FFSearchPreview368718112] with ID [45] for session ID [63] host [CAD02] user [maxpijacki] process ID [5868]
+[2023.03.03 13:24:35] [0001m.56s.268ms] [1] SC[63]: Registered sub-client [FFSearchPreview368718112] with ID [46] for session ID [63] host [CAD02] user [maxpijacki] process ID [5868]
+[2023.03.03 13:24:35] [0001m.56s.270ms] [1] SC[63]: UnRegistered sub-client [FFSearchPreview368718112] with ID [46] for session ID [63] host [CAD02] user [maxpijacki] process ID [5868]
+[2023.03.03 13:24:35] [0001m.56s.396ms] [1] SC[63]: Registered sub-client [FFSearchPreview572500272] with ID [47] for session ID [63] host [CAD02] user [maxpijacki] process ID [5868]
+[2023.03.03 13:24:35] [0001m.56s.398ms] [1] SC[63]: UnRegistered sub-client [FFSearchPreview572500272] with ID [47] for session ID [63] host [CAD02] user [maxpijacki] process ID [5868]
+[2023.03.03 13:24:36] [0001m.57s.237ms] [1] SC[63]: Registered sub-client [FFSearchPreview368718112] with ID [48] for session ID [63] host [CAD02] user [maxpijacki] process ID [5868]
+[2023.03.03 13:24:36] [0001m.57s.238ms] [1] SC[63]: UnRegistered sub-client [FFSearchPreview368718112] with ID [48] for session ID [63] host [CAD02] user [maxpijacki] process ID [5868]
+[2023.03.03 13:24:36] [0001m.57s.354ms] [1] SC[63]: Registered sub-client [FFSearchPreview572496136] with ID [49] for session ID [63] host [CAD02] user [maxpijacki] process ID [5868]
+[2023.03.03 13:24:36] [0001m.57s.355ms] [1] SC[63]: UnRegistered sub-client [FFSearchPreview572496136] with ID [49] for session ID [63] host [CAD02] user [maxpijacki] process ID [5868]
+[2023.03.03 13:24:36] [0001m.57s.378ms] [1] SC[63]: Registered sub-client [FFSearchPreview368718112] with ID [50] for session ID [63] host [CAD02] user [maxpijacki] process ID [5868]
+[2023.03.03 13:24:36] [0001m.57s.379ms] [1] SC[63]: UnRegistered sub-client [FFSearchPreview368718112] with ID [50] for session ID [63] host [CAD02] user [maxpijacki] process ID [5868]
+[2023.03.03 13:24:38] [0001m.59s.482ms] [1] SC[63]: Registered sub-client [FFSearchPreview368718112] with ID [51] for session ID [63] host [CAD02] user [maxpijacki] process ID [5868]
+[2023.03.03 13:24:38] [0001m.59s.484ms] [1] SC[63]: UnRegistered sub-client [FFSearchPreview368718112] with ID [51] for session ID [63] host [CAD02] user [maxpijacki] process ID [5868]
+[2023.03.03 13:24:38] [0001m.59s.601ms] [1] SC[63]: Registered sub-client [FFSearchPreview572495384] with ID [52] for session ID [63] host [CAD02] user [maxpijacki] process ID [5868]
+[2023.03.03 13:24:38] [0001m.59s.604ms] [1] SC[63]: UnRegistered sub-client [FFSearchPreview572495384] with ID [52] for session ID [63] host [CAD02] user [maxpijacki] process ID [5868]
+[2023.03.03 13:24:41] [0002m.03s.094ms] [1] SC[63]: Registered sub-client [FFSearchPreview368718112] with ID [53] for session ID [63] host [CAD02] user [maxpijacki] process ID [5868]
+[2023.03.03 13:24:41] [0002m.03s.096ms] [1] SC[63]: UnRegistered sub-client [FFSearchPreview368718112] with ID [53] for session ID [63] host [CAD02] user [maxpijacki] process ID [5868]
+[2023.03.03 13:24:42] [0002m.03s.220ms] [1] SC[63]: Registered sub-client [FFSearchPreview572500648] with ID [54] for session ID [63] host [CAD02] user [maxpijacki] process ID [5868]
+[2023.03.03 13:24:42] [0002m.03s.221ms] [1] SC[63]: UnRegistered sub-client [FFSearchPreview572500648] with ID [54] for session ID [63] host [CAD02] user [maxpijacki] process ID [5868]
+[2023.03.03 13:24:42] [0002m.04s.011ms] [1] SC[63]: Registered sub-client [FFSearchPreview368718112] with ID [55] for session ID [63] host [CAD02] user [maxpijacki] process ID [5868]
+[2023.03.03 13:24:42] [0002m.04s.012ms] [1] SC[63]: UnRegistered sub-client [FFSearchPreview368718112] with ID [55] for session ID [63] host [CAD02] user [maxpijacki] process ID [5868]
+[2023.03.03 13:24:43] [0002m.04s.693ms] [1] SC[63]: Registered sub-client [FFSearchPreview368718112] with ID [56] for session ID [63] host [CAD02] user [maxpijacki] process ID [5868]
+[2023.03.03 13:24:43] [0002m.04s.695ms] [1] SC[63]: UnRegistered sub-client [FFSearchPreview368718112] with ID [56] for session ID [63] host [CAD02] user [maxpijacki] process ID [5868]
+[2023.03.03 13:24:48] [0002m.09s.659ms] [1] SC[63]: UnRegistered sub-client [SystemDesignDll] with ID [9] for session ID [63] host [CAD02] user [maxpijacki] process ID [5868]
+[2023.03.03 13:24:48] [0002m.09s.663ms] [1] SC[63]: Registered sub-client [SystemDesignDll] with ID [57] for session ID [63] host [CAD02] user [maxpijacki] process ID [5868]
+[2023.03.03 13:24:49] [0002m.10s.799ms] [1] SC[63]: UnRegistered sub-client [LocalSymbolsDataProvider] with ID [23] for session ID [63] host [CAD02] user [maxpijacki] process ID [5868]
+[2023.03.03 13:24:49] [0002m.10s.803ms] [1] SC[63]: Registered sub-client [LocalSymbolsDataProvider] with ID [58] for session ID [63] host [CAD02] user [maxpijacki] process ID [5868]
+[2023.03.03 13:24:49] [0002m.10s.900ms] [1] SC[63]: Registered sub-client [FFSearchPreview368718112] with ID [59] for session ID [63] host [CAD02] user [maxpijacki] process ID [5868]
+[2023.03.03 13:24:49] [0002m.10s.901ms] [1] SC[63]: UnRegistered sub-client [FFSearchPreview368718112] with ID [59] for session ID [63] host [CAD02] user [maxpijacki] process ID [5868]
+[2023.03.03 13:24:50] [0002m.11s.957ms] [1] SC[63]: Registered sub-client [SupplyChainDataProviderInterface] with ID [60] for session ID [63] host [CAD02] user [maxpijacki] process ID [5868]
+[2023.03.03 13:24:50] [0002m.11s.957ms] [1] SC[63]: UnRegistered sub-client [SupplyChainDataProviderInterface] with ID [60] for session ID [63] host [CAD02] user [maxpijacki] process ID [5868]
+[2023.03.03 13:25:29] [0002m.50s.222ms] [1] SC[63]: UnRegistered sub-client [SystemDesignDll] with ID [57] for session ID [63] host [CAD02] user [maxpijacki] process ID [5868]
+[2023.03.03 13:25:29] [0002m.50s.226ms] [1] SC[63]: Registered sub-client [SystemDesignDll] with ID [61] for session ID [63] host [CAD02] user [maxpijacki] process ID [5868]
+[2023.03.03 13:25:30] [0002m.51s.672ms] [1] SC[63]: UnRegistered sub-client [LocalSymbolsDataProvider] with ID [58] for session ID [63] host [CAD02] user [maxpijacki] process ID [5868]
+[2023.03.03 13:25:30] [0002m.51s.677ms] [1] SC[63]: Registered sub-client [LocalSymbolsDataProvider] with ID [62] for session ID [63] host [CAD02] user [maxpijacki] process ID [5868]
+[2023.03.03 13:25:30] [0002m.51s.767ms] [1] SC[63]: Registered sub-client [FFSearchPreview368718112] with ID [63] for session ID [63] host [CAD02] user [maxpijacki] process ID [5868]
+[2023.03.03 13:25:30] [0002m.51s.769ms] [1] SC[63]: UnRegistered sub-client [FFSearchPreview368718112] with ID [63] for session ID [63] host [CAD02] user [maxpijacki] process ID [5868]
+[2023.03.03 13:25:32] [0002m.53s.317ms] [1] SC[63]: Registered sub-client [SupplyChainDataProviderInterface] with ID [64] for session ID [63] host [CAD02] user [maxpijacki] process ID [5868]
+[2023.03.03 13:25:32] [0002m.53s.317ms] [1] SC[63]: UnRegistered sub-client [SupplyChainDataProviderInterface] with ID [64] for session ID [63] host [CAD02] user [maxpijacki] process ID [5868]
+[2023.03.03 13:27:31] [0004m.52s.672ms] [1] SC[63]: Registered sub-client [FFSearchPreview368718112] with ID [65] for session ID [63] host [CAD02] user [maxpijacki] process ID [5868]
+[2023.03.03 13:27:31] [0004m.52s.674ms] [1] SC[63]: UnRegistered sub-client [FFSearchPreview368718112] with ID [65] for session ID [63] host [CAD02] user [maxpijacki] process ID [5868]
+[2023.03.03 13:27:31] [0004m.52s.820ms] [1] SC[63]: Registered sub-client [FFSearchPreview572496512] with ID [66] for session ID [63] host [CAD02] user [maxpijacki] process ID [5868]
+[2023.03.03 13:27:31] [0004m.52s.821ms] [1] SC[63]: UnRegistered sub-client [FFSearchPreview572496512] with ID [66] for session ID [63] host [CAD02] user [maxpijacki] process ID [5868]
+[2023.03.03 13:28:00] [0005m.21s.245ms] [1] PrjBackupMgr: Successfully created Project Backup [C:\lib\ghepplib\test_projects\Siemens\ProjectBackup\backups\2023-03-03 13.28.00 - auto.zip] with GUID [acb8-fbf2-54c1-53c0-03c3-2046-3c32-0460-c901-602f-bf5c-c809]
+[2023.03.03 13:28:00] [0005m.21s.246ms] [0] PrjBackupMgr: Removing excessive backup:  BackupGUID[1b33-07fa-e25f-4c68-c07e-0042-17e0-0460-c472-602f-bf5c-c809] CreationTime[Thursday, March 02, 2023 18:12:28] Type[Autosave] Creator[iCDB Server (2023-03-02 13.12.27-7048)] ApplicationName[iCDB Server (2023-03-02 13.12.27-7048)] UserName[maxpijacki] MachineName[CAD02] Description[Autosave] FullFlowName[PADS VX.2.10] FlowId[PADSVX.2.10] GBSInstallId[2373040] GBSBuildId[19222122] IcdbVersion[4000] ReferenceLogFilePath[] BackupFilePath[C:\lib\ghepplib\test_projects\Siemens\ProjectBackup\backups\2023-03-02 13.12.28 - auto.zip] BackupFileSize[71806] Persistent[FALSE]
+[2023.03.03 13:28:00] [0005m.21s.247ms] [0] PrjBackupMgr: Project Backup file [C:\lib\ghepplib\test_projects\Siemens\ProjectBackup\backups\2023-03-02 13.12.28 - auto.zip] with GUID [1b33-07fa-e25f-4c68-c07e-0042-17e0-0460-c472-602f-bf5c-c809] removed
+[2023.03.03 13:28:00] [0005m.21s.247ms] [0] PrjBackupEngine: Successfully created backup:  BackupGUID[acb8-fbf2-54c1-53c0-03c3-2046-3c32-0460-c901-602f-bf5c-c809] CreationTime[Friday, March 03, 2023 18:28:00] Type[Autosave] Creator[iCDB Server (2023-03-03 13.22.38-4316)] ApplicationName[iCDB Server (2023-03-03 13.22.38-4316)] UserName[maxpijacki] MachineName[CAD02] Description[Autosave] FullFlowName[PADS VX.2.10] FlowId[PADSVX.2.10] GBSInstallId[2373040] GBSBuildId[19222122] IcdbVersion[4000] ReferenceLogFilePath[] BackupFilePath[C:\lib\ghepplib\test_projects\Siemens\ProjectBackup\backups\2023-03-03 13.28.00 - auto.zip] BackupFileSize[181066] Persistent[FALSE]
+[2023.03.03 13:29:45] [0007m.06s.545ms] [1] SC[63]: UnRegistered sub-client [SystemDesignDll] with ID [61] for session ID [63] host [CAD02] user [maxpijacki] process ID [5868]
+[2023.03.03 13:29:45] [0007m.06s.551ms] [1] SC[63]: Registered sub-client [SystemDesignDll] with ID [67] for session ID [63] host [CAD02] user [maxpijacki] process ID [5868]
+[2023.03.03 13:29:46] [0007m.07s.695ms] [1] SC[63]: UnRegistered sub-client [LocalSymbolsDataProvider] with ID [62] for session ID [63] host [CAD02] user [maxpijacki] process ID [5868]
+[2023.03.03 13:29:46] [0007m.07s.699ms] [1] SC[63]: Registered sub-client [LocalSymbolsDataProvider] with ID [68] for session ID [63] host [CAD02] user [maxpijacki] process ID [5868]
+[2023.03.03 13:29:46] [0007m.07s.752ms] [1] SC[63]: Registered sub-client [FFSearchPreview368718112] with ID [69] for session ID [63] host [CAD02] user [maxpijacki] process ID [5868]
+[2023.03.03 13:29:46] [0007m.07s.754ms] [1] SC[63]: UnRegistered sub-client [FFSearchPreview368718112] with ID [69] for session ID [63] host [CAD02] user [maxpijacki] process ID [5868]
+[2023.03.03 13:29:46] [0007m.07s.760ms] [1] SC[63]: Registered sub-client [FFSearchPreview368718112] with ID [70] for session ID [63] host [CAD02] user [maxpijacki] process ID [5868]
+[2023.03.03 13:29:46] [0007m.07s.761ms] [1] SC[63]: UnRegistered sub-client [FFSearchPreview368718112] with ID [70] for session ID [63] host [CAD02] user [maxpijacki] process ID [5868]
+[2023.03.03 13:29:47] [0007m.08s.984ms] [1] SC[63]: Registered sub-client [SupplyChainDataProviderInterface] with ID [71] for session ID [63] host [CAD02] user [maxpijacki] process ID [5868]
+[2023.03.03 13:29:47] [0007m.08s.985ms] [1] SC[63]: UnRegistered sub-client [SupplyChainDataProviderInterface] with ID [71] for session ID [63] host [CAD02] user [maxpijacki] process ID [5868]
+[2023.03.03 13:32:18] [0009m.40s.135ms] [1] SC[63]: UnRegistered sub-client [SystemDesignDll] with ID [67] for session ID [63] host [CAD02] user [maxpijacki] process ID [5868]
+[2023.03.03 13:32:18] [0009m.40s.139ms] [1] SC[63]: Registered sub-client [SystemDesignDll] with ID [72] for session ID [63] host [CAD02] user [maxpijacki] process ID [5868]
+[2023.03.03 13:32:20] [0009m.41s.526ms] [1] SC[63]: UnRegistered sub-client [LocalSymbolsDataProvider] with ID [68] for session ID [63] host [CAD02] user [maxpijacki] process ID [5868]
+[2023.03.03 13:32:20] [0009m.41s.533ms] [1] SC[63]: Registered sub-client [LocalSymbolsDataProvider] with ID [73] for session ID [63] host [CAD02] user [maxpijacki] process ID [5868]
+[2023.03.03 13:32:21] [0009m.42s.339ms] [1] SC[63]: Registered sub-client [SupplyChainDataProviderInterface] with ID [74] for session ID [63] host [CAD02] user [maxpijacki] process ID [5868]
+[2023.03.03 13:32:21] [0009m.42s.340ms] [1] SC[63]: UnRegistered sub-client [SupplyChainDataProviderInterface] with ID [74] for session ID [63] host [CAD02] user [maxpijacki] process ID [5868]
+[2023.03.03 13:32:32] [0009m.53s.931ms] [1] PrjBackupMgr: Successfully created Project Backup [C:\lib\ghepplib\test_projects\Siemens\ProjectBackup\backups\2023-03-03 13.32.32 - symUpd.zip] with GUID [b884-1d0b-a4d1-3b93-04d3-2046-4d32-0460-01b2-602f-bf5c-c809]
+[2023.03.03 13:32:32] [0009m.53s.931ms] [0] PrjBackupMgr: Removing excessive backup:  BackupGUID[eee6-5aaf-3433-be23-7293-204d-2932-0460-01b2-602f-bf5c-c809] CreationTime[Friday, March 03, 2023 18:15:03] Type[SymbolUpdate] Creator[iCDB Server (2023-03-03 13.00.47-7228)] ApplicationName[PADS Designer] UserName[maxpijacki] MachineName[CAD02] Description[Before Symbol Update] FullFlowName[PADS VX.2.10] FlowId[PADSVX.2.10] GBSInstallId[2373040] GBSBuildId[19222122] IcdbVersion[4000] ReferenceLogFilePath[] BackupFilePath[C:\lib\ghepplib\test_projects\Siemens\ProjectBackup\backups\2023-03-03 13.15.03 - symUpd.zip] BackupFileSize[170615] Persistent[FALSE]
+[2023.03.03 13:32:32] [0009m.53s.933ms] [0] PrjBackupMgr: Project Backup file [C:\lib\ghepplib\test_projects\Siemens\ProjectBackup\backups\2023-03-03 13.15.03 - symUpd.zip] with GUID [eee6-5aaf-3433-be23-7293-204d-2932-0460-01b2-602f-bf5c-c809] removed
+[2023.03.03 13:32:32] [0009m.53s.939ms] [0] PrjBackupEngine: Successfully created backup:  BackupGUID[b884-1d0b-a4d1-3b93-04d3-2046-4d32-0460-01b2-602f-bf5c-c809] CreationTime[Friday, March 03, 2023 18:32:32] Type[SymbolUpdate] Creator[iCDB Server (2023-03-03 13.22.38-4316)] ApplicationName[PADS Designer] UserName[maxpijacki] MachineName[CAD02] Description[Before Symbol Update] FullFlowName[PADS VX.2.10] FlowId[PADSVX.2.10] GBSInstallId[2373040] GBSBuildId[19222122] IcdbVersion[4000] ReferenceLogFilePath[] BackupFilePath[C:\lib\ghepplib\test_projects\Siemens\ProjectBackup\backups\2023-03-03 13.32.32 - symUpd.zip] BackupFileSize[181798] Persistent[FALSE]
+[2023.03.03 13:32:40] [0010m.01s.896ms] [1] SC[63]: UnRegistered sub-client [SystemDesignDll] with ID [72] for session ID [63] host [CAD02] user [maxpijacki] process ID [5868]
+[2023.03.03 13:32:40] [0010m.01s.899ms] [1] SC[63]: Registered sub-client [SystemDesignDll] with ID [75] for session ID [63] host [CAD02] user [maxpijacki] process ID [5868]
+[2023.03.03 13:32:41] [0010m.03s.052ms] [1] SC[63]: UnRegistered sub-client [LocalSymbolsDataProvider] with ID [73] for session ID [63] host [CAD02] user [maxpijacki] process ID [5868]
+[2023.03.03 13:32:41] [0010m.03s.055ms] [1] SC[63]: Registered sub-client [LocalSymbolsDataProvider] with ID [76] for session ID [63] host [CAD02] user [maxpijacki] process ID [5868]
+[2023.03.03 13:32:43] [0010m.04s.335ms] [1] SC[63]: Registered sub-client [SupplyChainDataProviderInterface] with ID [77] for session ID [63] host [CAD02] user [maxpijacki] process ID [5868]
+[2023.03.03 13:32:43] [0010m.04s.336ms] [1] SC[63]: UnRegistered sub-client [SupplyChainDataProviderInterface] with ID [77] for session ID [63] host [CAD02] user [maxpijacki] process ID [5868]
+[2023.03.03 13:32:48] [0010m.09s.609ms] [1] PrjBackupMgr: Successfully created Project Backup [C:\lib\ghepplib\test_projects\Siemens\ProjectBackup\backups\2023-03-03 13.32.48 - symUpd.zip] with GUID [55e1-fb97-4812-5fa5-05d3-2046-5d32-0460-01b2-602f-bf5c-c809]
+[2023.03.03 13:32:48] [0010m.09s.610ms] [0] PrjBackupMgr: Removing excessive backup:  BackupGUID[b884-1d0b-a4d1-3b93-04d3-2046-4d32-0460-01b2-602f-bf5c-c809] CreationTime[Friday, March 03, 2023 18:32:32] Type[SymbolUpdate] Creator[iCDB Server (2023-03-03 13.22.38-4316)] ApplicationName[PADS Designer] UserName[maxpijacki] MachineName[CAD02] Description[Before Symbol Update] FullFlowName[PADS VX.2.10] FlowId[PADSVX.2.10] GBSInstallId[2373040] GBSBuildId[19222122] IcdbVersion[4000] ReferenceLogFilePath[] BackupFilePath[C:\lib\ghepplib\test_projects\Siemens\ProjectBackup\backups\2023-03-03 13.32.32 - symUpd.zip] BackupFileSize[181798] Persistent[FALSE]
+[2023.03.03 13:32:48] [0010m.09s.612ms] [0] PrjBackupMgr: Project Backup file [C:\lib\ghepplib\test_projects\Siemens\ProjectBackup\backups\2023-03-03 13.32.32 - symUpd.zip] with GUID [b884-1d0b-a4d1-3b93-04d3-2046-4d32-0460-01b2-602f-bf5c-c809] removed
+[2023.03.03 13:32:48] [0010m.09s.613ms] [0] PrjBackupEngine: Successfully created backup:  BackupGUID[55e1-fb97-4812-5fa5-05d3-2046-5d32-0460-01b2-602f-bf5c-c809] CreationTime[Friday, March 03, 2023 18:32:48] Type[SymbolUpdate] Creator[iCDB Server (2023-03-03 13.22.38-4316)] ApplicationName[PADS Designer] UserName[maxpijacki] MachineName[CAD02] Description[Before Symbol Update] FullFlowName[PADS VX.2.10] FlowId[PADSVX.2.10] GBSInstallId[2373040] GBSBuildId[19222122] IcdbVersion[4000] ReferenceLogFilePath[] BackupFilePath[C:\lib\ghepplib\test_projects\Siemens\ProjectBackup\backups\2023-03-03 13.32.48 - symUpd.zip] BackupFileSize[182142] Persistent[FALSE]
+[2023.03.03 13:35:29] [0012m.50s.783ms] [1] SC[63]: UnRegistered sub-client [DesignSearcher2] with ID [10] for session ID [63] host [CAD02] user [maxpijacki] process ID [5868]
+[2023.03.03 13:35:34] [0012m.55s.230ms] [1] SC[63]: Registered sub-client [DesignSearcher2] with ID [78] for session ID [63] host [CAD02] user [maxpijacki] process ID [5868]
+[2023.03.03 14:00:22] [0037m.43s.669ms] [1] PrjBackupMgr: Successfully created Project Backup [C:\lib\ghepplib\test_projects\Siemens\ProjectBackup\backups\2023-03-03 14.00.22 - symUpd.zip] with GUID [8ce5-658a-a799-cccc-6c34-204c-c342-0460-01b2-602f-bf5c-c809]
+[2023.03.03 14:00:22] [0037m.43s.670ms] [0] PrjBackupMgr: Removing excessive backup:  BackupGUID[55e1-fb97-4812-5fa5-05d3-2046-5d32-0460-01b2-602f-bf5c-c809] CreationTime[Friday, March 03, 2023 18:32:48] Type[SymbolUpdate] Creator[iCDB Server (2023-03-03 13.22.38-4316)] ApplicationName[PADS Designer] UserName[maxpijacki] MachineName[CAD02] Description[Before Symbol Update] FullFlowName[PADS VX.2.10] FlowId[PADSVX.2.10] GBSInstallId[2373040] GBSBuildId[19222122] IcdbVersion[4000] ReferenceLogFilePath[] BackupFilePath[C:\lib\ghepplib\test_projects\Siemens\ProjectBackup\backups\2023-03-03 13.32.48 - symUpd.zip] BackupFileSize[182142] Persistent[FALSE]
+[2023.03.03 14:00:22] [0037m.43s.670ms] [0] PrjBackupMgr: Project Backup file [C:\lib\ghepplib\test_projects\Siemens\ProjectBackup\backups\2023-03-03 13.32.48 - symUpd.zip] with GUID [55e1-fb97-4812-5fa5-05d3-2046-5d32-0460-01b2-602f-bf5c-c809] removed
+[2023.03.03 14:00:22] [0037m.43s.671ms] [0] PrjBackupEngine: Successfully created backup:  BackupGUID[8ce5-658a-a799-cccc-6c34-204c-c342-0460-01b2-602f-bf5c-c809] CreationTime[Friday, March 03, 2023 19:00:22] Type[SymbolUpdate] Creator[iCDB Server (2023-03-03 13.22.38-4316)] ApplicationName[PADS Designer] UserName[maxpijacki] MachineName[CAD02] Description[Before Symbol Update] FullFlowName[PADS VX.2.10] FlowId[PADSVX.2.10] GBSInstallId[2373040] GBSBuildId[19222122] IcdbVersion[4000] ReferenceLogFilePath[] BackupFilePath[C:\lib\ghepplib\test_projects\Siemens\ProjectBackup\backups\2023-03-03 14.00.22 - symUpd.zip] BackupFileSize[182229] Persistent[FALSE]
+[2023.03.03 14:00:22] [0037m.44s.117ms] [1] SC[63]: UnRegistered sub-client [DesignSearcher2] with ID [78] for session ID [63] host [CAD02] user [maxpijacki] process ID [5868]
+[2023.03.03 14:00:22] [0037m.44s.131ms] [1] SC[63]: Registered sub-client [DesignSearcher2] with ID [79] for session ID [63] host [CAD02] user [maxpijacki] process ID [5868]
+[2023.03.03 14:01:19] [0038m.41s.134ms] [1] SC[63]: UnRegistered sub-client [SystemDesignDll] with ID [75] for session ID [63] host [CAD02] user [maxpijacki] process ID [5868]
+[2023.03.03 14:01:19] [0038m.41s.137ms] [1] SC[63]: Registered sub-client [SystemDesignDll] with ID [80] for session ID [63] host [CAD02] user [maxpijacki] process ID [5868]
+[2023.03.03 14:01:21] [0038m.42s.305ms] [1] SC[63]: UnRegistered sub-client [LocalSymbolsDataProvider] with ID [76] for session ID [63] host [CAD02] user [maxpijacki] process ID [5868]
+[2023.03.03 14:01:21] [0038m.42s.308ms] [1] SC[63]: Registered sub-client [LocalSymbolsDataProvider] with ID [81] for session ID [63] host [CAD02] user [maxpijacki] process ID [5868]
+[2023.03.03 14:01:22] [0038m.43s.475ms] [1] SC[63]: Registered sub-client [SupplyChainDataProviderInterface] with ID [82] for session ID [63] host [CAD02] user [maxpijacki] process ID [5868]
+[2023.03.03 14:01:22] [0038m.43s.476ms] [1] SC[63]: UnRegistered sub-client [SupplyChainDataProviderInterface] with ID [82] for session ID [63] host [CAD02] user [maxpijacki] process ID [5868]
+[2023.03.03 14:02:08] [0039m.30s.052ms] [1] SC[63]: UnRegistered sub-client [SystemDesignDll] with ID [80] for session ID [63] host [CAD02] user [maxpijacki] process ID [5868]
+[2023.03.03 14:02:08] [0039m.30s.056ms] [1] SC[63]: Registered sub-client [SystemDesignDll] with ID [83] for session ID [63] host [CAD02] user [maxpijacki] process ID [5868]
+[2023.03.03 14:02:10] [0039m.31s.236ms] [1] SC[63]: UnRegistered sub-client [LocalSymbolsDataProvider] with ID [81] for session ID [63] host [CAD02] user [maxpijacki] process ID [5868]
+[2023.03.03 14:02:10] [0039m.31s.239ms] [1] SC[63]: Registered sub-client [LocalSymbolsDataProvider] with ID [84] for session ID [63] host [CAD02] user [maxpijacki] process ID [5868]
+[2023.03.03 14:02:11] [0039m.32s.741ms] [1] SC[63]: Registered sub-client [SupplyChainDataProviderInterface] with ID [85] for session ID [63] host [CAD02] user [maxpijacki] process ID [5868]
+[2023.03.03 14:02:11] [0039m.32s.741ms] [1] SC[63]: UnRegistered sub-client [SupplyChainDataProviderInterface] with ID [85] for session ID [63] host [CAD02] user [maxpijacki] process ID [5868]
+[2023.03.03 14:02:39] [0040m.00s.398ms] [1] SC[63]: UnRegistered sub-client [GlobalNetAliasUpdater_765821352] with ID [34] for session ID [63] host [CAD02] user [maxpijacki] process ID [5868]
+[2023.03.03 14:02:39] [0040m.00s.399ms] [1] SC[63]: UnRegistered sub-client [BlockCacheDxD:562794136] with ID [33] for session ID [63] host [CAD02] user [maxpijacki] process ID [5868]
+[2023.03.03 14:02:39] [0040m.00s.400ms] [1] SC[63]: UnRegistered sub-client [ObjectHolder_765821872] with ID [32] for session ID [63] host [CAD02] user [maxpijacki] process ID [5868]
+[2023.03.03 14:02:39] [0040m.00s.400ms] [1] SC[63]: UnRegistered sub-client [IcdbNetProcessorSubClientDxD:769833856] with ID [35] for session ID [63] host [CAD02] user [maxpijacki] process ID [5868]
+[2023.03.03 14:02:43] [0040m.04s.406ms] [1] SC[63]: UnRegistered sub-client [PartReplaceUtils] with ID [15] for session ID [63] host [CAD02] user [maxpijacki] process ID [5868]
+[2023.03.03 14:02:43] [0040m.04s.406ms] [1] SC[63]: UnRegistered sub-client [PartReplaceUtilsSelectionListener] with ID [16] for session ID [63] host [CAD02] user [maxpijacki] process ID [5868]
+[2023.03.03 14:02:43] [0040m.04s.418ms] [1] SC[63]: UnRegistered sub-client [xprob] with ID [17] for session ID [63] host [CAD02] user [maxpijacki] process ID [5868]
+[2023.03.03 14:02:43] [0040m.04s.686ms] [1] SC[63]: UnRegistered sub-client [DesignSearcher2] with ID [79] for session ID [63] host [CAD02] user [maxpijacki] process ID [5868]
+[2023.03.03 14:02:43] [0040m.04s.700ms] [1] SC[63]: UnRegistered sub-client [Navigator] with ID [19] for session ID [63] host [CAD02] user [maxpijacki] process ID [5868]
+[2023.03.03 14:02:43] [0040m.04s.700ms] [1] SC[63]: UnRegistered sub-client [OutputWindow] with ID [20] for session ID [63] host [CAD02] user [maxpijacki] process ID [5868]
+[2023.03.03 14:02:43] [0040m.04s.700ms] [1] SC[63]: UnRegistered sub-client [PlaceDevice] with ID [21] for session ID [63] host [CAD02] user [maxpijacki] process ID [5868]
+[2023.03.03 14:02:43] [0040m.04s.703ms] [1] SC[63]: UnRegistered sub-client [FFSSelListener] with ID [24] for session ID [63] host [CAD02] user [maxpijacki] process ID [5868]
+[2023.03.03 14:02:43] [0040m.04s.789ms] [1] SC[63]: UnRegistered sub-client [LocalSymbolsDataProvider] with ID [84] for session ID [63] host [CAD02] user [maxpijacki] process ID [5868]
+[2023.03.03 14:02:43] [0040m.05s.035ms] [1] SC[63]: UnRegistered sub-client [FFSearch_RBHost] with ID [22] for session ID [63] host [CAD02] user [maxpijacki] process ID [5868]
+[2023.03.03 14:02:43] [0040m.05s.036ms] [1] SC[63]: UnRegistered sub-client [SAE] with ID [25] for session ID [63] host [CAD02] user [maxpijacki] process ID [5868]
+[2023.03.03 14:02:43] [0040m.05s.036ms] [1] SC[63]: UnRegistered sub-client [DxConstraints] with ID [26] for session ID [63] host [CAD02] user [maxpijacki] process ID [5868]
+[2023.03.03 14:02:43] [0040m.05s.037ms] [1] SC[63]: UnRegistered sub-client [CCZAddin] with ID [27] for session ID [63] host [CAD02] user [maxpijacki] process ID [5868]
+[2023.03.03 14:02:43] [0040m.05s.038ms] [1] SC[63]: UnRegistered sub-client [DxThumbnails] with ID [28] for session ID [63] host [CAD02] user [maxpijacki] process ID [5868]
+[2023.03.03 14:02:43] [0040m.05s.074ms] [1] SC[63]: UnRegistered sub-client [MyParts] with ID [29] for session ID [63] host [CAD02] user [maxpijacki] process ID [5868]
+[2023.03.03 14:02:43] [0040m.05s.075ms] [1] SC[63]: UnRegistered sub-client [PinsList] with ID [30] for session ID [63] host [CAD02] user [maxpijacki] process ID [5868]
+[2023.03.03 14:02:43] [0040m.05s.076ms] [1] SC[63]: UnRegistered sub-client [toolboxes] with ID [31] for session ID [63] host [CAD02] user [maxpijacki] process ID [5868]
+[2023.03.03 14:02:44] [0040m.05s.247ms] [1] SC[63]: UnRegistered sub-client [DxDbSearch] with ID [37] for session ID [63] host [CAD02] user [maxpijacki] process ID [5868]
+[2023.03.03 14:02:44] [0040m.05s.247ms] [1] SC[63]: UnRegistered sub-client [HdlProject] with ID [11] for session ID [63] host [CAD02] user [maxpijacki] process ID [5868]
+[2023.03.03 14:02:44] [0040m.05s.249ms] [1] SC[63]: UnRegistered sub-client [SystemDesignDll] with ID [83] for session ID [63] host [CAD02] user [maxpijacki] process ID [5868]
+[2023.03.03 14:02:44] [0040m.05s.249ms] [1] SC[63]: UnRegistered sub-client [Core::DesignListener-575203248-2] with ID [5] for session ID [63] host [CAD02] user [maxpijacki] process ID [5868]
+[2023.03.03 14:02:44] [0040m.05s.250ms] [1] SC[63]: UnRegistered sub-client [Core::NetFlatData-21616] with ID [7] for session ID [63] host [CAD02] user [maxpijacki] process ID [5868]
+[2023.03.03 14:02:44] [0040m.05s.250ms] [1] SC[63]: UnRegistered sub-client [BlockCacheDxD:575203200] with ID [6] for session ID [63] host [CAD02] user [maxpijacki] process ID [5868]
+[2023.03.03 14:02:44] [0040m.06s.148ms] [1] SC[63]: UnRegistered sub-client [ProjectIntegrationIcdbCacheDxD:762427600] with ID [12] for session ID [63] host [CAD02] user [maxpijacki] process ID [5868]
+[2023.03.03 14:02:44] [0040m.06s.150ms] [1] SC[63]: UnRegistered sub-client [SelectionHolder] with ID [4] for session ID [63] host [CAD02] user [maxpijacki] process ID [5868]
+[2023.03.03 14:02:44] [0040m.06s.151ms] [1] SC[63]: UnRegistered sub-client [SheetConnectorsCacheDxD:1677867762] with ID [13] for session ID [63] host [CAD02] user [maxpijacki] process ID [5868]
+[2023.03.03 14:02:44] [0040m.06s.153ms] [1] SC[63]: UnRegistered sub-client [NetsNamesCollectorDxD:1677867762] with ID [14] for session ID [63] host [CAD02] user [maxpijacki] process ID [5868]
+[2023.03.03 14:02:44] [0040m.06s.156ms] [1] SC[63]: UnRegistered sub-client [TransactionRollbackSubClient] with ID [2] for session ID [63] host [CAD02] user [maxpijacki] process ID [5868]
+[2023.03.03 14:02:44] [0040m.06s.158ms] [1] SC[63]: UnRegistered sub-client [DxD] with ID [1] for session ID [63] host [CAD02] user [maxpijacki] process ID [5868]
+[2023.03.03 14:02:44] [0040m.06s.176ms] [1] SC[63]: UnRegistered sub-client [SymbolEditor] with ID [3] for session ID [63] host [CAD02] user [maxpijacki] process ID [5868]
+[2023.03.03 14:02:45] [0040m.06s.256ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\lib\ghepplib\test_projects\Siemens\database\s1\cdbcatlg\catlgatl.v] - auto-saving it
+[2023.03.03 14:02:45] [0040m.06s.256ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\lib\ghepplib\test_projects\Siemens\database\s1\cdbcatlg\grpobj] - auto-saving it
+[2023.03.03 14:02:45] [0040m.06s.256ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\lib\ghepplib\test_projects\Siemens\database\s1\cdbcmpcache\cmpatl.v] - auto-saving it
+[2023.03.03 14:02:45] [0040m.06s.256ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\lib\ghepplib\test_projects\Siemens\database\s1\cdbcmpcache\dxdatl.v] - auto-saving it
+[2023.03.03 14:02:45] [0040m.06s.256ms] [1] iCDB Storage Server: WARNING: Unloading CHANGED file [C:\lib\ghepplib\test_projects\Siemens\database\s1\uids] - auto-saving it
+[2023.03.03 14:02:45] [0040m.06s.256ms] [1] CMT: Removed client [63]
+[2023.03.03 14:02:45] [0040m.06s.256ms] [1] CMT: There are no clients left - waiting [1 seconds]
+[2023.03.03 14:02:47] [0040m.08s.246ms] [0] CMT: Starting server auto-close
+[2023.03.03 14:02:47] [0040m.08s.324ms] [0] S: Closing server
+[2023.03.03 14:02:47] [0040m.08s.409ms] [0] iCDB Server PI: Closing plugins
+[2023.03.03 14:02:47] [0040m.08s.410ms] [0] iCDB Server PI: Plugins closed
+[2023.03.03 14:02:47] [0040m.08s.410ms] [0] iCDB Server PI: Unloading database
+[2023.03.03 14:02:47] [0040m.08s.410ms] [0] iCDB Server PI: Saving storage
+[2023.03.03 14:02:47] [0040m.08s.410ms] [0] iCDB Server PI: Closing database
+[2023.03.03 14:02:47] [0040m.08s.417ms] [1] iCDB Server PI: Stats: Database defragmentation: max[2] avg[1] holes[81%] data[82%]
+[2023.03.03 14:02:47] [0040m.08s.417ms] [1] iCDB Server PI: Stats: Database file size [230376 (225.0 kB)]
+[2023.03.03 14:02:47] [0040m.08s.418ms] [1] iCDB Server PI: WARNING: Database needs defragmentation!
+[2023.03.03 14:02:47] [0040m.08s.436ms] [0] iCDB Server PI: Database closed
+[2023.03.03 14:02:47] [0040m.08s.436ms] [0] iCDB Server PI: Defragmenting database
+[2023.03.03 14:02:47] [0040m.08s.436ms] [0] iCDB Server PI: Creating database [C:\lib\ghepplib\test_projects\Siemens\database] backup to file [C:\lib\ghepplib\test_projects\Siemens\database\cdbback\2023-03-03 14.02.47-4316-d.zip]
+[2023.03.03 14:02:47] [0040m.08s.472ms] [0] iCDB Server PI: Database backup: DONE
+[2023.03.03 14:02:47] [0040m.08s.490ms] [0] SingleFile: [0000-0000-0000-0000] SFI header version check [1009] [1009]
+[2023.03.03 14:02:47] [0040m.08s.490ms] [0] Database GUARD OK: [230376]
+[2023.03.03 14:02:47] [0040m.08s.490ms] [0] SingleFile: [4fdf-600a-7959-59a0] SFI version check [1009] [1009]
+[2023.03.03 14:02:47] [0040m.08s.491ms] [0] SingleFile: [4fdf-600a-7959-59a0] Database SFI header has been read in [1ms 293us]
+[2023.03.03 14:02:47] [0040m.08s.502ms] [1] iCDB Server PI: Stats: Database file sizes: before[230376 (225.0 kB)], after[133360 (130.2 kB)], gain[97016 (94.7 kB)]
+[2023.03.03 14:02:47] [0040m.08s.504ms] [0] Single file [C:\lib\ghepplib\test_projects\Siemens\database\icdb.dat] closed with size [133360 (130.2 kB)]
+[2023.03.03 14:02:47] [0040m.08s.508ms] [0] iCDB Server PI: Database defragmentation completed successfully
+[2023.03.03 14:02:47] [0040m.08s.508ms] [1] BackupTransaction: Removing database backup [C:\lib\ghepplib\test_projects\Siemens\database\cdbback\2023-03-03 14.02.47-4316-d.zip]
+[2023.03.03 14:02:47] [0040m.08s.509ms] [1] iCDB Server PI: Stats: Total iCDB execution time: [7826208] ticks
+[2023.03.03 14:02:47] [0040m.08s.509ms] [1] iCDB Server PI: Stats: Total iCDB execution time: [78262] microseconds
+[2023.03.03 14:02:47] [0040m.08s.509ms] [1] iCDB Server PI: Stats: Total iCDB commands count: [762]
+[2023.03.03 14:02:47] [0040m.08s.509ms] [1] iCDB Server PI: Stats: Average iCDB speed:        [9736] commands per second
+[2023.03.03 14:02:47] [0040m.08s.509ms] [1] iCDB Server PI: Stats: Mem[33566720]
+[2023.03.03 14:02:47] [0040m.08s.509ms] [1] iCDB Server PI: Stats: MemPeak[39153664]
+[2023.03.03 14:02:47] [0040m.08s.656ms] [0] MWT: Destroy the shutdown block reason.
+[2023.03.03 14:02:47] [0040m.08s.658ms] [0] MWT: STOP
+[2023.03.03 14:02:47] [0040m.08s.658ms] [0] S: STOP

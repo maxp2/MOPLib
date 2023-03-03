@@ -1,0 +1,265 @@
+pcb: Note 6062: Schematic1 sym MFG_IMPORT:LMP8481DGK: REFDES=REFDES: Changing property value to REFDES?
+pcb: Note 6082: Schematic1 pkg U2: Extra shape pin 5
+pcb: Note 6082: Schematic1 pkg U2: Extra shape pin 7
+pcb: Note 6082: Schematic1 pkg U2: Extra shape pin 6
+pcb: Note 6082: Schematic1 pkg U2: Extra shape pin 8
+pcb: Note 6082: Schematic1 pkg U2: Extra shape pin 4
+pcb: Note 6082: Schematic1 pkg U15: Extra shape pin 5
+pcb: Note 6082: Schematic1 pkg U15: Extra shape pin 7
+pcb: Note 6082: Schematic1 pkg U15: Extra shape pin 6
+pcb: Note 6082: Schematic1 pkg U15: Extra shape pin 8
+pcb: Note 6082: Schematic1 pkg U15: Extra shape pin 4
+pcb: Note 6082: Schematic1 pkg C2: Extra shape pin 5
+pcb: Note 6082: Schematic1 pkg C2: Extra shape pin 7
+pcb: Note 6082: Schematic1 pkg C2: Extra shape pin 6
+pcb: Note 6082: Schematic1 pkg C2: Extra shape pin 3
+pcb: Note 6082: Schematic1 pkg C2: Extra shape pin 8
+pcb: Note 6082: Schematic1 pkg C2: Extra shape pin 4
+pcb: Note 6082: Schematic1 pkg DS2: Extra shape pin 5
+pcb: Note 6082: Schematic1 pkg DS2: Extra shape pin 7
+pcb: Note 6082: Schematic1 pkg DS2: Extra shape pin 6
+pcb: Note 6082: Schematic1 pkg DS2: Extra shape pin 3
+pcb: Note 6082: Schematic1 pkg DS2: Extra shape pin 8
+pcb: Note 6082: Schematic1 pkg DS2: Extra shape pin 4
+pcb: Note 6082: Schematic1 pkg R6: Extra shape pin 5
+pcb: Note 6082: Schematic1 pkg R6: Extra shape pin 7
+pcb: Note 6082: Schematic1 pkg R6: Extra shape pin 6
+pcb: Note 6082: Schematic1 pkg R6: Extra shape pin 8
+pcb: Note 6082: Schematic1 pkg R6: Extra shape pin 4
+pcb: Note 6082: Schematic1 pkg L1: Extra shape pin 5
+pcb: Note 6082: Schematic1 pkg L1: Extra shape pin 7
+pcb: Note 6082: Schematic1 pkg L1: Extra shape pin 6
+pcb: Note 6082: Schematic1 pkg L1: Extra shape pin 3
+pcb: Note 6082: Schematic1 pkg L1: Extra shape pin 8
+pcb: Note 6082: Schematic1 pkg L1: Extra shape pin 4
+pcb: Note 6082: Schematic1 pkg DS1: Extra shape pin 5
+pcb: Note 6082: Schematic1 pkg DS1: Extra shape pin 7
+pcb: Note 6082: Schematic1 pkg DS1: Extra shape pin 6
+pcb: Note 6082: Schematic1 pkg DS1: Extra shape pin 3
+pcb: Note 6082: Schematic1 pkg DS1: Extra shape pin 8
+pcb: Note 6082: Schematic1 pkg DS1: Extra shape pin 4
+pcb: Note 6082: Schematic1 pkg C1: Extra shape pin 5
+pcb: Note 6082: Schematic1 pkg C1: Extra shape pin 7
+pcb: Note 6082: Schematic1 pkg C1: Extra shape pin 6
+pcb: Note 6082: Schematic1 pkg C1: Extra shape pin 3
+pcb: Note 6082: Schematic1 pkg C1: Extra shape pin 8
+pcb: Note 6082: Schematic1 pkg C1: Extra shape pin 4
+pcb: Note 6077: Schematic1 ppn U12[9]: Missing shape pin
+pcb: Note 6082: Schematic1 pkg U11: Extra shape pin 7
+pcb: Note 6082: Schematic1 pkg U11: Extra shape pin 6
+pcb: Note 6082: Schematic1 pkg U11: Extra shape pin 8
+pcb: Note 6077: Schematic1 ppn U10[11]: Missing shape pin
+pcb: Note 6077: Schematic1 ppn U10[15]: Missing shape pin
+pcb: Note 6077: Schematic1 ppn U10[14]: Missing shape pin
+pcb: Note 6077: Schematic1 ppn U10[13]: Missing shape pin
+pcb: Note 6077: Schematic1 ppn U10[12]: Missing shape pin
+pcb: Note 6077: Schematic1 ppn U10[9]: Missing shape pin
+pcb: Note 6077: Schematic1 ppn U10[10]: Missing shape pin
+pcb: Note 6082: Schematic1 pkg D2: Extra shape pin 5
+pcb: Note 6082: Schematic1 pkg D2: Extra shape pin 7
+pcb: Note 6082: Schematic1 pkg D2: Extra shape pin 6
+pcb: Note 6082: Schematic1 pkg D2: Extra shape pin 3
+pcb: Note 6082: Schematic1 pkg D2: Extra shape pin 8
+pcb: Note 6082: Schematic1 pkg D2: Extra shape pin 4
+pcb: Note 6082: Schematic1 pkg U9: Extra shape pin 7
+pcb: Note 6082: Schematic1 pkg U9: Extra shape pin 6
+pcb: Note 6082: Schematic1 pkg U9: Extra shape pin 8
+pcb: Note 6082: Schematic1 pkg R5: Extra shape pin 5
+pcb: Note 6082: Schematic1 pkg R5: Extra shape pin 7
+pcb: Note 6082: Schematic1 pkg R5: Extra shape pin 6
+pcb: Note 6082: Schematic1 pkg R5: Extra shape pin 3
+pcb: Note 6082: Schematic1 pkg R5: Extra shape pin 8
+pcb: Note 6082: Schematic1 pkg R5: Extra shape pin 4
+pcb: Note 6082: Schematic1 pkg R4: Extra shape pin 5
+pcb: Note 6082: Schematic1 pkg R4: Extra shape pin 7
+pcb: Note 6082: Schematic1 pkg R4: Extra shape pin 6
+pcb: Note 6082: Schematic1 pkg R4: Extra shape pin 3
+pcb: Note 6082: Schematic1 pkg R4: Extra shape pin 8
+pcb: Note 6082: Schematic1 pkg R4: Extra shape pin 4
+pcb: Note 6082: Schematic1 pkg U7: Extra shape pin 5
+pcb: Note 6082: Schematic1 pkg U7: Extra shape pin 7
+pcb: Note 6082: Schematic1 pkg U7: Extra shape pin 6
+pcb: Note 6082: Schematic1 pkg U7: Extra shape pin 8
+pcb: Note 6082: Schematic1 pkg U7: Extra shape pin 4
+pcb: Note 6082: Schematic1 pkg U5: Extra shape pin 7
+pcb: Note 6082: Schematic1 pkg U5: Extra shape pin 6
+pcb: Note 6082: Schematic1 pkg U5: Extra shape pin 8
+pcb: Note 6082: Schematic1 pkg D1: Extra shape pin 5
+pcb: Note 6082: Schematic1 pkg D1: Extra shape pin 7
+pcb: Note 6082: Schematic1 pkg D1: Extra shape pin 6
+pcb: Note 6082: Schematic1 pkg D1: Extra shape pin 3
+pcb: Note 6082: Schematic1 pkg D1: Extra shape pin 8
+pcb: Note 6082: Schematic1 pkg D1: Extra shape pin 4
+pcb: Note 6082: Schematic1 pkg U4: Extra shape pin 7
+pcb: Note 6082: Schematic1 pkg U4: Extra shape pin 8
+pcb: Note 6082: Schematic1 pkg U3: Extra shape pin 5
+pcb: Note 6082: Schematic1 pkg U3: Extra shape pin 7
+pcb: Note 6082: Schematic1 pkg U3: Extra shape pin 6
+pcb: Note 6082: Schematic1 pkg U3: Extra shape pin 3
+pcb: Note 6082: Schematic1 pkg U3: Extra shape pin 8
+pcb: Note 6082: Schematic1 pkg U3: Extra shape pin 4
+pcb: Note 6077: Schematic1 ppn U1[15]: Missing shape pin
+pcb: Note 6077: Schematic1 ppn U1[13]: Missing shape pin
+pcb: Note 6077: Schematic1 ppn U1[12]: Missing shape pin
+pcb: Note 6077: Schematic1 ppn U1[14]: Missing shape pin
+pcb: Note 6077: Schematic1 ppn U1[20]: Missing shape pin
+pcb: Note 6077: Schematic1 ppn U1[19]: Missing shape pin
+pcb: Note 6077: Schematic1 ppn U1[17]: Missing shape pin
+pcb: Note 6077: Schematic1 ppn U1[16]: Missing shape pin
+pcb: Note 6077: Schematic1 ppn U1[18]: Missing shape pin
+pcb: Note 6077: Schematic1 ppn U1[10]: Missing shape pin
+pcb: Note 6077: Schematic1 ppn U1[11]: Missing shape pin
+pcb: Note 6077: Schematic1 ppn U1[9]: Missing shape pin
+pcb: Note 6082: Schematic1 pkg R3: Extra shape pin 5
+pcb: Note 6082: Schematic1 pkg R3: Extra shape pin 7
+pcb: Note 6082: Schematic1 pkg R3: Extra shape pin 6
+pcb: Note 6082: Schematic1 pkg R3: Extra shape pin 3
+pcb: Note 6082: Schematic1 pkg R3: Extra shape pin 8
+pcb: Note 6082: Schematic1 pkg R3: Extra shape pin 4
+pcb: Note 6082: Schematic1 pkg R2: Extra shape pin 5
+pcb: Note 6082: Schematic1 pkg R2: Extra shape pin 7
+pcb: Note 6082: Schematic1 pkg R2: Extra shape pin 6
+pcb: Note 6082: Schematic1 pkg R2: Extra shape pin 3
+pcb: Note 6082: Schematic1 pkg R2: Extra shape pin 8
+pcb: Note 6082: Schematic1 pkg R2: Extra shape pin 4
+pcb: Note 6082: Schematic1 pkg R1: Extra shape pin 5
+pcb: Note 6082: Schematic1 pkg R1: Extra shape pin 7
+pcb: Note 6082: Schematic1 pkg R1: Extra shape pin 6
+pcb: Note 6082: Schematic1 pkg R1: Extra shape pin 3
+pcb: Note 6082: Schematic1 pkg R1: Extra shape pin 8
+pcb: Note 6082: Schematic1 pkg R1: Extra shape pin 4
+pcb: Warning 6094: Schematic1 pin $2I3674.1: Pin not connected
+pcb: Warning 6094: Schematic1 pin $2I3674.2: Pin not connected
+pcb: Warning 6094: Schematic1 pin $2I3674.W: Pin not connected
+pcb: Warning 6094: Schematic1 pin $2I3649.1: Pin not connected
+pcb: Warning 6094: Schematic1 pin $2I3649.2: Pin not connected
+pcb: Warning 6094: Schematic1 pin $2I3649.W: Pin not connected
+pcb: Warning 6094: Schematic1 pin $2I3618.1: Pin not connected
+pcb: Warning 6094: Schematic1 pin $2I3618.2: Pin not connected
+pcb: Warning 6094: Schematic1 pin $2I3572.V+: Pin not connected
+pcb: Warning 6094: Schematic1 pin $2I3572.V-: Pin not connected
+pcb: Warning 6094: Schematic1 pin $2I3536.1: Pin not connected
+pcb: Warning 6094: Schematic1 pin $2I3536.2: Pin not connected
+pcb: Warning 6094: Schematic1 pin $2I3429.CS_N: Pin not connected
+pcb: Warning 6094: Schematic1 pin $2I3429.SCK: Pin not connected
+pcb: Warning 6094: Schematic1 pin $2I3429.SDI/SDO: Pin not connected
+pcb: Warning 6094: Schematic1 pin $2I3429.VDD: Pin not connected
+pcb: Warning 6094: Schematic1 pin $2I3429.VSS: Pin not connected
+pcb: Warning 6094: Schematic1 pin $2I3419.A1: Pin not connected
+pcb: Warning 6094: Schematic1 pin $2I3419.HVC/A0: Pin not connected
+pcb: Warning 6094: Schematic1 pin $2I3419.NC: Pin not connected
+pcb: Warning 6094: Schematic1 pin $2I3419.RESET_N: Pin not connected
+pcb: Warning 6094: Schematic1 pin $2I3419.SCL: Pin not connected
+pcb: Warning 6094: Schematic1 pin $2I3419.SDA: Pin not connected
+pcb: Warning 6094: Schematic1 pin $2I3419.VDD: Pin not connected
+pcb: Warning 6094: Schematic1 pin $2I3419.VSS: Pin not connected
+pcb: Warning 6094: Schematic1 pin $2I3326.EPAD: Pin not connected
+pcb: Warning 6094: Schematic1 pin $2I3326.GND: Pin not connected
+pcb: Warning 6094: Schematic1 pin $2I3326.GND_1: Pin not connected
+pcb: Warning 6094: Schematic1 pin $2I3326.IN: Pin not connected
+pcb: Warning 6094: Schematic1 pin $2I3326.IN_1: Pin not connected
+pcb: Warning 6094: Schematic1 pin $2I3326.OUT: Pin not connected
+pcb: Warning 6094: Schematic1 pin $2I3326.OUT_1: Pin not connected
+pcb: Warning 6094: Schematic1 pin $2I3326.SENSE/ADJ: Pin not connected
+pcb: Warning 6094: Schematic1 pin $2I3326.SHDN_N: Pin not connected
+pcb: Warning 6094: Schematic1 pin $2I3312.IN: Pin not connected
+pcb: Warning 6094: Schematic1 pin $2I3308.P1: Pin not connected
+pcb: Warning 6094: Schematic1 pin $2I3308.P2: Pin not connected
+pcb: Warning 6094: Schematic1 pin $2I3305.P1: Pin not connected
+pcb: Warning 6094: Schematic1 pin $2I3293.1: Pin not connected
+pcb: Warning 6094: Schematic1 pin $2I3293.2: Pin not connected
+pcb: Warning 6094: Schematic1 pin $2I3286.ADJ: Pin not connected
+pcb: Warning 6094: Schematic1 pin $2I3286.EN: Pin not connected
+pcb: Warning 6094: Schematic1 pin $2I3286.GND: Pin not connected
+pcb: Warning 6094: Schematic1 pin $2I3286.IN: Pin not connected
+pcb: Warning 6094: Schematic1 pin $2I3286.OUT: Pin not connected
+pcb: Warning 6094: Schematic1 pin $2I3281.1: Pin not connected
+pcb: Warning 6094: Schematic1 pin $2I3281.2: Pin not connected
+pcb: Warning 6094: Schematic1 pin $2I3281.W: Pin not connected
+pcb: Warning 6094: Schematic1 pin $2I3254.1: Pin not connected
+pcb: Warning 6094: Schematic1 pin $2I3254.2: Pin not connected
+pcb: Warning 6094: Schematic1 pin $2I3254.W: Pin not connected
+pcb: Warning 6094: Schematic1 pin $2I3249.1: Pin not connected
+pcb: Warning 6094: Schematic1 pin $2I3249.2: Pin not connected
+pcb: Warning 6094: Schematic1 pin $2I3249.W: Pin not connected
+pcb: Warning 6094: Schematic1 pin $2I3244.1: Pin not connected
+pcb: Warning 6094: Schematic1 pin $2I3244.2: Pin not connected
+pcb: Warning 6094: Schematic1 pin $2I3244.W: Pin not connected
+pcb: Warning 6094: Schematic1 pin $2I3239.1: Pin not connected
+pcb: Warning 6094: Schematic1 pin $2I3239.2: Pin not connected
+pcb: Warning 6094: Schematic1 pin $2I3239.W: Pin not connected
+pcb: Warning 6094: Schematic1 pin $2I3219.GND: Pin not connected
+pcb: Warning 6094: Schematic1 pin $2I3219.NC: Pin not connected
+pcb: Warning 6094: Schematic1 pin $2I3219.REFA: Pin not connected
+pcb: Warning 6094: Schematic1 pin $2I3219.REFB: Pin not connected
+pcb: Warning 6094: Schematic1 pin $2I3219.RSN: Pin not connected
+pcb: Warning 6094: Schematic1 pin $2I3219.RSP: Pin not connected
+pcb: Warning 6094: Schematic1 pin $2I3219.VCC: Pin not connected
+pcb: Warning 6094: Schematic1 pin $2I3219.VOUT: Pin not connected
+pcb: Warning 6094: Schematic1 pin $2I3214.PAD: Pin not connected
+pcb: Warning 6094: Schematic1 pin $2I3214.V+: Pin not connected
+pcb: Warning 6094: Schematic1 pin $2I3214.V-: Pin not connected
+pcb: Warning 6094: Schematic1 pin $2I3209.+: Pin not connected
+pcb: Warning 6094: Schematic1 pin $2I3209.-: Pin not connected
+pcb: Warning 6094: Schematic1 pin $2I3209.OUT: Pin not connected
+pcb: Warning 6094: Schematic1 pin $2I3204.+: Pin not connected
+pcb: Warning 6094: Schematic1 pin $2I3204.-: Pin not connected
+pcb: Warning 6094: Schematic1 pin $2I3204.OUT: Pin not connected
+pcb: Warning 6094: Schematic1 pin $2I3199.+: Pin not connected
+pcb: Warning 6094: Schematic1 pin $2I3199.-: Pin not connected
+pcb: Warning 6094: Schematic1 pin $2I3199.OUT: Pin not connected
+pcb: Warning 6094: Schematic1 pin $2I3194.+: Pin not connected
+pcb: Warning 6094: Schematic1 pin $2I3194.-: Pin not connected
+pcb: Warning 6094: Schematic1 pin $2I3194.OUT: Pin not connected
+pcb: Warning 6094: Schematic1 pin $2I3190.V+: Pin not connected
+pcb: Warning 6094: Schematic1 pin $2I3190.V-: Pin not connected
+pcb: Warning 6094: Schematic1 pin $2I3185.+: Pin not connected
+pcb: Warning 6094: Schematic1 pin $2I3185.-: Pin not connected
+pcb: Warning 6094: Schematic1 pin $2I3185.OUT: Pin not connected
+pcb: Warning 6094: Schematic1 pin $2I3180.+: Pin not connected
+pcb: Warning 6094: Schematic1 pin $2I3180.-: Pin not connected
+pcb: Warning 6094: Schematic1 pin $2I3180.OUT: Pin not connected
+pcb: Warning 6094: Schematic1 pin $2I3132.BST: Pin not connected
+pcb: Warning 6094: Schematic1 pin $2I3132.EN: Pin not connected
+pcb: Warning 6094: Schematic1 pin $2I3132.FB: Pin not connected
+pcb: Warning 6094: Schematic1 pin $2I3132.GND: Pin not connected
+pcb: Warning 6094: Schematic1 pin $2I3132.SW: Pin not connected
+pcb: Warning 6094: Schematic1 pin $2I3132.VIN: Pin not connected
+pcb: Warning 6094: Schematic1 pin $2I3120.ANODE: Pin not connected
+pcb: Warning 6094: Schematic1 pin $2I3120.CATHODE: Pin not connected
+pcb: Warning 6094: Schematic1 pin $2I3116.ANODE: Pin not connected
+pcb: Warning 6094: Schematic1 pin $2I3116.CATHODE: Pin not connected
+pcb: Warning 6094: Schematic1 pin $2I3109.+: Pin not connected
+pcb: Warning 6094: Schematic1 pin $2I3109.-: Pin not connected
+pcb: Warning 6094: Schematic1 pin $2I3109.OUT1: Pin not connected
+pcb: Warning 6094: Schematic1 pin $2I3109.V+: Pin not connected
+pcb: Warning 6094: Schematic1 pin $2I3109.V-: Pin not connected
+pcb: Warning 6094: Schematic1 pin $2I3104.+: Pin not connected
+pcb: Warning 6094: Schematic1 pin $2I3104.-: Pin not connected
+pcb: Warning 6094: Schematic1 pin $2I3104.OUT: Pin not connected
+pcb: Warning 6094: Schematic1 pin $2I3097.+: Pin not connected
+pcb: Warning 6094: Schematic1 pin $2I3097.-: Pin not connected
+pcb: Warning 6094: Schematic1 pin $2I3097.OUT1: Pin not connected
+pcb: Warning 6094: Schematic1 pin $2I3097.V+: Pin not connected
+pcb: Warning 6094: Schematic1 pin $2I3097.V-: Pin not connected
+pcb: Warning 6094: Schematic1 pin $2I3092.+: Pin not connected
+pcb: Warning 6094: Schematic1 pin $2I3092.-: Pin not connected
+pcb: Warning 6094: Schematic1 pin $2I3092.OUT: Pin not connected
+pcb: Warning 6094: Schematic1 pin $2I3088.ANODE: Pin not connected
+pcb: Warning 6094: Schematic1 pin $2I3088.CATHODE: Pin not connected
+pcb: Warning 6094: Schematic1 pin $2I3084.ANODE: Pin not connected
+pcb: Warning 6094: Schematic1 pin $2I3084.CATHODE: Pin not connected
+pcb: Warning 6094: Schematic1 pin $2I3063.1: Pin not connected
+pcb: Warning 6094: Schematic1 pin $2I3063.2: Pin not connected
+pcb: Warning 6094: Schematic1 pin $2I3059.1: Pin not connected
+pcb: Warning 6094: Schematic1 pin $2I3059.2: Pin not connected
+pcb: Warning 6094: Schematic1 pin $2I3055.1: Pin not connected
+pcb: Warning 6094: Schematic1 pin $2I3055.2: Pin not connected
+pcb: Warning 6094: Schematic1 pin $2I3044.1: Pin not connected
+pcb: Warning 6094: Schematic1 pin $2I3040.2: Pin not connected
+pcb: Note 5854: Instance value (REFDES=REFDES1) was added to instance ($2I3219) on (SCHEMATIC1).
+pcb: Note 5854: Instance value (REFDES=U8) was added to instance ($2I3281) on (SCHEMATIC1).
+pcb: Note 5854: Instance value (REFDES=U8) was added to instance ($2I3429) on (SCHEMATIC1).
+pcb: Note 5626: Summary of LogFiles/pcberr.log
+Status 0, Notes 134, Warnings 129
+Errors 0, Failures 0, Fatals 0, Internals 0

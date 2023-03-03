@@ -1,0 +1,890 @@
+
+(pcb
+ "C:\lib\ghepplib\test_projects\Siemens\Siemens.Schematic1_PADS100.Schematic1.db"
+	(version "5.0.0")
+	(units "basic")
+	(config_properties
+		(attributes
+			(attval "PcbConfigName"
+ "C:\MentorGraphics\PADSVX.2.10\SDD_HOME\standard\pads100.cfg")
+			(attval "CnsFile"
+ "C:\MentorGraphics\PADSVX.2.10\SDD_HOME\standard\isis\pads100.cns")
+			(attval "BeAdapter" "PADS100")
+			(attval "FeAdapter" "DxDesigner")
+			(attval "SYSCONFIG" "pcbfwd")
+			(attval "LASTSYSCONFIG" "pcbfwd"))
+		(constraints
+			(cnsval "U:Inductance" "Unknown:3")
+			(cnsval "U:Power" "Unknown:3")
+			(cnsval "U:Linear" "THOUSANDTHS:3")
+			(cnsval "U:Ampere" "Unknown:3")
+			(cnsval "U:Ohm" "Unknown:3")
+			(cnsval "U:Velocity" "Unknown:3")
+			(cnsval "U:Capacitance" "Unknown:3")
+			(cnsval "U:Volt" "Unknown:3")
+			(cnsval "U:Unknown" "Unknown:3")
+			(cnsval "U:Angle" "Unknown:3")
+			(cnsval "U:Time" "Unknown:3")))
+	(project_properties
+		(attributes
+			(attval "EPLANNER_DSN" "1.0")))
+	(part_library
+		(part "res_US_PN")
+		(logical_part_mapping "res_US_PN"
+			(comp "R5" "R4"))
+		(logical_part "res_US_PN"
+			(slots
+				(slot "RES_US__res_US_PN_1"
+					(attributes
+						(attval "DEVICE" "RES_US_PN")
+						(attval "PKG_TYPE" "XX")
+						(attval "REFDES" "R?")
+						(attval "Tolerance" "XX")
+						(attval "Value" "XX"))))
+			(pin 2  5 "RES_US__res_US_PN_1" 0 "2" 0)
+			(pin 1  5 "RES_US__res_US_PN_1" 0 "1" 0))
+		(part "ZENER_PN")
+		(logical_part_mapping "ZENER_PN"
+			(comp "D2"))
+		(logical_part "ZENER_PN"
+			(slots
+				(slot "ZENER__ZENER_PN_1"
+					(attributes
+						(attval "DEVICE" "ZENER_PN")
+						(attval "PKG_TYPE" "XX")
+						(attval "REFDES" "D?"))))
+			(pin 2  5 "ZENER__ZENER_PN_1" 0 "CATHODE" 0)
+			(pin 1  5 "ZENER__ZENER_PN_1" 0 "ANODE" 0))
+		(part "TP_THRU")
+		(logical_part_mapping "TP_THRU"
+			(comp "TP1"))
+		(logical_part "TP_THRU"
+			(slots
+				(slot "TP_THRU__TP_THRU_1"
+					(attributes
+						(attval "DEVICE" "TP_THRU")
+						(attval "PKG_TYPE" "TP_THRU")
+						(attval "REFDES" "TP?"))))
+			(pin 1  0 "TP_THRU__TP_THRU_1" 0 "IN" 0))
+		(part "TP_DIFF")
+		(logical_part_mapping "TP_DIFF"
+			(comp "TP3"))
+		(logical_part "TP_DIFF"
+			(slots
+				(slot "TP_DIFF__TP_DIFF_1"
+					(attributes
+						(attval "DEVICE" "TP_DIFF")
+						(attval "PKG_TYPE" "TP_DIFF")
+						(attval "REFDES" "TP?")
+						(attval "Value" "XX"))))
+			(pin 2  5 "TP_DIFF__TP_DIFF_1" 0 "P2" 0)
+			(pin 1  5 "TP_DIFF__TP_DIFF_1" 0 "P1" 0))
+		(part "TEST_POINT")
+		(logical_part_mapping "TEST_POINT"
+			(comp "TP2"))
+		(logical_part "TEST_POINT"
+			(slots
+				(slot "TP__TEST_POINT_1"
+					(attributes
+						(attval "DEVICE" "TEST_POINT")
+						(attval "PKG_TYPE" "TEST_POINT")
+						(attval "REFDES" "TP?"))))
+			(pin 1  3 "TP__TEST_POINT_1" 0 "P1" 0))
+		(part "RES_US_PN")
+		(logical_part_mapping "RES_US_PN"
+			(comp "R3" "R2" "R1"))
+		(logical_part "RES_US_PN"
+			(slots
+				(slot "RES_US__RES_US_PN_1"
+					(attributes
+						(attval "DEVICE" "RES_US_PN")
+						(attval "PKG_TYPE" "XX")
+						(attval "REFDES" "R?")
+						(attval "Tolerance" "XX")
+						(attval "Value" "XX"))))
+			(pin 2  5 "RES_US__RES_US_PN_1" 0 "2" 0)
+			(pin 1  5 "RES_US__RES_US_PN_1" 0 "1" 0))
+		(part "RES_US_DIGIPOT_PN")
+		(logical_part_mapping "RES_US_DIGIPOT_PN"
+			(comp "U2"))
+		(logical_part "RES_US_DIGIPOT_PN"
+			(slots
+				(slot "RES_US_DIGIPOT__RES_US_DIGIPOT_PN_1"
+					(attributes
+						(attval "DEVICE" "RES_US_DIGIPOT_PN")
+						(attval "PKG_TYPE" "XX")
+						(attval "REFDES" "U?")
+						(attval "Tolerance" "XX")
+						(attval "Value" "XX"))))
+			(pin 3  5 "RES_US_DIGIPOT__RES_US_DIGIPOT_PN_1" 0 "W" 0)
+			(pin 2  5 "RES_US_DIGIPOT__RES_US_DIGIPOT_PN_1" 0 "2" 0)
+			(pin 1  5 "RES_US_DIGIPOT__RES_US_DIGIPOT_PN_1" 0 "1" 0))
+		(part "RES_US_ADJ_PN")
+		(logical_part_mapping "RES_US_ADJ_PN"
+			(comp "R6"))
+		(logical_part "RES_US_ADJ_PN"
+			(slots
+				(slot "RES_US_ADJ__RES_US_ADJ_PN_1"
+					(attributes
+						(attval "DEVICE" "RES_US_ADJ_PN")
+						(attval "PKG_TYPE" "XX")
+						(attval "REFDES" "R?")
+						(attval "Tolerance" "XX")
+						(attval "Value" "XX"))))
+			(pin 3  5 "RES_US_ADJ__RES_US_ADJ_PN_1" 0 "W" 0)
+			(pin 2  5 "RES_US_ADJ__RES_US_ADJ_PN_1" 0 "2" 0)
+			(pin 1  5 "RES_US_ADJ__RES_US_ADJ_PN_1" 0 "1" 0))
+		(part "PHOTODIODE_PN")
+		(logical_part_mapping "PHOTODIODE_PN"
+			(comp "DS2"))
+		(logical_part "PHOTODIODE_PN"
+			(slots
+				(slot "PHOTODIODE__PHOTODIODE_PN_1"
+					(attributes
+						(attval "DEVICE" "PHOTODIODE_PN")
+						(attval "PKG_TYPE" "XX")
+						(attval "REFDES" "DS?")
+						(attval "Value" "VALUE"))))
+			(pin 2  4 "PHOTODIODE__PHOTODIODE_PN_1" 0 "CATHODE" 0)
+			(pin 1  4 "PHOTODIODE__PHOTODIODE_PN_1" 0 "ANODE" 0))
+		(part "OPAMP_5PIN_GENERIC_PN")
+		(logical_part_mapping "OPAMP_5PIN_GENERIC_PN"
+			(comp "U5"))
+		(logical_part "OPAMP_5PIN_GENERIC_PN"
+			(slots
+				(slot "OPAMP_5PIN_GENERIC__OPAMP_5PIN_GENERIC_PN_1"
+					(attributes
+						(attval "DEVICE" "OPAMP_5PIN_GENERIC_PN")
+						(attval "PKG_TYPE" "XX")
+						(attval "REFDES" "U?"))))
+			(pin 5  2 "OPAMP_5PIN_GENERIC__OPAMP_5PIN_GENERIC_PN_1" 0 "V-" 0)
+			(pin 4  2 "OPAMP_5PIN_GENERIC__OPAMP_5PIN_GENERIC_PN_1" 0 "V+" 0)
+			(pin 1  4 "OPAMP_5PIN_GENERIC__OPAMP_5PIN_GENERIC_PN_1" 0 "OUT1" 0)
+			(pin 2  3 "OPAMP_5PIN_GENERIC__OPAMP_5PIN_GENERIC_PN_1" 0 "-" 0)
+			(pin 3  3 "OPAMP_5PIN_GENERIC__OPAMP_5PIN_GENERIC_PN_1" 0 "+" 0))
+		(part "OPAMP_3PIN_GENERIC_PN")
+		(logical_part_mapping "OPAMP_3PIN_GENERIC_PN"
+			(comp "U15"))
+		(logical_part "OPAMP_3PIN_GENERIC_PN"
+			(slots
+				(slot "OPAMP_3PIN_GENERIC__OPAMP_3PIN_GENERIC_PN_1"
+					(attributes
+						(attval "DEVICE" "OPAMP_3PIN_GENERIC_PN")
+						(attval "PKG_TYPE" "XX")
+						(attval "REFDES" "U?"))))
+			(pin 1  4 "OPAMP_3PIN_GENERIC__OPAMP_3PIN_GENERIC_PN_1" 0 "OUT" 0)
+			(pin 2  3 "OPAMP_3PIN_GENERIC__OPAMP_3PIN_GENERIC_PN_1" 0 "-" 0)
+			(pin 3  3 "OPAMP_3PIN_GENERIC__OPAMP_3PIN_GENERIC_PN_1" 0 "+" 0))
+		(part "OPA4330_PN")
+		(logical_part_mapping "OPA4330_PN"
+			(comp "U10"))
+		(logical_part "OPA4330_PN"
+			(slots
+				(slot "OPA4330_1__OPA4330_PN_1"
+					(attributes
+						(attval "DEVICE" "OPA4330_PN")
+						(attval "HETERO" "OPA4330_PWR,OPA4330_1,OPA4330_2,OPA4330_3,OPA4330_4")
+						(attval "PKG_TYPE" "XX")
+						(attval "REFDES" "U?")))
+				(slot "OPA4330_2__OPA4330_PN_2"
+					(attributes
+						(attval "DEVICE" "OPA4330_PN")
+						(attval "HETERO" "OPA4330_PWR,OPA4330_1,OPA4330_2,OPA4330_3,OPA4330_4")
+						(attval "PKG_TYPE" "XX")
+						(attval "REFDES" "U?")))
+				(slot "OPA4330_3__OPA4330_PN_3"
+					(attributes
+						(attval "DEVICE" "OPA4330_PN")
+						(attval "HETERO" "OPA4330_PWR,OPA4330_1,OPA4330_2,OPA4330_3,OPA4330_4")
+						(attval "PKG_TYPE" "XX")
+						(attval "REFDES" "U?")))
+				(slot "OPA4330_4__OPA4330_PN_4"
+					(attributes
+						(attval "DEVICE" "OPA4330_PN")
+						(attval "HETERO" "OPA4330_PWR,OPA4330_1,OPA4330_2,OPA4330_3,OPA4330_4")
+						(attval "PKG_TYPE" "XX")
+						(attval "REFDES" "U?")))
+				(slot "OPA4330_PWR__OPA4330_PN_5"
+					(attributes
+						(attval "DEVICE" "OPA4330_PN")
+						(attval "HETERO" "OPA4330_PWR,OPA4330_1,OPA4330_2,OPA4330_3,OPA4330_4")
+						(attval "PKG_TYPE" "XX")
+						(attval "REFDES" "U?"))))
+			(pin 1  4 "OPA4330_1__OPA4330_PN_1" 0 "OUT" 0)
+			(pin 2  3 "OPA4330_1__OPA4330_PN_1" 0 "-" 0)
+			(pin 3  3 "OPA4330_1__OPA4330_PN_1" 0 "+" 0)
+			(pin 7  4 "OPA4330_2__OPA4330_PN_2" 0 "OUT" 0)
+			(pin 6  3 "OPA4330_2__OPA4330_PN_2" 0 "-" 0)
+			(pin 5  3 "OPA4330_2__OPA4330_PN_2" 0 "+" 0)
+			(pin 8  4 "OPA4330_3__OPA4330_PN_3" 0 "OUT" 0)
+			(pin 9  3 "OPA4330_3__OPA4330_PN_3" 0 "-" 0)
+			(pin 10  3 "OPA4330_3__OPA4330_PN_3" 0 "+" 0)
+			(pin 14  4 "OPA4330_4__OPA4330_PN_4" 0 "OUT" 0)
+			(pin 13  3 "OPA4330_4__OPA4330_PN_4" 0 "-" 0)
+			(pin 12  3 "OPA4330_4__OPA4330_PN_4" 0 "+" 0)
+			(pin 11  3 "OPA4330_PWR__OPA4330_PN_5" 0 "V-" 0)
+			(pin 4  4 "OPA4330_PWR__OPA4330_PN_5" 0 "V+" 0)
+			(pin 15  3 "OPA4330_PWR__OPA4330_PN_5" 0 "PAD" 0))
+		(part "MIC29302_PN")
+		(logical_part_mapping "MIC29302_PN"
+			(comp "U9"))
+		(logical_part "MIC29302_PN"
+			(slots
+				(slot "MIC29302__MIC29302_PN_1"
+					(attributes
+						(attval "DEVICE" "MIC29302_PN")
+						(attval "PKG_TYPE" "XX")
+						(attval "REFDES" "U?"))))
+			(pin 4  4 "MIC29302__MIC29302_PN_1" 0 "OUT" 0)
+			(pin 2  2 "MIC29302__MIC29302_PN_1" 0 "IN" 0)
+			(pin 3  0 "MIC29302__MIC29302_PN_1" 0 "GND" 0)
+			(pin 1  3 "MIC29302__MIC29302_PN_1" 0 "EN" 0)
+			(pin 5  5 "MIC29302__MIC29302_PN_1" 0 "ADJ" 0))
+		(part "MCP44X1_QFN_PN")
+		(logical_part_mapping "MCP44X1_QFN_PN"
+			(comp "U1"))
+		(logical_part "MCP44X1_QFN_PN"
+			(slots
+				(slot "MCP44X1_QFN_1__MCP44X1_QFN_PN_1"
+					(attributes
+						(attval "DEVICE" "MCP44X1_QFN_PN")
+						(attval "HETERO"
+ "MCP44X1_QFN_PWR,MCP44X1_QFN_1,MCP44X1_QFN_2,MCP44X1_QFN_3,MCP44X1_QFN_4")
+						(attval "PKG_TYPE" "XX")
+						(attval "REFDES" "U?")
+						(attval "Tolerance" "XX")
+						(attval "Value" "XX")))
+				(slot "MCP44X1_QFN_2__MCP44X1_QFN_PN_2"
+					(attributes
+						(attval "DEVICE" "MCP44X1_QFN_PN")
+						(attval "HETERO"
+ "MCP44X1_QFN_PWR,MCP44X1_QFN_1,MCP44X1_QFN_2,MCP44X1_QFN_3,MCP44X1_QFN_4")
+						(attval "PKG_TYPE" "XX")
+						(attval "REFDES" "U?")
+						(attval "Tolerance" "XX")
+						(attval "Value" "XX")))
+				(slot "MCP44X1_QFN_3__MCP44X1_QFN_PN_3"
+					(attributes
+						(attval "DEVICE" "MCP44X1_QFN_PN")
+						(attval "HETERO"
+ "MCP44X1_QFN_PWR,MCP44X1_QFN_1,MCP44X1_QFN_2,MCP44X1_QFN_3,MCP44X1_QFN_4")
+						(attval "PKG_TYPE" "XX")
+						(attval "REFDES" "U?")
+						(attval "Tolerance" "XX")
+						(attval "Value" "XX")))
+				(slot "MCP44X1_QFN_4__MCP44X1_QFN_PN_4"
+					(attributes
+						(attval "DEVICE" "MCP44X1_QFN_PN")
+						(attval "HETERO"
+ "MCP44X1_QFN_PWR,MCP44X1_QFN_1,MCP44X1_QFN_2,MCP44X1_QFN_3,MCP44X1_QFN_4")
+						(attval "PKG_TYPE" "XX")
+						(attval "REFDES" "U?")
+						(attval "Tolerance" "XX")
+						(attval "Value" "XX")))
+				(slot "MCP44X1_QFN_PWR__MCP44X1_QFN_PN_5"
+					(attributes
+						(attval "DEVICE" "MCP44X1_QFN_PN")
+						(attval "HETERO"
+ "MCP44X1_QFN_PWR,MCP44X1_QFN_1,MCP44X1_QFN_2,MCP44X1_QFN_3,MCP44X1_QFN_4")
+						(attval "PKG_TYPE" "XX")
+						(attval "REFDES" "U?")
+						(attval "Tolerance" "XX")
+						(attval "Value" "XX"))))
+			(pin 10  5 "MCP44X1_QFN_1__MCP44X1_QFN_PN_1" 0 "W" 0)
+			(pin 11  5 "MCP44X1_QFN_1__MCP44X1_QFN_PN_1" 0 "2" 0)
+			(pin 9  5 "MCP44X1_QFN_1__MCP44X1_QFN_PN_1" 0 "1" 0)
+			(pin 7  5 "MCP44X1_QFN_2__MCP44X1_QFN_PN_2" 0 "W" 0)
+			(pin 6  5 "MCP44X1_QFN_2__MCP44X1_QFN_PN_2" 0 "2" 0)
+			(pin 8  5 "MCP44X1_QFN_2__MCP44X1_QFN_PN_2" 0 "1" 0)
+			(pin 17  5 "MCP44X1_QFN_3__MCP44X1_QFN_PN_3" 0 "W" 0)
+			(pin 16  5 "MCP44X1_QFN_3__MCP44X1_QFN_PN_3" 0 "2" 0)
+			(pin 18  5 "MCP44X1_QFN_3__MCP44X1_QFN_PN_3" 0 "1" 0)
+			(pin 20  5 "MCP44X1_QFN_4__MCP44X1_QFN_PN_4" 0 "W" 0)
+			(pin 1  5 "MCP44X1_QFN_4__MCP44X1_QFN_PN_4" 0 "2" 0)
+			(pin 19  5 "MCP44X1_QFN_4__MCP44X1_QFN_PN_4" 0 "1" 0)
+			(pin 5  0 "MCP44X1_QFN_PWR__MCP44X1_QFN_PN_5" 0 "VSS" 0)
+			(pin 15  2 "MCP44X1_QFN_PWR__MCP44X1_QFN_PN_5" 0 "VDD" 0)
+			(pin 4  5 "MCP44X1_QFN_PWR__MCP44X1_QFN_PN_5" 0 "SDA" 0)
+			(pin 3  5 "MCP44X1_QFN_PWR__MCP44X1_QFN_PN_5" 0 "SCL" 0)
+			(pin 13  3 "MCP44X1_QFN_PWR__MCP44X1_QFN_PN_5" 0 "RESET_N" 0)
+			(pin 12  5 "MCP44X1_QFN_PWR__MCP44X1_QFN_PN_5" 0 "NC" 0)
+			(pin 2  3 "MCP44X1_QFN_PWR__MCP44X1_QFN_PN_5" 0 "HVC/A0" 0)
+			(pin 14  3 "MCP44X1_QFN_PWR__MCP44X1_QFN_PN_5" 0 "A1" 0))
+		(part "MCP41X1_QFN_PN")
+		(logical_part_mapping "MCP41X1_QFN_PN"
+			(comp "U8"))
+		(logical_part "MCP41X1_QFN_PN"
+			(slots
+				(slot "MCP41X1_1__MCP41X1_QFN_PN_1"
+					(attributes
+						(attval "DEVICE" "MCP41X1_QFN_PN")
+						(attval "HETERO" "MCP41X1_QFN_PWR,MCP41X1_1")
+						(attval "PKG_TYPE" "XX")
+						(attval "REFDES" "U?")
+						(attval "Tolerance" "XX")
+						(attval "Value" "XX")))
+				(slot "MCP41X1_QFN_PWR__MCP41X1_QFN_PN_2"
+					(attributes
+						(attval "DEVICE" "MCP41X1_QFN_PN")
+						(attval "HETERO" "MCP41X1_QFN_PWR,MCP41X1_1")
+						(attval "PKG_TYPE" "XX")
+						(attval "REFDES" "U?")
+						(attval "Tolerance" "XX")
+						(attval "Value" "XX"))))
+			(pin 6  5 "MCP41X1_1__MCP41X1_QFN_PN_1" 0 "W" 0)
+			(pin 7  5 "MCP41X1_1__MCP41X1_QFN_PN_1" 0 "2" 0)
+			(pin 5  5 "MCP41X1_1__MCP41X1_QFN_PN_1" 0 "1" 0)
+			(pin 4  0 "MCP41X1_QFN_PWR__MCP41X1_QFN_PN_2" 0 "VSS" 0)
+			(pin 8  2 "MCP41X1_QFN_PWR__MCP41X1_QFN_PN_2" 0 "VDD" 0)
+			(pin 3  5 "MCP41X1_QFN_PWR__MCP41X1_QFN_PN_2" 0 "SDI/SDO" 0)
+			(pin 2  3 "MCP41X1_QFN_PWR__MCP41X1_QFN_PN_2" 0 "SCK" 0)
+			(pin 1  3 "MCP41X1_QFN_PWR__MCP41X1_QFN_PN_2" 0 "CS_N" 0))
+		(part "MAX9032_PN")
+		(logical_part_mapping "MAX9032_PN"
+			(comp "U6"))
+		(logical_part "MAX9032_PN"
+			(slots
+				(slot "MAX9032_1__MAX9032_PN_1"
+					(attributes
+						(attval "DEVICE" "MAX9032_PN")
+						(attval "HETERO" "MAX9032_PWR,MAX9032_1,MAX9032_2")
+						(attval "PKG_TYPE" "XX")
+						(attval "REFDES" "U?")))
+				(slot "MAX9032_2__MAX9032_PN_2"
+					(attributes
+						(attval "DEVICE" "MAX9032_PN")
+						(attval "HETERO" "MAX9032_PWR,MAX9032_1,MAX9032_2")
+						(attval "PKG_TYPE" "XX")
+						(attval "REFDES" "U?")))
+				(slot "MAX9032_PWR__MAX9032_PN_3"
+					(attributes
+						(attval "DEVICE" "MAX9032_PN")
+						(attval "HETERO" "MAX9032_PWR,MAX9032_1,MAX9032_2")
+						(attval "PKG_TYPE" "XX")
+						(attval "REFDES" "U?"))))
+			(pin 1  4 "MAX9032_1__MAX9032_PN_1" 0 "OUT" 0)
+			(pin 2  3 "MAX9032_1__MAX9032_PN_1" 0 "-" 0)
+			(pin 3  3 "MAX9032_1__MAX9032_PN_1" 0 "+" 0)
+			(pin 7  4 "MAX9032_2__MAX9032_PN_2" 0 "OUT" 0)
+			(pin 6  3 "MAX9032_2__MAX9032_PN_2" 0 "-" 0)
+			(pin 5  3 "MAX9032_2__MAX9032_PN_2" 0 "+" 0)
+			(pin 4  3 "MAX9032_PWR__MAX9032_PN_3" 0 "V-" 0)
+			(pin 8  4 "MAX9032_PWR__MAX9032_PN_3" 0 "V+" 0))
+		(part "LT3015XDD_PN")
+		(logical_part_mapping "LT3015XDD_PN"
+			(comp "U12"))
+		(logical_part "LT3015XDD_PN"
+			(slots
+				(slot "LT3015XDD__LT3015XDD_PN_1"
+					(attributes
+						(attval "DEVICE" "LT3015XDD_PN")
+						(attval "PKG_TYPE" "XX")
+						(attval "REFDES" "U?")
+						(attval "Value" "VALUE?"))))
+			(pin 3  5 "LT3015XDD__LT3015XDD_PN_1" 0 "SHDN_N" 0)
+			(pin 6  3 "LT3015XDD__LT3015XDD_PN_1" 0 "SENSE/ADJ" 0)
+			(pin 8  4 "LT3015XDD__LT3015XDD_PN_1" 0 "OUT_1" 0)
+			(pin 7  4 "LT3015XDD__LT3015XDD_PN_1" 0 "OUT" 0)
+			(pin 2  3 "LT3015XDD__LT3015XDD_PN_1" 0 "IN_1" 0)
+			(pin 1  3 "LT3015XDD__LT3015XDD_PN_1" 0 "IN" 0)
+			(pin 5  0 "LT3015XDD__LT3015XDD_PN_1" 0 "GND_1" 0)
+			(pin 4  0 "LT3015XDD__LT3015XDD_PN_1" 0 "GND" 0)
+			(pin 9  0 "LT3015XDD__LT3015XDD_PN_1" 0 "EPAD" 0))
+		(part "LMP8481DGK")
+		(logical_part_mapping "LMP8481DGK"
+			(comp "REFDES1"))
+		(logical_part "LMP8481DGK"
+			(slots
+				(slot "LMP8481DGK__LMP8481DGK_1"
+					(attributes
+						(attval "DEVICE" "")
+						(attval "PKG_TYPE" "")
+						(attval "REFDES" "REFDES?")
+						(attval "Value" "VALUE?"))))
+			(pin 5  4 "LMP8481DGK__LMP8481DGK_1" 0 "VOUT" 0)
+			(pin 2  0 "LMP8481DGK__LMP8481DGK_1" 0 "VCC" 0)
+			(pin 1  3 "LMP8481DGK__LMP8481DGK_1" 0 "RSP" 0)
+			(pin 8  3 "LMP8481DGK__LMP8481DGK_1" 0 "RSN" 0)
+			(pin 6  3 "LMP8481DGK__LMP8481DGK_1" 0 "REFB" 0)
+			(pin 7  3 "LMP8481DGK__LMP8481DGK_1" 0 "REFA" 0)
+			(pin 3  0 "LMP8481DGK__LMP8481DGK_1" 0 "NC" 0)
+			(pin 4  0 "LMP8481DGK__LMP8481DGK_1" 0 "GND" 0))
+		(part "LED_PN")
+		(logical_part_mapping "LED_PN"
+			(comp "DS1"))
+		(logical_part "LED_PN"
+			(slots
+				(slot "LED__LED_PN_1"
+					(attributes
+						(attval "DEVICE" "LED_PN")
+						(attval "PKG_TYPE" "XX")
+						(attval "REFDES" "DS?")
+						(attval "Value" "VALUE"))))
+			(pin 2  4 "LED__LED_PN_1" 0 "CATHODE" 0)
+			(pin 1  4 "LED__LED_PN_1" 0 "ANODE" 0))
+		(part "IND_PN")
+		(logical_part_mapping "IND_PN"
+			(comp "L1"))
+		(logical_part "IND_PN"
+			(slots
+				(slot "IND__IND_PN_1"
+					(attributes
+						(attval "DEVICE" "IND_PN")
+						(attval "PKG_TYPE" "XX")
+						(attval "REFDES" "L?")
+						(attval "Value" "XX"))))
+			(pin 2  5 "IND__IND_PN_1" 0 "2" 0)
+			(pin 1  5 "IND__IND_PN_1" 0 "1" 0))
+		(part "IC_PWR_2PIN_GENERIC_PN")
+		(logical_part_mapping "IC_PWR_2PIN_GENERIC_PN"
+			(comp "U3"))
+		(logical_part "IC_PWR_2PIN_GENERIC_PN"
+			(slots
+				(slot "IC_PWR_2PIN_GENERIC__IC_PWR_2PIN_GENERIC_PN_1"
+					(attributes
+						(attval "DEVICE" "IC_PWR_2PIN_GENERIC_PN")
+						(attval "PKG_TYPE" "XX")
+						(attval "REFDES" "U?"))))
+			(pin 2  3 "IC_PWR_2PIN_GENERIC__IC_PWR_2PIN_GENERIC_PN_1" 0 "V-" 0)
+			(pin 1  4 "IC_PWR_2PIN_GENERIC__IC_PWR_2PIN_GENERIC_PN_1" 0 "V+" 0))
+		(part "DIODE_PN")
+		(logical_part_mapping "DIODE_PN"
+			(comp "D1"))
+		(logical_part "DIODE_PN"
+			(slots
+				(slot "DIODE__DIODE_PN_1"
+					(attributes
+						(attval "DEVICE" "DIODE_PN")
+						(attval "PKG_TYPE" "XX")
+						(attval "REFDES" "D?")
+						(attval "Value" ""))))
+			(pin 2  4 "DIODE__DIODE_PN_1" 0 "CATHODE" 0)
+			(pin 1  4 "DIODE__DIODE_PN_1" 0 "ANODE" 0))
+		(part "COMPARATOR_5PIN_GENERIC_PN")
+		(logical_part_mapping "COMPARATOR_5PIN_GENERIC_PN"
+			(comp "U11"))
+		(logical_part "COMPARATOR_5PIN_GENERIC_PN"
+			(slots
+				(slot "COMPARATOR_5PIN_GENERIC__COMPARATOR_5PIN_GENERIC_PN_1"
+					(attributes
+						(attval "DEVICE" "COMPARATOR_5PIN_GENERIC_PN")
+						(attval "PKG_TYPE" "XX")
+						(attval "REFDES" "U?"))))
+			(pin 5  2 "COMPARATOR_5PIN_GENERIC__COMPARATOR_5PIN_GENERIC_PN_1" 0 "V-" 0)
+			(pin 4  2 "COMPARATOR_5PIN_GENERIC__COMPARATOR_5PIN_GENERIC_PN_1" 0 "V+" 0)
+			(pin 1  4 "COMPARATOR_5PIN_GENERIC__COMPARATOR_5PIN_GENERIC_PN_1" 0 "OUT1" 0)
+			(pin 2  3 "COMPARATOR_5PIN_GENERIC__COMPARATOR_5PIN_GENERIC_PN_1" 0 "-" 0)
+			(pin 3  3 "COMPARATOR_5PIN_GENERIC__COMPARATOR_5PIN_GENERIC_PN_1" 0 "+" 0))
+		(part "COMPARATOR_3PIN_GENERIC_PN")
+		(logical_part_mapping "COMPARATOR_3PIN_GENERIC_PN"
+			(comp "U7"))
+		(logical_part "COMPARATOR_3PIN_GENERIC_PN"
+			(slots
+				(slot "COMPARATOR_3PIN_GENERIC__COMPARATOR_3PIN_GENERIC_PN_1"
+					(attributes
+						(attval "DEVICE" "COMPARATOR_3PIN_GENERIC_PN")
+						(attval "PKG_TYPE" "XX")
+						(attval "REFDES" "U?"))))
+			(pin 1  4 "COMPARATOR_3PIN_GENERIC__COMPARATOR_3PIN_GENERIC_PN_1" 0 "OUT" 0)
+			(pin 2  3 "COMPARATOR_3PIN_GENERIC__COMPARATOR_3PIN_GENERIC_PN_1" 0 "-" 0)
+			(pin 3  3 "COMPARATOR_3PIN_GENERIC__COMPARATOR_3PIN_GENERIC_PN_1" 0 "+" 0))
+		(part "CAP_P_PN")
+		(logical_part_mapping "CAP_P_PN"
+			(comp "C2"))
+		(logical_part "CAP_P_PN"
+			(slots
+				(slot "CAP_P__CAP_P_PN_1"
+					(attributes
+						(attval "DEVICE" "CAP_P_PN")
+						(attval "PKG_TYPE" "XX")
+						(attval "REFDES" "C?")
+						(attval "Value" "XX"))))
+			(pin 2  5 "CAP_P__CAP_P_PN_1" 0 "2" 0)
+			(pin 1  5 "CAP_P__CAP_P_PN_1" 0 "1" 0))
+		(part "CAP_NP_PN")
+		(logical_part_mapping "CAP_NP_PN"
+			(comp "C1"))
+		(logical_part "CAP_NP_PN"
+			(slots
+				(slot "CAP_NP__CAP_NP_PN_1"
+					(attributes
+						(attval "DEVICE" "CAP_NP_PN")
+						(attval "PKG_TYPE" "XX")
+						(attval "REFDES" "C?")
+						(attval "Value" "XX"))))
+			(pin 2  5 "CAP_NP__CAP_NP_PN_1" 0 "2" 0)
+			(pin 1  5 "CAP_NP__CAP_NP_PN_1" 0 "1" 0))
+		(part "AP6330X_PN")
+		(logical_part_mapping "AP6330X_PN"
+			(comp "U4"))
+		(logical_part "AP6330X_PN"
+			(slots
+				(slot "AP6330X__AP6330X_PN_1"
+					(attributes
+						(attval "DEVICE" "AP6330X_PN")
+						(attval "PKG_TYPE" "XX")
+						(attval "REFDES" "U?"))))
+			(pin 3  3 "AP6330X__AP6330X_PN_1" 0 "VIN" 0)
+			(pin 5  5 "AP6330X__AP6330X_PN_1" 0 "SW" 0)
+			(pin 4  0 "AP6330X__AP6330X_PN_1" 0 "GND" 0)
+			(pin 1  3 "AP6330X__AP6330X_PN_1" 0 "FB" 0)
+			(pin 2  5 "AP6330X__AP6330X_PN_1" 0 "EN" 0)
+			(pin 6  3 "AP6330X__AP6330X_PN_1" 0 "BST" 0)))
+	(placement
+		(component "XX"
+			(place "U15" 0.0 0.0 top 0.0
+				(comp_pin "1" 0.0 0.0 "OUT")
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "3" 0.0 0.0 "IN"))
+			(attributes
+				(attval "DEVICE" "OPAMP_3PIN_GENERIC_PN")
+				(attval "REFDES" "U15")))
+		(component "XX"
+			(place "U12" 0.0 0.0 top 0.0
+				(comp_pin "3" 0.0 0.0 "BI")
+				(comp_pin "6" 0.0 0.0 "IN")
+				(comp_pin "8" 0.0 0.0 "OUT")
+				(comp_pin "7" 0.0 0.0 "OUT")
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN")
+				(comp_pin "5" 0.0 0.0 "UNKNOWNPORT")
+				(comp_pin "4" 0.0 0.0 "UNKNOWNPORT")
+				(comp_pin "9" 0.0 0.0 "UNKNOWNPORT"))
+			(attributes
+				(attval "Value" "VALUE?")
+				(attval "DEVICE" "LT3015XDD_PN")
+				(attval "REFDES" "U12")))
+		(component "XX"
+			(place "U11" 0.0 0.0 top 0.0
+				(comp_pin "5" 0.0 0.0 "POWER")
+				(comp_pin "4" 0.0 0.0 "POWER")
+				(comp_pin "1" 0.0 0.0 "OUT")
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "3" 0.0 0.0 "IN"))
+			(attributes
+				(attval "DEVICE" "COMPARATOR_5PIN_GENERIC_PN")
+				(attval "REFDES" "U11")))
+		(component "XX"
+			(place "U10" 0.0 0.0 top 0.0
+				(comp_pin "11" 0.0 0.0 "IN")
+				(comp_pin "4" 0.0 0.0 "OUT")
+				(comp_pin "15" 0.0 0.0 "IN")
+				(comp_pin "14" 0.0 0.0 "OUT")
+				(comp_pin "13" 0.0 0.0 "IN")
+				(comp_pin "12" 0.0 0.0 "IN")
+				(comp_pin "8" 0.0 0.0 "OUT")
+				(comp_pin "9" 0.0 0.0 "IN")
+				(comp_pin "10" 0.0 0.0 "IN")
+				(comp_pin "7" 0.0 0.0 "OUT")
+				(comp_pin "6" 0.0 0.0 "IN")
+				(comp_pin "5" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "OUT")
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "3" 0.0 0.0 "IN"))
+			(attributes
+				(attval "DEVICE" "OPA4330_PN")
+				(attval "REFDES" "U10")))
+		(component "XX"
+			(place "U9" 0.0 0.0 top 0.0
+				(comp_pin "4" 0.0 0.0 "OUT")
+				(comp_pin "2" 0.0 0.0 "POWER")
+				(comp_pin "3" 0.0 0.0 "UNKNOWNPORT")
+				(comp_pin "1" 0.0 0.0 "IN")
+				(comp_pin "5" 0.0 0.0 "BI"))
+			(attributes
+				(attval "DEVICE" "MIC29302_PN")
+				(attval "REFDES" "U9")))
+		(component "XX"
+			(place "U8" 0.0 0.0 top 0.0
+				(comp_pin "4" 0.0 0.0 "UNKNOWNPORT")
+				(comp_pin "8" 0.0 0.0 "POWER")
+				(comp_pin "3" 0.0 0.0 "BI")
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "IN")
+				(comp_pin "6" 0.0 0.0 "BI")
+				(comp_pin "7" 0.0 0.0 "BI")
+				(comp_pin "5" 0.0 0.0 "BI"))
+			(attributes
+				(attval "Value" "XX")
+				(attval "Tolerance" "XX")
+				(attval "DEVICE" "MCP41X1_QFN_PN")
+				(attval "REFDES" "U8")))
+		(component "XX"
+			(place "U7" 0.0 0.0 top 0.0
+				(comp_pin "1" 0.0 0.0 "OUT")
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "3" 0.0 0.0 "IN"))
+			(attributes
+				(attval "DEVICE" "COMPARATOR_3PIN_GENERIC_PN")
+				(attval "REFDES" "U7")))
+		(component "XX"
+			(place "U6" 0.0 0.0 top 0.0
+				(comp_pin "4" 0.0 0.0 "IN")
+				(comp_pin "8" 0.0 0.0 "OUT")
+				(comp_pin "7" 0.0 0.0 "OUT")
+				(comp_pin "6" 0.0 0.0 "IN")
+				(comp_pin "5" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "OUT")
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "3" 0.0 0.0 "IN"))
+			(attributes
+				(attval "DEVICE" "MAX9032_PN")
+				(attval "REFDES" "U6")))
+		(component "XX"
+			(place "U5" 0.0 0.0 top 0.0
+				(comp_pin "5" 0.0 0.0 "POWER")
+				(comp_pin "4" 0.0 0.0 "POWER")
+				(comp_pin "1" 0.0 0.0 "OUT")
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "3" 0.0 0.0 "IN"))
+			(attributes
+				(attval "DEVICE" "OPAMP_5PIN_GENERIC_PN")
+				(attval "REFDES" "U5")))
+		(component "XX"
+			(place "U4" 0.0 0.0 top 0.0
+				(comp_pin "3" 0.0 0.0 "IN")
+				(comp_pin "5" 0.0 0.0 "BI")
+				(comp_pin "4" 0.0 0.0 "UNKNOWNPORT")
+				(comp_pin "1" 0.0 0.0 "IN")
+				(comp_pin "2" 0.0 0.0 "BI")
+				(comp_pin "6" 0.0 0.0 "IN"))
+			(attributes
+				(attval "DEVICE" "AP6330X_PN")
+				(attval "REFDES" "U4")))
+		(component "XX"
+			(place "U3" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "1" 0.0 0.0 "OUT"))
+			(attributes
+				(attval "DEVICE" "IC_PWR_2PIN_GENERIC_PN")
+				(attval "REFDES" "U3")))
+		(component "XX"
+			(place "U2" 0.0 0.0 top 0.0
+				(comp_pin "3" 0.0 0.0 "BI")
+				(comp_pin "2" 0.0 0.0 "BI")
+				(comp_pin "1" 0.0 0.0 "BI"))
+			(attributes
+				(attval "Tolerance" "XX")
+				(attval "Value" "XX")
+				(attval "DEVICE" "RES_US_DIGIPOT_PN")
+				(attval "REFDES" "U2")))
+		(component "XX"
+			(place "U1" 0.0 0.0 top 0.0
+				(comp_pin "5" 0.0 0.0 "UNKNOWNPORT")
+				(comp_pin "15" 0.0 0.0 "POWER")
+				(comp_pin "4" 0.0 0.0 "BI")
+				(comp_pin "3" 0.0 0.0 "BI")
+				(comp_pin "13" 0.0 0.0 "IN")
+				(comp_pin "12" 0.0 0.0 "BI")
+				(comp_pin "2" 0.0 0.0 "IN")
+				(comp_pin "14" 0.0 0.0 "IN")
+				(comp_pin "20" 0.0 0.0 "BI")
+				(comp_pin "1" 0.0 0.0 "BI")
+				(comp_pin "19" 0.0 0.0 "BI")
+				(comp_pin "17" 0.0 0.0 "BI")
+				(comp_pin "16" 0.0 0.0 "BI")
+				(comp_pin "18" 0.0 0.0 "BI")
+				(comp_pin "7" 0.0 0.0 "BI")
+				(comp_pin "6" 0.0 0.0 "BI")
+				(comp_pin "8" 0.0 0.0 "BI")
+				(comp_pin "10" 0.0 0.0 "BI")
+				(comp_pin "11" 0.0 0.0 "BI")
+				(comp_pin "9" 0.0 0.0 "BI"))
+			(attributes
+				(attval "Tolerance" "XX")
+				(attval "Value" "XX")
+				(attval "DEVICE" "MCP44X1_QFN_PN")
+				(attval "REFDES" "U1")))
+		(component "TP_DIFF"
+			(place "TP3" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "BI")
+				(comp_pin "1" 0.0 0.0 "BI"))
+			(attributes
+				(attval "Value" "XX")
+				(attval "DEVICE" "TP_DIFF")
+				(attval "REFDES" "TP3")))
+		(component "TEST_POINT"
+			(place "TP2" 0.0 0.0 top 0.0
+				(comp_pin "1" 0.0 0.0 "IN"))
+			(attributes
+				(attval "DEVICE" "TEST_POINT")
+				(attval "REFDES" "TP2")))
+		(component "TP_THRU"
+			(place "TP1" 0.0 0.0 top 0.0
+				(comp_pin "1" 0.0 0.0 "UNKNOWNPORT"))
+			(attributes
+				(attval "DEVICE" "TP_THRU")
+				(attval "REFDES" "TP1")))
+		(component "XX"
+			(place "REFDES1" 0.0 0.0 top 0.0
+				(comp_pin "5" 0.0 0.0 "OUT")
+				(comp_pin "2" 0.0 0.0 "UNKNOWNPORT")
+				(comp_pin "1" 0.0 0.0 "IN")
+				(comp_pin "8" 0.0 0.0 "IN")
+				(comp_pin "6" 0.0 0.0 "IN")
+				(comp_pin "7" 0.0 0.0 "IN")
+				(comp_pin "3" 0.0 0.0 "UNKNOWNPORT")
+				(comp_pin "4" 0.0 0.0 "UNKNOWNPORT"))
+			(attributes
+				(attval "Value" "VALUE?")
+				(attval "DEVICE" "LMP8481DGK")
+				(attval "REFDES" "REFDES1")))
+		(component "XX"
+			(place "R6" 0.0 0.0 top 0.0
+				(comp_pin "3" 0.0 0.0 "BI")
+				(comp_pin "2" 0.0 0.0 "BI")
+				(comp_pin "1" 0.0 0.0 "BI"))
+			(attributes
+				(attval "Tolerance" "XX")
+				(attval "Value" "XX")
+				(attval "DEVICE" "RES_US_ADJ_PN")
+				(attval "REFDES" "R6")))
+		(component "XX"
+			(place "R5" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "BI")
+				(comp_pin "1" 0.0 0.0 "BI"))
+			(attributes
+				(attval "Tolerance" "XX")
+				(attval "Value" "XX")
+				(attval "DEVICE" "res_US_PN")
+				(attval "REFDES" "R5")))
+		(component "XX"
+			(place "R4" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "BI")
+				(comp_pin "1" 0.0 0.0 "BI"))
+			(attributes
+				(attval "Tolerance" "XX")
+				(attval "Value" "XX")
+				(attval "DEVICE" "res_US_PN")
+				(attval "REFDES" "R4")))
+		(component "XX"
+			(place "R3" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "BI")
+				(comp_pin "1" 0.0 0.0 "BI"))
+			(attributes
+				(attval "Tolerance" "XX")
+				(attval "Value" "XX")
+				(attval "DEVICE" "RES_US_PN")
+				(attval "REFDES" "R3")))
+		(component "XX"
+			(place "R2" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "BI")
+				(comp_pin "1" 0.0 0.0 "BI"))
+			(attributes
+				(attval "Tolerance" "XX")
+				(attval "Value" "XX")
+				(attval "DEVICE" "RES_US_PN")
+				(attval "REFDES" "R2")))
+		(component "XX"
+			(place "R1" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "BI")
+				(comp_pin "1" 0.0 0.0 "BI"))
+			(attributes
+				(attval "Tolerance" "XX")
+				(attval "Value" "XX")
+				(attval "DEVICE" "RES_US_PN")
+				(attval "REFDES" "R1")))
+		(component "XX"
+			(place "L1" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "BI")
+				(comp_pin "1" 0.0 0.0 "BI"))
+			(attributes
+				(attval "Value" "XX")
+				(attval "DEVICE" "IND_PN")
+				(attval "REFDES" "L1")))
+		(component "XX"
+			(place "DS2" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "OUT")
+				(comp_pin "1" 0.0 0.0 "OUT"))
+			(attributes
+				(attval "Value" "VALUE")
+				(attval "DEVICE" "PHOTODIODE_PN")
+				(attval "REFDES" "DS2")))
+		(component "XX"
+			(place "DS1" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "OUT")
+				(comp_pin "1" 0.0 0.0 "OUT"))
+			(attributes
+				(attval "Value" "VALUE")
+				(attval "DEVICE" "LED_PN")
+				(attval "REFDES" "DS1")))
+		(component "XX"
+			(place "D2" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "BI")
+				(comp_pin "1" 0.0 0.0 "BI"))
+			(attributes
+				(attval "DEVICE" "ZENER_PN")
+				(attval "REFDES" "D2")))
+		(component "XX"
+			(place "D1" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "OUT")
+				(comp_pin "1" 0.0 0.0 "OUT"))
+			(attributes
+				(attval "Value" "")
+				(attval "DEVICE" "DIODE_PN")
+				(attval "REFDES" "D1")))
+		(component "XX"
+			(place "C2" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "BI")
+				(comp_pin "1" 0.0 0.0 "BI"))
+			(attributes
+				(attval "Value" "XX")
+				(attval "DEVICE" "CAP_P_PN")
+				(attval "REFDES" "C2")))
+		(component "XX"
+			(place "C1" 0.0 0.0 top 0.0
+				(comp_pin "2" 0.0 0.0 "BI")
+				(comp_pin "1" 0.0 0.0 "BI"))
+			(attributes
+				(attval "Value" "XX")
+				(attval "DEVICE" "CAP_NP_PN")
+				(attval "REFDES" "C1"))))
+	(functions
+		(func "$2I3092" "" "U15" 1)
+		(func "$2I3326" "" "U12" 1)
+		(func "$2I3109" "" "U11" 1)
+		(func "$2I3194" "" "U10" 1)
+		(func "$2I3199" "" "U10" 2)
+		(func "$2I3204" "" "U10" 3)
+		(func "$2I3209" "" "U10" 4)
+		(func "$2I3214" "" "U10" 5)
+		(func "$2I3286" "" "U9" 1)
+		(func "$2I3281" "" "U8" 1)
+		(func "$2I3429" "" "U8" 2)
+		(func "$2I3104" "" "U7" 1)
+		(func "$2I3180" "" "U6" 1)
+		(func "$2I3185" "" "U6" 2)
+		(func "$2I3190" "" "U6" 3)
+		(func "$2I3097" "" "U5" 1)
+		(func "$2I3132" "" "U4" 1)
+		(func "$2I3572" "" "U3" 1)
+		(func "$2I3649" "" "U2" 1)
+		(func "$2I3239" "" "U1" 1)
+		(func "$2I3244" "" "U1" 2)
+		(func "$2I3249" "" "U1" 3)
+		(func "$2I3254" "" "U1" 4)
+		(func "$2I3419" "" "U1" 5)
+		(func "$2I3308" "" "TP3" 1)
+		(func "$2I3305" "" "TP2" 1)
+		(func "$2I3312" "" "TP1" 1)
+		(func "$2I3219" "" "REFDES1" 1)
+		(func "$2I3674" "" "R6" 1)
+		(func "$2I3044" "" "R5" 1)
+		(func "$2I3040" "" "R4" 1)
+		(func "$2I3618" "" "R3" 1)
+		(func "$2I3536" "" "R2" 1)
+		(func "$2I3293" "" "R1" 1)
+		(func "$2I3063" "" "L1" 1)
+		(func "$2I3120" "" "DS2" 1)
+		(func "$2I3116" "" "DS1" 1)
+		(func "$2I3084" "" "D2" 1)
+		(func "$2I3088" "" "D1" 1)
+		(func "$2I3059" "" "C2" 1)
+		(func "$2I3055" "" "C1" 1))
+	(network
+		(net "$2N3052"
+			(pins R4-1 R5-2)))
+	(network_electrical
+		(net_scalar "$2N3052"
+			(constraints
+				(cnsval "SCHEDULED" "FALSE")))))

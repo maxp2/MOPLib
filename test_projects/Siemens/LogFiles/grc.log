@@ -1,0 +1,33 @@
+Off grid report
+    Off grid nets
+        Net $2N3052 is not snapped to grid 
+
+    Off grid pins
+        Pin(s): 1, 2 of component $2I3040 is(are) not snapped to grid 
+        Pin(s): 1, 2 of component $2I3044 is(are) not snapped to grid 
+        Pin(s): V-, V+ of component $2I3097 is(are) not snapped to grid 
+        Pin(s): V-, V+ of component $2I3109 is(are) not snapped to grid 
+        Pin(s): V+, V- of component $2I3190 is(are) not snapped to grid 
+        Pin(s): PAD, V+, V- of component $2I3214 is(are) not snapped to grid 
+        Pin(s): 5, 4, 2 of component $2I3239 is(are) not snapped to grid 
+        Pin(s): 5, 4, 2 of component $2I3244 is(are) not snapped to grid 
+        Pin(s): 5, 4, 2 of component $2I3249 is(are) not snapped to grid 
+        Pin(s): 5, 4, 2 of component $2I3254 is(are) not snapped to grid 
+        Pin(s): 1, 2 of component $2I3297 is(are) not snapped to grid 
+        Pin(s): EPAD of component $2I3326 is(are) not snapped to grid 
+
+
+Overlapping objects report
+    Net/Wire overlap
+        No issues found
+
+
+Text report
+    Text alignment
+        No issues found
+
+    Text owner
+        No issues found
+
+
+Total issue count: 13

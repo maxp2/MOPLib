@@ -1,0 +1,120 @@
+Bindings available in application
+Key             Command                  Type
+--------------- -----------------------  -------------------
+Ctrl+Y          EditRedo                 Menu
+Ctrl+A          EditSelectAll            Menu
+Ctrl+F          EditFindReplace          Menu
+Ctrl+H          EditReplaceText          Menu
+Ctrl+C          EditCopy                 Menu
+Ctrl+Alt+G      ProjectSettings          Menu
+Ctrl+N          FileNew                  Menu
+Ctrl+O          BlockOpen                Menu
+Ctrl+P          FilePrint                Menu
+Ctrl+S          FileSave                 Menu
+Ctrl+W          FileClose                Menu
+Ctrl+V          EditPaste                Menu
+F1              Help                     Menu
+Shift+F1        HelpContext              Menu
+Ctrl+F1         HelpDxDesignerHelpTopics                         Menu
+Ctrl+X          EditCut                  Menu
+Ctrl+Z          EditUndo                 Menu
+Alt+Enter       WVOProperties            Menu
+Ctrl+Q          WVOProperties            Menu
+Ctrl+Alt+Space  AddOffPagePin            Menu
+Ctrl+Alt+Shift+Space            AddOnPagePin             Menu
+Ctrl+Alt+V      ToolsVerify              Menu
+Key             Command                  Type
+--------------- -----------------------  -------------------
+Shift+F4        nexterror                Command Line command
+Shift+F5        nexthelp                 Command Line command
+
+
+Schematic Editor Bindings
+Key             Command                  Type
+--------------- -----------------------  -------------------
+F2              WVOLeftButton            Menu
+Ctrl+F2         WVOLeftButton            Menu
+Shift+F2        WVOLeftButton            Menu
+Ctrl+Shift+F2   WVOLeftButton            Menu
+Ctrl+F3         WVOMiddleButton          Menu
+Home            WVOZoomFull              Menu
+F6              WVOPan                   Menu
+F7              WVOZoomIn                Menu
+F8              WVOZoomOut               Menu
+z               WVOZoomArea              Menu
+Delete          EditDelete               Menu
+Shift+F9        ViewSaveZoom             Menu
+Shift+F10       ViewRestoreZoom          Menu
+Up              WVOUp                    Menu
+Down            WVODown                  Menu
+Left            WVOLeft                  Menu
+Right           WVORight                 Menu
+Page Down       WVONextPage              Menu
+Page Up         WVOPriorPage             Menu
+Space           WVOCommandLine           Menu
+Delete          WVODelete                Menu
+A               AddArc                   Menu
+b               AddBus                   Menu
+B               AddBox                   Menu
+C               AddCircle                Menu
+Ctrl+E          MoveNow                  Menu
+f               AddBlock                 Menu
+Ctrl+Shift+M    Mirror                   Menu
+Ctrl+Shift+F    Flip                     Menu
+L               AddLine                  Menu
+l               AddLabel                 Menu
+m               MoveNow                  Menu
+n               AddNet                   Menu
+Ctrl+R          ReattachNet              Menu
+Ctrl+Shift+R    Rotate90                 Menu
+s               SelectMode               Menu
+T               AddText                  Menu
+h               WVOPushSchematic         Menu
+p               WVOPopSchematic          Menu
+y               WVOPushSymbol            Menu
+Ctrl+Backspace  Cycle                    Command Line command
+Ctrl+Tab        Cycle                    Command Line command
+Z               ViewZoomSelected         Menu
+Escape          SelectMode               Menu
+Insert          WVOPan                   Menu
+Ctrl+Space      AddGroundPin             Menu
+Shift+Space     AddPowerPin              Menu
+Ctrl+Shift+Space                AddHierIOPin             Menu
+Shift+X         EnableLabelReassign      Menu
+
+
+ICT Bindings
+Key             Command                  Type
+--------------- -----------------------  -------------------
+Ctrl+G          IctAddFub                Menu
+Ctrl+I          IctAddNet                Menu
+F2              IctEditStart             Menu
+Insert          IctEditStart             Menu
+Ctrl+Z          EditUndo                 Menu
+Ctrl+Y          EditRedo                 Menu
+Delete          EditDelete               Menu
+Ctrl+Page Up    IctCollapsePins          Menu
+Ctrl+Page Down  IctExpandPins            Menu
+Ctrl+Space      IctConnectPin            Menu
+Ctrl+Alt+Down   IctEditStartFilter       Menu
+Alt+Down        IctEditStartCombo        Menu
+Ctrl+A          EditSelectAll            Menu
+
+
+Stroke Bindings
+Stroke          Command                  
+--------------- -----------------------  
+14789           ViewDisplayControlShow   
+3698741         Rotate90                 
+7412369         EditUndo                 
+9632147         Mirror                   
+159             WVOZoomArea              
+753             WVOZoomOut               
+12369           WVOLastCommand           
+357             WVOZoomIn                
+123658          HelpDocumentationInInfoHub                       
+852             AddLine                  
+74123698        WVODelete                
+951             WVOZoomFull              
+
+
