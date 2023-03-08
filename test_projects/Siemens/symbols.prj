@@ -42,17 +42,17 @@ KEY SearchPathScheme "(Default)"
 ENDSECTION
 SECTION iCDB
 LIST Designs
-VALUE "Board1"
+VALUE "CAD_test"
 ENDLIST
 KEY DedicatedServerName ""
 KEY iCDBDir ".\database"
 ENDSECTION
-SECTION Board1
+SECTION CAD_test
 KEY CADBackAnno "0"
 KEY ConfigType "PCB"
 KEY SchematicConflict "FE"
 KEY SchematicDesignBackAnno "0"
 KEY SchematicDesignStatus "0"
 KEY SearchPathScheme "(Default)"
-KEY RootBlock "Schematic1"
+KEY RootBlock "CAD_test"
 ENDSECTION
