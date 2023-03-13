@@ -1,0 +1,29 @@
+﻿[PMC Globals]|None||
+[PMC Code v5.4.1]|^r|F12|1|Window,2,Fast,0,1,Input,-1,-1,1|1|Macro1
+Context=None|
+Groups=Start:1
+1|[MsgBox]|Hello World|1|0|MsgBox|64|test window|||1|
+2|WinActivate||1|333|WinActivate||PADS Designer - C:\lib\ghepplib\test_projects\Siemens\symbols.prj - [CAD_test.LOGIC] ahk_class Afx:00400000:8:00010003:00000000:000603D9|||2|
+3|Right Click|Right, 1, |1|10|Click|||||4|
+4|Down|{Down}|10|0|Send|||||6|
+5|Enter|{Enter}|1|0|Send|||||7|
+6|Right Move & Click|1641, 196 Right, 1|1|10|Click|||Select symbol name||7|
+7|Down|{Down}|1|0|Send|||||9|
+8|Down|{Down}|1|0|Send|||||10|
+9|Enter|{Enter}|1|0|Send|||||10|
+10|Left Move & Click|170, 1004 Left, 1|1|10|Click|||||10|
+11|Left Move & Click|101, 982 Left, 1|1|10|Click|||||12|
+12|Left Move & Click|305, 651 Left, 1|1|10|Click|||||14|
+13|LControl Down|{LControl Down}|1|0|Send|||||16|
+14|a|{a}|1|0|Send|||||17|
+015|LControl Up|{LControl Up}|1|0|Send|||||17|
+016|LControl Down|{LControl Down}|1|0|Send|||||18|
+17|v|{v}|1|0|Send|||||18|
+18|LControl Up|{LControl Up}|1|0|Send|||||19|
+19|End|{End}|1|0|Send|||||19|
+20|Backspace|{Backspace}|2|0|Send|||||19|
+021|Enter|{Enter}|1|0|Send|||||19|
+22|[Pause]||1|3000|Sleep|||Wait for database search||20|
+23|Left Move & Click|177, 729 Left, 1|1|10|Click|||Select first search result||22|
+24|Left Move & Click|354, 306 Left, 1|1|10|Click|||Replace||24|
+

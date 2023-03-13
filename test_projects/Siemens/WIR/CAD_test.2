@@ -1,6 +1,6 @@
 | Wirelist created using version 6.1 
 V 6.1
-DW Schematic1
+DW CAD_test
 |Q custom:led 1
 AS custom:led INOV_VER_REC=17:38:31_3-3-23
 AS custom:led DEVICE=LED_PN
@@ -14,27 +14,24 @@ AP custom:led 1 PINTYPE=OUT
 AP custom:led 2 #=2
 AP custom:led 2 PINTYPE=OUT
 |Q custom:cap_p 1
-AS custom:cap_p INOV_VER_REC=16:46:51_3-3-23
-AS custom:cap_p PARTS=1
-AS custom:cap_p LEVEL=STD
-AS custom:cap_p DEVICE=cap_p_PN
-AS custom:cap_p VALUE=XX
-AS custom:cap_p VOLTAGE=XX
+AS custom:cap_p INOV_VER_REC=19:02:24_3-8-23
+AS custom:cap_p DEVICE=cap_p
+AS custom:cap_p VALUE=VALUE
+AS custom:cap_p VOLTAGE=VOLTAGE
 AS custom:cap_p REFDES=C?
-AS custom:cap_p PKG_TYPE=XX
+AS custom:cap_p PKG_TYPE=PKG_TYPE
 AS custom:cap_p PINORDER=1 2
 AP custom:cap_p 1 #=1
 AP custom:cap_p 1 PINTYPE=ANALOG
 AP custom:cap_p 2 #=2
 AP custom:cap_p 2 PINTYPE=ANALOG
 |Q custom:DIODE 1
-AS custom:DIODE INOV_VER_REC=16:47:12_3-3-23
-AS custom:DIODE DEVICE=diode_PN
-AS custom:DIODE PARTS=1
+AS custom:DIODE INOV_VER_REC=19:02:49_3-8-23
+AS custom:DIODE DEVICE=diode
 AS custom:DIODE VOLTAGE=VOLTAGE
 AS custom:DIODE REFDES=D?
 AS custom:DIODE PKG_TYPE=XX
-AS custom:DIODE VALUE
+AS custom:DIODE PART_NUMBER=PART_NUMBER
 AS custom:DIODE PINORDER=ANODE CATHODE
 AP custom:DIODE 1 #=1
 AP custom:DIODE 1 PINTYPE=OUT
@@ -71,14 +68,13 @@ AS custom:tp_thru REFDES=TP?
 AS custom:tp_thru PINORDER=IN
 AP custom:tp_thru 1 #=1
 |Q custom:res_us 1
-AS custom:res_us INOV_VER_REC=17:57:52_3-7-23
-AS custom:res_us TOLERANCE=XX
-AS custom:res_us POWER=XX
+AS custom:res_us INOV_VER_REC=23:18:38_3-8-23
+AS custom:res_us TOLERANCE=TOLERANCE
+AS custom:res_us POWER=POWER
 AS custom:res_us REFDES=R?
-AS custom:res_us PKG_TYPE=XX
-AS custom:res_us VALUE=XX
-AS custom:res_us DEVICE=res_US_PN
-AS custom:res_us Parts
+AS custom:res_us PKG_TYPE=PKG_TYPE
+AS custom:res_us VALUE=VALUE
+AS custom:res_us DEVICE=res_US
 AS custom:res_us PINORDER=1 2
 AP custom:res_us 1 #=1
 AP custom:res_us 1 PINTYPE=BI
@@ -97,13 +93,11 @@ AP custom:photodiode 1 PINTYPE=OUT
 AP custom:photodiode 2 #=2
 AP custom:photodiode 2 PINTYPE=OUT
 |Q custom:cap_np 1
-AS custom:cap_np INOV_VER_REC=18:00:05_3-7-23
-AS custom:cap_np DEVICE=cap_np_PN
-AS custom:cap_np PARTS=1
-AS custom:cap_np LEVEL=STD
-AS custom:cap_np VALUE=XX
-AS custom:cap_np VOLTAGE=XX
-AS custom:cap_np PKG_TYPE=XX
+AS custom:cap_np INOV_VER_REC=19:02:30_3-8-23
+AS custom:cap_np DEVICE=cap_np
+AS custom:cap_np VALUE=VALUE
+AS custom:cap_np VOLTAGE=VOLTAGE
+AS custom:cap_np PKG_TYPE=PKG_TYPE
 AS custom:cap_np REFDES=C?
 AS custom:cap_np PINORDER=1 2
 AP custom:cap_np 1 #=1
@@ -123,25 +117,25 @@ AP custom:ind 1 PINTYPE=ANALOG
 AP custom:ind 2 #=2
 AP custom:ind 2 PINTYPE=ANALOG
 |Q custom:zener 1
-AS custom:zener INOV_VER_REC=16:46:35_3-3-23
-AS custom:zener PARTS=1
-AS custom:zener VOLTAGE=XX
-AS custom:zener PKG_TYPE=XX
-AS custom:zener DEVICE=zener_PN
+AS custom:zener INOV_VER_REC=19:02:57_3-8-23
+AS custom:zener VOLTAGE=VOLTAGE
+AS custom:zener PKG_TYPE=PKG_TYPE
+AS custom:zener DEVICE=zener
 AS custom:zener REFDES=D?
+AS custom:zener PART_NUMBER=PART_NUMBER
 AS custom:zener PINORDER=ANODE CATHODE
 AP custom:zener 1 #=1
 AP custom:zener 1 PINTYPE=ANALOG
 AP custom:zener 2 #=2
 AP custom:zener 2 PINTYPE=ANALOG
 |Q custom:res_US_adj 1
-AS custom:res_US_adj INOV_VER_REC=19:22:34_3-3-23
+AS custom:res_US_adj INOV_VER_REC=19:01:28_3-8-23
 AS custom:res_US_adj DEVICE=res_US_adj_PN
-AS custom:res_US_adj PKG_TYPE=XX
+AS custom:res_US_adj PKG_TYPE=PKG_TYPE
 AS custom:res_US_adj REFDES=R?
-AS custom:res_US_adj VALUE=XX
-AS custom:res_US_adj TOLERANCE=XX
-AS custom:res_US_adj POWER=XX
+AS custom:res_US_adj VALUE=VALUE
+AS custom:res_US_adj TOLERANCE=TOLERANCE
+AS custom:res_US_adj POWER=POWER
 AS custom:res_US_adj PINORDER=1 2 W
 AP custom:res_US_adj 1 #=1
 AP custom:res_US_adj 1 PINTYPE=BI
@@ -151,12 +145,13 @@ AP custom:res_US_adj 3 #=3
 AP custom:res_US_adj 3 Order=0
 AP custom:res_US_adj 3 PINTYPE=BI
 |Q custom:res_us_digipot 1
-AS custom:res_us_digipot INOV_VER_REC=19:28:15_3-3-23
-AS custom:res_us_digipot DEVICE=res_US_digipot_PN
-AS custom:res_us_digipot PKG_TYPE=XX
+AS custom:res_us_digipot INOV_VER_REC=19:00:34_3-8-23
+AS custom:res_us_digipot DEVICE=res_US_digipot
+AS custom:res_us_digipot PKG_TYPE=PKG_TYPE
 AS custom:res_us_digipot REFDES=U?
-AS custom:res_us_digipot VALUE=XX
-AS custom:res_us_digipot TOLERANCE=XX
+AS custom:res_us_digipot VALUE=VALUE
+AS custom:res_us_digipot TOLERANCE=TOLERANCE
+AS custom:res_us_digipot PART_NUMBER=PART_NUMBER
 AS custom:res_us_digipot PINORDER=1 2 W
 AP custom:res_us_digipot 1 #=1
 AP custom:res_us_digipot 1 PINTYPE=BI
@@ -165,6 +160,28 @@ AP custom:res_us_digipot 2 PINTYPE=BI
 AP custom:res_us_digipot 3 #=3
 AP custom:res_us_digipot 3 Order=0
 AP custom:res_us_digipot 3 PINTYPE=BI
+|Q custom:jmpr2 1
+AS custom:jmpr2 INOV_VER_REC=18:34:29_3-8-23
+AS custom:jmpr2 REFDES=JMP?
+AS custom:jmpr2 PKG_TYPE=XX
+AS custom:jmpr2 DEVICE=jmpr2
+AS custom:jmpr2 PINORDER=A C
+AP custom:jmpr2 1 #=1
+AP custom:jmpr2 1 PINTYPE=BI
+AP custom:jmpr2 2 #=3
+AP custom:jmpr2 2 PINTYPE=BI
+|Q custom:jmpr3 1
+AS custom:jmpr3 INOV_VER_REC=18:35:12_3-8-23
+AS custom:jmpr3 REFDES=JMP?
+AS custom:jmpr3 PKG_TYPE=XX
+AS custom:jmpr3 DEVICE=jmpr3
+AS custom:jmpr3 PINORDER=A B C
+AP custom:jmpr3 1 #=1
+AP custom:jmpr3 1 PINTYPE=BI
+AP custom:jmpr3 2 #=2
+AP custom:jmpr3 2 PINTYPE=BI
+AP custom:jmpr3 3 #=3
+AP custom:jmpr3 3 PINTYPE=BI
 M custom:led $2I3116
 I $2I3116 custom:led ? ? REFDES=DS?`
 |R 17:38:31_3-3-23
@@ -172,12 +189,12 @@ API $2I3116 custom:led 1 #=1
 API $2I3116 custom:led 2 #=2
 M custom:cap_p $2I3059
 I $2I3059 custom:cap_p ? ? REFDES=C?`
-|R 16:46:51_3-3-23
+|R 19:02:24_3-8-23
 API $2I3059 custom:cap_p 1 #=1
 API $2I3059 custom:cap_p 2 #=2
 M custom:DIODE $2I3088
 I $2I3088 custom:DIODE ? ? REFDES=D?`
-|R 16:47:12_3-3-23
+|R 19:02:49_3-8-23
 API $2I3088 custom:DIODE 1 #=1
 API $2I3088 custom:DIODE 2 #=2
 M custom:tp_diff $2I3308
@@ -195,7 +212,7 @@ I $2I3312 custom:tp_thru ? REFDES=TP?`
 API $2I3312 custom:tp_thru 1 #=1
 M custom:res_us $2I3044
 I $2I3044 custom:res_us ? $2N3052 DEVICE=res_US_PN`REFDES=R?`
-|R 17:57:52_3-7-23
+|R 23:18:38_3-8-23
 API $2I3044 custom:res_us 1 #=1
 API $2I3044 custom:res_us 2 #=2
 M custom:photodiode $2I3120
@@ -205,12 +222,12 @@ API $2I3120 custom:photodiode 1 #=1
 API $2I3120 custom:photodiode 2 #=2
 M custom:cap_np $2I3055
 I $2I3055 custom:cap_np ? ? REFDES=C?`
-|R 18:00:05_3-7-23
+|R 19:02:30_3-8-23
 API $2I3055 custom:cap_np 1 #=1
 API $2I3055 custom:cap_np 2 #=2
 M custom:res_us $2I3040
 I $2I3040 custom:res_us $2N3052 ? REFDES=R?`DEVICE=res_US_PN`
-|R 17:57:52_3-7-23
+|R 23:18:38_3-8-23
 API $2I3040 custom:res_us 1 #=1
 API $2I3040 custom:res_us 2 #=2
 M custom:ind $2I3063
@@ -220,24 +237,35 @@ API $2I3063 custom:ind 1 #=1
 API $2I3063 custom:ind 2 #=2
 M custom:zener $2I3084
 I $2I3084 custom:zener ? ? REFDES=D?`
-|R 16:46:35_3-3-23
+|R 19:02:57_3-8-23
 API $2I3084 custom:zener 1 #=1
 API $2I3084 custom:zener 2 #=2
 M custom:res_US_adj $2I3674
 I $2I3674 custom:res_US_adj ? ? ? REFDES=R?`
-|R 19:22:34_3-3-23
+|R 19:01:28_3-8-23
 API $2I3674 custom:res_US_adj 1 #=1
 API $2I3674 custom:res_US_adj 2 #=2
 API $2I3674 custom:res_US_adj 3 #=3
 M custom:res_us_digipot $2I3649
-I $2I3649 custom:res_us_digipot ? ? ? REFDES=U?`
-|R 19:28:15_3-3-23
+I $2I3649 custom:res_us_digipot ? ? ? VALUE=VALUE`REFDES=U?`
+|R 19:00:34_3-8-23
 API $2I3649 custom:res_us_digipot 1 #=1
 API $2I3649 custom:res_us_digipot 2 #=2
 API $2I3649 custom:res_us_digipot 3 #=3
-M custom:res_us $2I3618
-I $2I3618 custom:res_us ? ? REFDES=R?`
-|R 17:57:52_3-7-23
-API $2I3618 custom:res_us 1 #=1
-API $2I3618 custom:res_us 2 #=2
+M custom:res_us $2I3854
+I $2I3854 custom:res_us ? ? REFDES=R3`
+|R 23:18:38_3-8-23
+API $2I3854 custom:res_us 1 #=1
+API $2I3854 custom:res_us 2 #=2
+M custom:jmpr2 $2I3838
+I $2I3838 custom:jmpr2 ? ? REFDES=JMP?`
+|R 18:34:29_3-8-23
+API $2I3838 custom:jmpr2 1 #=1
+API $2I3838 custom:jmpr2 2 #=3
+M custom:jmpr3 $2I3846
+I $2I3846 custom:jmpr3 ? ? ? REFDES=JMP?`
+|R 18:35:12_3-8-23
+API $2I3846 custom:jmpr3 1 #=1
+API $2I3846 custom:jmpr3 2 #=2
+API $2I3846 custom:jmpr3 3 #=3
 EW
