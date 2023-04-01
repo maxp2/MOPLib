@@ -6,6 +6,7 @@ VALUE "DIR [R] ${SDD_HOME}\Libraries\xDX_Designer\SymbolLibrary\Builtin (Builtin
 VALUE "DIR [R] ${SDD_HOME}\Libraries\xDX_Designer\SymbolLibrary\Borders (Borders)"
 VALUE "DIR [W] C:\lib\ghepplib\Siemens\custom (custom)"
 VALUE "DIR [R] C:\lib\ghepplib\Siemens\mfg_import (mfg_import)"
+VALUE "DIR [R] C:\lib\ghepplib\Siemens\golden_symbols (golden_symbols)"
 ENDLIST
 KEY BorderSymbols "./SL_borders.ini"
 KEY Bus_Contents "./busconts.ini"

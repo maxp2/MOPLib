@@ -185,3 +185,54 @@
 [2023-03-09 16.08.22] Successfully created [Symbol Update] backup [2023-03-09 16.08.22 - symUpd.zip] requested by [CAD02:maxpijacki].
 [2023-03-09 16.08.22] Removing excessive [Symbol Update] backup file [C:\lib\ghepplib\test_projects\Siemens\ProjectBackup\backups\2023-03-08 18.26.44 - symUpd.zip].
 [2023-03-09 16.08.22] [Symbol Update] backup file [Siemens\ProjectBackup\backups\2023-03-08 18.26.44 - symUpd.zip] removed.
+[2023-03-20 13.24.59] Successfully created [AutoSave] backup [2023-03-20 13.24.59 - auto.zip] requested by [CAD02:maxpijacki].
+[2023-03-20 13.24.59] Removing excessive [AutoSave] backup file [C:\lib\ghepplib\test_projects\Siemens\ProjectBackup\backups\2023-03-08 17.33.15 - auto.zip].
+[2023-03-20 13.24.59] [AutoSave] backup file [Siemens\ProjectBackup\backups\2023-03-08 17.33.15 - auto.zip] removed.
+[2023-03-20 17.24.59] Successfully created [AutoSave] backup [2023-03-20 17.24.59 - auto.zip] requested by [CAD02:maxpijacki].
+[2023-03-20 17.24.59] Removing excessive [AutoSave] backup file [C:\lib\ghepplib\test_projects\Siemens\ProjectBackup\backups\2023-03-09 10.50.57 - auto.zip].
+[2023-03-20 17.24.59] [AutoSave] backup file [Siemens\ProjectBackup\backups\2023-03-09 10.50.57 - auto.zip] removed.
+[2023-03-20 21.24.59] Successfully created [AutoSave] backup [2023-03-20 21.24.59 - auto.zip] requested by [CAD02:maxpijacki].
+[2023-03-20 21.24.59] Removing excessive [AutoSave] backup file [C:\lib\ghepplib\test_projects\Siemens\ProjectBackup\backups\2023-03-09 14.50.57 - auto.zip].
+[2023-03-20 21.24.59] [AutoSave] backup file [Siemens\ProjectBackup\backups\2023-03-09 14.50.57 - auto.zip] removed.
+[2023-03-21 11.41.53] Successfully created [AutoSave] backup [2023-03-21 11.41.53 - auto.zip] requested by [CAD02:maxpijacki].
+[2023-03-21 11.41.53] Removing excessive [AutoSave] backup file [C:\lib\ghepplib\test_projects\Siemens\ProjectBackup\backups\2023-03-20 13.24.59 - auto.zip].
+[2023-03-21 11.41.53] [AutoSave] backup file [Siemens\ProjectBackup\backups\2023-03-20 13.24.59 - auto.zip] removed.
+[2023-03-21 15.41.53] Successfully created [AutoSave] backup [2023-03-21 15.41.53 - auto.zip] requested by [CAD02:maxpijacki].
+[2023-03-21 15.41.53] Removing excessive [AutoSave] backup file [C:\lib\ghepplib\test_projects\Siemens\ProjectBackup\backups\2023-03-20 17.24.59 - auto.zip].
+[2023-03-21 15.41.53] [AutoSave] backup file [Siemens\ProjectBackup\backups\2023-03-20 17.24.59 - auto.zip] removed.
+[2023-03-22 10.13.29] Successfully created [AutoSave] backup [2023-03-22 10.13.29 - auto.zip] requested by [CAD02:maxpijacki].
+[2023-03-22 10.13.29] Removing excessive [AutoSave] backup file [C:\lib\ghepplib\test_projects\Siemens\ProjectBackup\backups\2023-03-20 21.24.59 - auto.zip].
+[2023-03-22 10.13.29] [AutoSave] backup file [Siemens\ProjectBackup\backups\2023-03-20 21.24.59 - auto.zip] removed.
+[2023-03-22 10.19.40] Successfully created [Symbol Update] backup [2023-03-22 10.19.40 - symUpd.zip] requested by [CAD02:maxpijacki].
+[2023-03-22 10.19.40] Removing excessive [Symbol Update] backup file [C:\lib\ghepplib\test_projects\Siemens\ProjectBackup\backups\2023-03-09 16.08.22 - symUpd.zip].
+[2023-03-22 10.19.40] [Symbol Update] backup file [Siemens\ProjectBackup\backups\2023-03-09 16.08.22 - symUpd.zip] removed.
+[2023-03-22 10.19.51] Successfully created [Symbol Update] backup [2023-03-22 10.19.51 - symUpd.zip] requested by [CAD02:maxpijacki].
+[2023-03-22 10.19.51] Removing excessive [Symbol Update] backup file [C:\lib\ghepplib\test_projects\Siemens\ProjectBackup\backups\2023-03-22 10.19.40 - symUpd.zip].
+[2023-03-22 10.19.51] [Symbol Update] backup file [Siemens\ProjectBackup\backups\2023-03-22 10.19.40 - symUpd.zip] removed.
+[2023-03-22 14.13.29] Successfully created [AutoSave] backup [2023-03-22 14.13.29 - auto.zip] requested by [CAD02:maxpijacki].
+[2023-03-22 14.13.29] Removing excessive [AutoSave] backup file [C:\lib\ghepplib\test_projects\Siemens\ProjectBackup\backups\2023-03-21 11.41.53 - auto.zip].
+[2023-03-22 14.13.29] [AutoSave] backup file [Siemens\ProjectBackup\backups\2023-03-21 11.41.53 - auto.zip] removed.
+[2023-03-22 18.13.29] Successfully created [AutoSave] backup [2023-03-22 18.13.29 - auto.zip] requested by [CAD02:maxpijacki].
+[2023-03-22 18.13.29] Removing excessive [AutoSave] backup file [C:\lib\ghepplib\test_projects\Siemens\ProjectBackup\backups\2023-03-21 15.41.53 - auto.zip].
+[2023-03-22 18.13.29] [AutoSave] backup file [Siemens\ProjectBackup\backups\2023-03-21 15.41.53 - auto.zip] removed.
+[2023-03-23 09.52.25] Successfully created [AutoSave] backup [2023-03-23 09.52.24 - auto.zip] requested by [CAD02:maxpijacki].
+[2023-03-23 09.52.25] Removing excessive [AutoSave] backup file [C:\lib\ghepplib\test_projects\Siemens\ProjectBackup\backups\2023-03-22 10.13.29 - auto.zip].
+[2023-03-23 09.52.25] [AutoSave] backup file [Siemens\ProjectBackup\backups\2023-03-22 10.13.29 - auto.zip] removed.
+[2023-03-23 13.52.24] Successfully created [AutoSave] backup [2023-03-23 13.52.24 - auto.zip] requested by [CAD02:maxpijacki].
+[2023-03-23 13.52.24] Removing excessive [AutoSave] backup file [C:\lib\ghepplib\test_projects\Siemens\ProjectBackup\backups\2023-03-22 14.13.29 - auto.zip].
+[2023-03-23 13.52.24] [AutoSave] backup file [Siemens\ProjectBackup\backups\2023-03-22 14.13.29 - auto.zip] removed.
+[2023-03-23 20.03.04] Successfully created [Symbol Update] backup [2023-03-23 20.03.04 - symUpd.zip] requested by [CAD02:maxpijacki].
+[2023-03-23 20.03.04] Removing excessive [Symbol Update] backup file [C:\lib\ghepplib\test_projects\Siemens\ProjectBackup\backups\2023-03-22 10.19.51 - symUpd.zip].
+[2023-03-23 20.03.04] [Symbol Update] backup file [Siemens\ProjectBackup\backups\2023-03-22 10.19.51 - symUpd.zip] removed.
+[2023-03-24 11.28.32] Successfully created [AutoSave] backup [2023-03-24 11.28.31 - auto.zip] requested by [CAD02:maxpijacki].
+[2023-03-24 11.28.32] Removing excessive [AutoSave] backup file [C:\lib\ghepplib\test_projects\Siemens\ProjectBackup\backups\2023-03-22 18.13.29 - auto.zip].
+[2023-03-24 11.28.32] [AutoSave] backup file [Siemens\ProjectBackup\backups\2023-03-22 18.13.29 - auto.zip] removed.
+[2023-03-24 15.28.31] Successfully created [AutoSave] backup [2023-03-24 15.28.31 - auto.zip] requested by [CAD02:maxpijacki].
+[2023-03-24 15.28.31] Removing excessive [AutoSave] backup file [C:\lib\ghepplib\test_projects\Siemens\ProjectBackup\backups\2023-03-23 09.52.24 - auto.zip].
+[2023-03-24 15.28.31] [AutoSave] backup file [Siemens\ProjectBackup\backups\2023-03-23 09.52.24 - auto.zip] removed.
+[2023-03-31 09.44.30] Successfully created [AutoSave] backup [2023-03-31 09.44.30 - auto.zip] requested by [CAD02:maxpijacki].
+[2023-03-31 09.44.30] Removing excessive [AutoSave] backup file [C:\lib\ghepplib\test_projects\Siemens\ProjectBackup\backups\2023-03-23 13.52.24 - auto.zip].
+[2023-03-31 09.44.30] [AutoSave] backup file [Siemens\ProjectBackup\backups\2023-03-23 13.52.24 - auto.zip] removed.
+[2023-03-31 13.44.30] Successfully created [AutoSave] backup [2023-03-31 13.44.30 - auto.zip] requested by [CAD02:maxpijacki].
+[2023-03-31 13.44.30] Removing excessive [AutoSave] backup file [C:\lib\ghepplib\test_projects\Siemens\ProjectBackup\backups\2023-03-24 11.28.31 - auto.zip].
+[2023-03-31 13.44.30] [AutoSave] backup file [Siemens\ProjectBackup\backups\2023-03-24 11.28.31 - auto.zip] removed.
