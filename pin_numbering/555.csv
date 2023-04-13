@@ -1,0 +1,9 @@
+Pin Label,Pin Number
+GND,1
+TRIG,2
+OUT,3
+RESET_N,4
+CONT,5
+THRESH,6
+DISCH,7
+VCC,8
