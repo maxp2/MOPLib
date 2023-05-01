@@ -564,7 +564,7 @@ def import_from_old_db():
             if(link == '' or link == 0):
                 pass
             else:
-                #Full CAD_datum creaion not needed for part
+                #Full CAD_datum creation not needed for part
                 #links already updated to new indices
                 p.CAD_data.append(CAD_datum(link))
         if(debug_flag):
