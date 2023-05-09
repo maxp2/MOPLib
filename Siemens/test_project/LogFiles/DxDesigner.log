@@ -252,3 +252,6 @@ ICDB server [info]: Starting [SymbolUpdate] backup process
 ICDB server [info]: [Symbol Update] backup of size [332.6 kB] created successfully in location [C:\lib\ghepplib\Siemens\test_project\ProjectBackup\backups\2023-05-01 16.16.04 - symUpd.zip]
 ICDB server [info]: Starting [Autosave] backup process
 ICDB server [info]: [AutoSave] backup of size [333.6 kB] created successfully in location [C:\lib\ghepplib\Siemens\test_project\ProjectBackup\backups\2023-05-01 18.25.38 - auto.zip]
+ICDB server [info]: [AutoSave] backup of size [331.4 kB] created successfully in location [C:\lib\ghepplib\Siemens\test_project\ProjectBackup\backups\2023-05-08 12.19.47 - auto.zip]
+ICDB server [info]: Starting [Autosave] backup process
+ICDB server [info]: [AutoSave] backup of size [333.5 kB] created successfully in location [C:\lib\ghepplib\Siemens\test_project\ProjectBackup\backups\2023-05-08 16.19.47 - auto.zip]

@@ -1,0 +1,13 @@
+Pin Label,Pin Number
+PGND,1
+PGND,11
+VIN,2
+VIN,10
+BOOT,3
+FREQ,4
+VCC,5
+AGND,6
+FB,7
+PG,8
+EN,9
+SW,12

@@ -1,0 +1,11 @@
+Pin Label,Pin Number
+A1,1
+A0,2
+ALERT,3
+SDA,4
+SCL,5
+VS,6
+GND,7
+VBUS,8
+IN-,9
+IN+,10

@@ -1,0 +1,9 @@
+Pin Label,Pin Number
+REF,1
+PD,8
+NC1,5
+VS+,7
+VS-,4
+VIN+,3
+VIN-,2
+VOUT,6
