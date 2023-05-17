@@ -1,0 +1,9 @@
+Pin Label,Pin Number
+SDA,1
+SCL,2
+ALERT,3
+GND,4
+A2,5
+A1,6
+A0,7
+VCC,8

@@ -1,0 +1,7 @@
+Pin Order;Pin Label;Pin Number;Pin Type;Side;Inverted
+L1;LEFT_IN;B;IN;2;false
+R1;RIGHT_OUT;1;OUT;3;false
+T1;TOP;2;IN;0;false
+B1;BOTTOM;A1;IN;1;false
+L2;LEFT_BI;A;BI;2;false
+R2;RIGHT_ANALOG;3;ANALOG;3;false
