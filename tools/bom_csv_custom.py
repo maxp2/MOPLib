@@ -89,6 +89,7 @@
 import kicad_netlist_reader
 import csv
 import sys
+import copy
 
 # Generate an instance of a generic netlist, and load the netlist tree from
 # the command line option. If the file doesn't exist, execution will stop
@@ -201,7 +202,6 @@ class BOM_component_t:
         self.manufacturer              = component.getField("manufacturer"            )
         self.manufacturer_part_number  = component.getField("manufacturer_part_number")
         self.max_current               = component.getField("max_current"             )
-        self.multiplier                = component.getField("multiplier"              )
         self.note                      = component.getField("note"                    )
         self.power                     = component.getField("power"                   )
         self.quantity                  = 1
@@ -215,11 +215,26 @@ class BOM_component_t:
         self.tolerance                 = component.getField("tolerance")
         self.value                     = component.getValue()
         self.voltage                   = component.getField("voltage")
+        
+        
+        local_multiplier               = component.getField("multiplier"              )
+        if (local_multiplier == ""):
+            self.multiplier = 1
+        elif (local_multiplier == "DNP"):
+            self.multiplier = 0
+        elif (local_multiplier == "DNI"):
+            self.multiplier = 0
+        elif (local_multiplier == "NP"):
+            self.multiplier = 0
+        else :
+            # No error handling for bad input - script crashes
+            self.multiplier = int(local_multiplier)
     
     # All except
-    # - multiplier
     # - quantity
     # - reference_designator
+    # The multiplier can represent whether a component is 
+    # optional and thus considered a design detail
     def compare_design_data(self, BOM_component2):
         if(self.capacitance              != BOM_component2.capacitance              ): return False
         if(self.coupling                 != BOM_component2.coupling                 ): return False
@@ -244,6 +259,9 @@ class BOM_component_t:
         if(self.tolerance                != BOM_component2.tolerance                ): return False
         if(self.value                    != BOM_component2.value                    ): return False
         if(self.voltage                  != BOM_component2.voltage                  ): return False
+        
+        if(self.multiplier == 0 and BOM_component2.multiplier != 0): return False
+        if(self.multiplier != 0 and BOM_component2.multiplier == 0): return False
         
         return True
     
@@ -331,26 +349,14 @@ for comp1i in range(0,len(icomps)):
 
 # Merge / collect duplicates in a copy (do not directly 
 # commit changes)
-ddcomps = icomps
+ddcomps = copy.deepcopy(icomps)
 for compi in range(0, len(ddcomps)):
     if (duplicate_info[compi].is_duplicate == True):
-        if (ddcomps[compi].multiplier == ""):
-            local_multiplier = 1
-        elif (ddcomps[compi].multiplier == "DNP"):
-            local_multiplier = 0
-        elif (ddcomps[compi].multiplier == "DNI"):
-            local_multiplier = 0
-        elif (ddcomps[compi].multiplier == "NP"):
-            local_multiplier = 0
-        else :
-            # No error handling for bad input - script crashes
-            local_multiplier = int(ddcomps[compi].multiplier)
-        
         # Push to original / non-duplicate    
         # ddcomps[compi].quantity*local_multiplier is not 
         # correct - multiplier applies to a single component
         # instance
-        ddcomps[duplicate_info[compi].duplicate_of].quantity += local_multiplier
+        ddcomps[duplicate_info[compi].duplicate_of].quantity += ddcomps[compi].multiplier
         ddcomps[duplicate_info[compi].duplicate_of].reference_designator += ", " + ddcomps[compi].reference_designator
 
 """
