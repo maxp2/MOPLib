@@ -3,3 +3,5 @@ __pycache__
 *.dcm
 .~lock*
 Siemens/test_project/ProjectBackup/backups/*
+tools/outputs/*
+tools/kicad_netlist_reader.py
