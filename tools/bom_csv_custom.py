@@ -63,6 +63,12 @@
     'value'                   
     'voltage'                 
     
+    The 'multiplier' field is a a BOM quantity multiplier
+    and not a design multiplier. Some CAD tools support 
+    design multipliers ("block instances") but typically 
+    assign unique reference designators to each subcomponent 
+    of each instance.
+    
     This script converts the multiplier from text to an 
     integer based on the following rules:
     ◦ Empty ("") → 1
@@ -75,7 +81,7 @@
     component, the total number of components after 
     deduplication is then the sum of the multipliers.
     
-    Script last tested 2023-06-03 in KiCAD 5.1.8 release 
+    Script last tested 2023-08-01 in KiCAD 5.1.8 release 
     build
     
     Requires kicad_netlist_reader.py which ships with KiCAD.
@@ -356,7 +362,12 @@ for compi in range(0, len(ddcomps)):
         # ddcomps[compi].quantity*local_multiplier is not 
         # correct - multiplier applies to a single component
         # instance
-        ddcomps[duplicate_info[compi].duplicate_of].quantity += ddcomps[compi].multiplier
+        
+        if (ddcomps[compi].multiplier == 0):
+            local_multiplier = 1
+        else:
+            local_multiplier = ddcomps[compi].multiplier
+        ddcomps[duplicate_info[compi].duplicate_of].quantity += local_multiplier
         ddcomps[duplicate_info[compi].duplicate_of].reference_designator += ", " + ddcomps[compi].reference_designator
 
 """
