@@ -51,7 +51,8 @@
     'multiplier'              
     'note'                    
     'power'                   
-    'quantity'                
+    'design_quantity'         
+    'usage_quantity'          
     'reference_designator'    
     'resistance'              
     'sat_current'             
@@ -63,7 +64,7 @@
     'value'                   
     'voltage'                 
     
-    The 'multiplier' field is a a BOM quantity multiplier
+    The 'multiplier' field is a BOM quantity multiplier
     and not a design multiplier. Some CAD tools support 
     design multipliers ("block instances") but typically 
     assign unique reference designators to each subcomponent 
@@ -81,7 +82,10 @@
     component, the total number of components after 
     deduplication is then the sum of the multipliers.
     
-    Script last tested 2023-08-01 in KiCAD 5.1.8 release 
+    TODO: split DNI functionality from 0 in multiplier field
+     to "is_used" flag for clarity and more flexibility.
+    
+    Script last tested 2023-08-30 in KiCAD 5.1.8 release 
     build
     
     Requires kicad_netlist_reader.py which ships with KiCAD.
@@ -122,7 +126,8 @@ class BOM_component_t:
         'Multiplier'              ,
         'Note'                    ,
         'Power'                   ,
-        'Quantity'                ,
+        'Design Quantity'         ,
+        'Usage Quantity'          ,
         'Reference Designator'    ,
         'Resistance'              ,
         'Saturation Current'      ,
@@ -152,7 +157,8 @@ class BOM_component_t:
         'multiplier'                : self.multiplier              ,
         'note'                      : self.note                    ,
         'power'                     : self.power                   ,
-        'quantity'                  : self.quantity                ,
+        'design_quantity'           : self.design_quantity         ,
+        'usage_quantity'            : self.usage_quantity          ,
         'reference_designator'      : self.reference_designator    ,
         'resistance'                : self.resistance              ,
         'sat_current'               : self.sat_current             ,
@@ -183,7 +189,8 @@ class BOM_component_t:
         row +=self.multiplier                    + delimiter
         row +=self.note                          + delimiter
         row +=self.power                         + delimiter
-        row +=str(self.quantity                ) + delimiter
+        row +=str(self.design_quantity         ) + delimiter
+        row +=str(self.usage_quantity          ) + delimiter
         row +=self.reference_designator          + delimiter
         row +=self.resistance                    + delimiter
         row +=self.sat_current                   + delimiter
@@ -210,7 +217,8 @@ class BOM_component_t:
         self.max_current               = component.getField("max_current"             )
         self.note                      = component.getField("note"                    )
         self.power                     = component.getField("power"                   )
-        self.quantity                  = 1
+        self.design_quantity           = 0
+        self.usage_quantity            = 0
         self.reference_designator      = component.getRef()
         self.resistance                = component.getField("resistance" )
         self.sat_current               = component.getField("sat_current")
@@ -237,7 +245,8 @@ class BOM_component_t:
             self.multiplier = int(local_multiplier)
     
     # All except
-    # - quantity
+    # - design_quantity
+    # - usage_quantity
     # - reference_designator
     # The multiplier can represent whether a component is 
     # optional and thus considered a design detail
@@ -273,7 +282,8 @@ class BOM_component_t:
     
     # All except
     # - multiplier
-    # - quantity
+    # - design_quantity
+    # - usage_quantity
     # - note
     # - reference_designator
     # - symbol_description
@@ -357,17 +367,17 @@ for comp1i in range(0,len(icomps)):
 # commit changes)
 ddcomps = copy.deepcopy(icomps)
 for compi in range(0, len(ddcomps)):
-    if (duplicate_info[compi].is_duplicate == True):
+    if (duplicate_info[compi].is_duplicate == False):
+        ddcomps[compi].design_quantity += max(ddcomps[compi].multiplier,1)
+        ddcomps[compi].usage_quantity  += ddcomps[compi].multiplier
+    else:
         # Push to original / non-duplicate    
         # ddcomps[compi].quantity*local_multiplier is not 
         # correct - multiplier applies to a single component
         # instance
         
-        if (ddcomps[compi].multiplier == 0):
-            local_multiplier = 1
-        else:
-            local_multiplier = ddcomps[compi].multiplier
-        ddcomps[duplicate_info[compi].duplicate_of].quantity += local_multiplier
+        ddcomps[duplicate_info[compi].duplicate_of].design_quantity += max(ddcomps[compi].multiplier,1)
+        ddcomps[duplicate_info[compi].duplicate_of].usage_quantity  += ddcomps[compi].multiplier
         ddcomps[duplicate_info[compi].duplicate_of].reference_designator += ", " + ddcomps[compi].reference_designator
 
 """
