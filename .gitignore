@@ -5,3 +5,5 @@ __pycache__
 Siemens/test_project/ProjectBackup/backups/*
 tools/outputs/*
 tools/kicad_netlist_reader.py
+*.json.bak
+database/*

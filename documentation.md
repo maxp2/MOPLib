@@ -1,4 +1,8 @@
-ECAD Conventions 
+# Dependencies
+
+
+
+# ECAD Conventions 
 These are necessary for BOM exporter compatibility
 KiCAD:
     1. Custom Fields:
@@ -34,6 +38,16 @@ https://alternativeto.net/software/bomist/about/
 https://alternativeto.net/software/partkeepr/about/
 
 Top options are InvenTree and PartKeepr
+
+# MariaDB Setup
+
+```
+sudo mysql_install_db --datadir ./
+sudo mysqld -u root --datadir=./ --verbose --log_error=./errors.log
+sudo mariadb
+create user admin;
+mariadb -u admin
+```
 
 # Planned Work / TODO
 
