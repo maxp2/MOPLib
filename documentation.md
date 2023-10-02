@@ -19,9 +19,27 @@ KiCAD:
     2. Use fiducial place holders for connection-less additional BOM items (gender adapters, screws, mechanical items, if mechanical items are stored in electrical schematics for the given project)
     3. Use resistors and proper connectivity for placeholders of additional BOM items that can be represented as parasitics: pin inserts, wires, etc.
 
+# Inventory Integration
+
+Some options:
+
+https://alternativeto.net/software/inventree/about/
+https://alternativeto.net/software/partbolt/about/
+https://alternativeto.net/software/partsbox/about/
+https://alternativeto.net/software/axt-parts/about/
+https://alternativeto.net/software/snipe-it/about/
+https://alternativeto.net/software/storedown/about/
+https://alternativeto.net/software/part-db/about/
+https://alternativeto.net/software/bomist/about/
+https://alternativeto.net/software/partkeepr/about/
+
+Top options are InvenTree and PartKeepr
 
 # Planned Work / TODO
 
 - BOM exporter
   - implement merging of components with notes
   - implement new "construction" property applicable to resistors (wirewound, thin film, thick film, etc.)
+  - Dual pretty and field names in column titles for quick editing
+  - Change to new multiplier strategy (BOM, schematic and/or layout)
+  - (s) on Ref designators

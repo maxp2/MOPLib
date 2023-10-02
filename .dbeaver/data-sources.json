@@ -1,0 +1,29 @@
+{
+	"folders": {},
+	"connections": {
+		"sqlite_jdbc-18af21c024a-760e61ec533cdaa4": {
+			"provider": "sqlite",
+			"driver": "sqlite_jdbc",
+			"name": "database.db",
+			"save-password": true,
+			"configuration": {
+				"database": "/mnt/Work/Work/Non-Confidential/Custom_General_Purpose_Tools/ghepplib/database.db",
+				"url": "jdbc:sqlite:/mnt/Work/Work/Non-Confidential/Custom_General_Purpose_Tools/ghepplib/database.db",
+				"configurationType": "MANUAL",
+				"type": "dev",
+				"auth-model": "native"
+			}
+		}
+	},
+	"connection-types": {
+		"dev": {
+			"name": "Development",
+			"color": "255,255,255",
+			"description": "Regular development database",
+			"auto-commit": true,
+			"confirm-execute": false,
+			"confirm-data-change": false,
+			"auto-close-transactions": false
+		}
+	}
+}
