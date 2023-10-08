@@ -1,32 +1,30 @@
 {
 	"folders": {},
 	"connections": {
-		"sqlite_jdbc-18af21c024a-760e61ec533cdaa4": {
+		"sqlite_jdbc-18b0d67c367-39af2fecd7702fdb": {
 			"provider": "sqlite",
 			"driver": "sqlite_jdbc",
 			"name": "database.db",
 			"save-password": true,
 			"configuration": {
-				"database": "/mnt/Work/Work/Non-Confidential/Custom_General_Purpose_Tools/ghepplib/database.db",
-				"url": "jdbc:sqlite:/mnt/Work/Work/Non-Confidential/Custom_General_Purpose_Tools/ghepplib/database.db",
+				"database": "/mnt/Work/Work/Non-Confidential/Custom_General_Purpose_Tools/opplib/database.db",
+				"url": "jdbc:sqlite:/mnt/Work/Work/Non-Confidential/Custom_General_Purpose_Tools/opplib/database.db",
 				"configurationType": "MANUAL",
 				"type": "dev",
 				"auth-model": "native"
 			}
 		},
-		"mariaDB-18af26dfe07-587fda3c9427ba1f": {
-			"provider": "mysql",
-			"driver": "mariaDB",
-			"name": "localhost",
+		"csvjdbc_dbf-18b0dcbcf72-2b7180cff2de1028": {
+			"provider": "generic",
+			"driver": "csvjdbc_dbf",
+			"name": "temp",
+			"save-password": true,
 			"configuration": {
-				"host": "localhost",
-				"port": "3306",
-				"url": "jdbc:mariadb://localhost:3306/",
+				"database": "/mnt/Work/Work/Non-Confidential/Custom_General_Purpose_Tools/opplib/temp",
+				"url": "jdbc:relique:csv:/mnt/Work/Work/Non-Confidential/Custom_General_Purpose_Tools/opplib/temp",
 				"configurationType": "MANUAL",
 				"type": "dev",
-				"auth-model": "native",
-				"events": {},
-				"handlers": {}
+				"auth-model": "native"
 			}
 		}
 	},
