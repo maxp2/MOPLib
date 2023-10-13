@@ -13,7 +13,8 @@ Not to be confused with Seeed Studio's Open Parts Library
 
 -   Multi-CAD tool support
 -   Data reuse where reasonable
--   Quality control: revision controlled, standard compliant, production
+-   Quality control: revision controlled, standards 
+    compliant, production
     tested
 -   Uniform look, size, and style across CAD tools
 -   User friendly: good-looking, paper print readable, publication
@@ -21,6 +22,12 @@ Not to be confused with Seeed Studio's Open Parts Library
 -   Low coupling with optimization for different use cases (design
     density, formatting preferences, etc.)
 -   Wide manufacturing technology support
+
+# Related Tools
+
+- https://www.footprintku.com/Home
+- https://www.snapeda.com/home/
+- https://octopart.com/
 
 # Dependencies
 
@@ -34,10 +41,11 @@ Not to be confused with Seeed Studio's Open Parts Library
 - GCC
   - For management tools
 - SQLite
+- Qrbot (Android, optional but recommended tool for barcoding)
 
 # Used On
 
--   Caribou v2.0 project
+-   Caribou v2 project
 -   Internal (confidential) projects at contributor sites
 
 # Primary Developers
@@ -45,7 +53,71 @@ Not to be confused with Seeed Studio's Open Parts Library
 -   Brookhaven National Laboratory
 -   Carleton University Particle Physics Instrumentation Group
 
+
+# Table Descriptions
+
+Primary keys in each table are indicated with "PK"
+
+-   CAD_table
+    -   Relates parts to the **preferred** CAD files. A single part can
+        have many CAD models or data files but only a few are preferred
+        and/or tested.
+    -   MFG = Manufacturer
+    -   PN = Part Number. This is the primary manufacturer part number
+        (not distributor, not internal)
+    -   All symbols, footprints, and simulation models are references to
+        CAD files in the Data_table
+-   Data_table
+    -   path: This can be a path to a file or a section of a file.
+        -   If this refers to sections of a file, identifiers relevant
+            to each CAD tool should be used.
+        -   Symbols recognized by the CAD tool can be used. This is
+            useful for default libraries.
+    -   author: The most recent editor of the data. As soon as the data
+        or a file is modified, the author is considered to have changed.
+        This is for liability tracing
+    -   release_version:
+        -   If a default library is used, the exact release version
+            should be indicated.
+        -   If a file was directly downloaded from a manufacturer, the
+            date of the download should be indicated.
+    -   sym_group:
+        -   Some parts are best represented by multiple separate
+            symbols. This indicates that they should be grouped
+            together.
+    -   deployment_history: A short description of the harshest
+        environmental deployment that the design within the file has
+        survived. Examples include "not deployed", "functional",
+        "functional after shock and vibration testing...", "functional
+        after high temperature testing..."
+
+## Database Integrity
+
+By default, SQLite doesn't have Foreign Key constraints enabled.
+
+They were enable with:
+
+```
+PRAGMA foreign_keys = ON;
+```
+
+No good method good be found to automatically ensure UUID 
+uniqueness in the database directly via the SQLite database 
+structure.
+
+A (64 bit integer) UUID can be generated with the following 
+SQL for SQlite:
+
+```
+select max(parts.UUID), max(CAD_data.UUID)+1 from parts, CAD_data;
+select max(max(parts.UUID), max(CAD_data.UUID))+1 from parts, CAD_data;
+```
+
+
 # IP Control
+
+
+## License
 
 -   See License File
 -   Data can be imported from manufacturers into this library only if
@@ -55,6 +127,39 @@ Not to be confused with Seeed Studio's Open Parts Library
     libraries. If data is modified or customized, it should first be
     copied to the custom libraries. The indicated author should also
     change.
+
+## Directory Structure
+
+.
+├── Altium
+│   ├── custom
+│   ├── document_templates
+│   └── test_project
+├── FreeCAD
+│   └── custom
+├── golden_BOMs
+├── KiCAD
+│   ├── custom : full custom by library authors
+│   ├── import_variant : import from any external source with modifications
+│   ├── mfg_import : direct import from part manufacturers (no changes)
+│   └── SnapEDA_import : direct import from SnapEDA (no changes)
+├── LTSPice : models
+├── mechanical
+│   └── custom : fully custom by library authors
+├── mfg_supplied : source CAD data that was supplied by manufacturers (any format) 
+├── ngspice : models
+├── part_specs
+├── pin_numbering
+├── PSpice : models
+├── Siemens : DxDesigner
+│   ├── borders
+│   ├── custom : fully custom by library authors
+│   ├── golden_symbols : known good symbols from legacy projects
+│   ├── mfg_import : direct import from manufacturers (no changes)
+│   ├── mfg_mod : import from external sources with modifications
+│   └── test_project
+├── SnapEDA_supplied : source CAD data as provided by SnapEDA
+└── tools
 
 # ECAD Conventions 
 These are necessary for BOM exporter compatibility
@@ -710,65 +815,6 @@ Part specifications: May vary but typically must be close
         -   \@DATETIME function worked correctly with \@DATETIME="" and
             \@DATETIME="@DATETIME". \@DATETIME="@DATETIME" is more
             practical for seeing and placing the property.
-
-# Table Descriptions
-
-Primary keys in each table are indicated with "PK"
-
--   CAD_table
-    -   Relates parts to the **preferred** CAD files. A single part can
-        have many CAD models or data files but only a few are preferred
-        and/or tested.
-    -   MFG = Manufacturer
-    -   PN = Part Number. This is the primary manufacturer part number
-        (not distributor, not internal)
-    -   All symbols, footprints, and simulation models are references to
-        CAD files in the Data_table
--   Data_table
-    -   path: This can be a path to a file or a section of a file.
-        -   If this refers to sections of a file, identifiers relevant
-            to each CAD tool should be used.
-        -   Symbols recognized by the CAD tool can be used. This is
-            useful for default libraries.
-    -   author: The most recent editor of the data. As soon as the data
-        or a file is modified, the author is considered to have changed.
-        This is for liability tracing
-    -   release_version:
-        -   If a default library is used, the exact release version
-            should be indicated.
-        -   If a file was directly downloaded from a manufacturer, the
-            date of the download should be indicated.
-    -   sym_group:
-        -   Some parts are best represented by multiple separate
-            symbols. This indicates that they should be grouped
-            together.
-    -   deployment_history: A short description of the harshest
-        environmental deployment that the design within the file has
-        survived. Examples include "not deployed", "functional",
-        "functional after shock and vibration testing...", "functional
-        after high temperature testing..."
-
-## Database Integrity
-
-By default, SQLite doesn't have Foreign Key constraints enabled.
-
-They were enable with:
-
-```
-PRAGMA foreign_keys = ON;
-```
-
-No good method good be found to automatically ensure UUID 
-uniqueness in the database directly via the SQLite database 
-structure.
-
-A (64 bit integer) UUID can be generated with the following 
-SQL for SQlite and adding 1:
-
-```
-select max(parts.UUID), max(CAD_data.UUID) from parts, CAD_data;
-select max(max(parts.UUID), max(CAD_data.UUID)) from parts, CAD_data;
-```
 
 # TODO
 
