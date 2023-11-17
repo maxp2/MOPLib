@@ -53,6 +53,9 @@ Not to be confused with Seeed Studio's Open Parts Library
 -   Brookhaven National Laboratory
 -   Carleton University Particle Physics Instrumentation Group
 
+# Usage Instructions
+
+# Management Instructions
 
 # Table Descriptions
 
@@ -815,6 +818,29 @@ Part specifications: May vary but typically must be close
         -   \@DATETIME function worked correctly with \@DATETIME="" and
             \@DATETIME="@DATETIME". \@DATETIME="@DATETIME" is more
             practical for seeing and placing the property.
+- PADS standard library location: "C:\MentorGraphics\PADSVX.2.10\SDD_HOME\Libraries\xDX_Designer\StarterLibrary\StarterLibrary.dbc"
+
+## Altium
+
+This Altium error was encountered: 
+
+[Database error](images/Altium_error.png){width="9.58cm"
+height="4.18cm"}
+
+(Image from <https://altiumlibrary.com/GetStarted/Troubleshooting> )
+
+Instructions here were necessary to install a database driver that
+Altium recognizes:
+
+<https://www.altium.com/documentation/altium-designer/using-database-libraries-with-32-64-bit-altium-design-software-same-computer>
+
+<http://www.microsoft.com/en-us/download/details.aspx?displaylang=en&id=13255>
+
+As administrator in cmd.exe:
+
+```
+AccessDatabaseEngine_X64.exe /passive
+```
 
 # TODO
 

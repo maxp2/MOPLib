@@ -26,6 +26,19 @@
 				"type": "dev",
 				"auth-model": "native"
 			}
+		},
+		"sqlite_jdbc-18b2c144a7b-28c9c35da652be9b": {
+			"provider": "sqlite",
+			"driver": "sqlite_jdbc",
+			"name": "database_test.db",
+			"save-password": true,
+			"configuration": {
+				"database": "/mnt/Work/Work/Non-Confidential/Custom_General_Purpose_Tools/moplib/database_test.db",
+				"url": "jdbc:sqlite:/mnt/Work/Work/Non-Confidential/Custom_General_Purpose_Tools/moplib/database_test.db",
+				"configurationType": "MANUAL",
+				"type": "dev",
+				"auth-model": "native"
+			}
 		}
 	},
 	"connection-types": {
