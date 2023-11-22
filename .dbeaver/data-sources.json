@@ -7,8 +7,8 @@
 			"name": "database.db",
 			"save-password": true,
 			"configuration": {
-				"database": "/mnt/Work/Work/Non-Confidential/Custom_General_Purpose_Tools/moplib/database.db",
-				"url": "jdbc:sqlite:/mnt/Work/Work/Non-Confidential/Custom_General_Purpose_Tools/moplib/database.db",
+				"database": "/mnt/Work/Work/Non-Confidential/Projects/MOPLib/database.db",
+				"url": "jdbc:sqlite:/mnt/Work/Work/Non-Confidential/Projects/MOPLib/database.db",
 				"configurationType": "MANUAL",
 				"type": "dev",
 				"auth-model": "native"

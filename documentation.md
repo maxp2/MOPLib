@@ -104,7 +104,7 @@ They were enable with:
 PRAGMA foreign_keys = ON;
 ```
 
-No good method good be found to automatically ensure UUID 
+No good method found to automatically ensure UUID 
 uniqueness in the database directly via the SQLite database 
 structure.
 
@@ -115,6 +115,14 @@ SQL for SQlite:
 select max(parts.UUID), max(CAD_data.UUID)+1 from parts, CAD_data;
 select max(max(parts.UUID), max(CAD_data.UUID))+1 from parts, CAD_data;
 ```
+
+## Useful SQL Queries
+
+```
+select 'BOM ID', UUID from parts where (manufacturer_part_number0 = "CRF0805-FZ-R020ELF") or (manufacturer_part_number1 = "CRF0805-FZ-R020ELF") or (manufacturer_part_number2 = "CRF0805-FZ-R020ELF");
+```
+
+```BOM ID``` is to be entered for reference to a spreadsheet 
 
 
 # IP Control
