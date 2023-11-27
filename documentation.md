@@ -23,11 +23,12 @@ Not to be confused with Seeed Studio's Open Parts Library
     density, formatting preferences, etc.)
 -   Wide manufacturing technology support
 
-# Related Tools
+# Related Tools and Standards
 
 - https://www.footprintku.com/Home
 - https://www.snapeda.com/home/
 - https://octopart.com/
+- https://www.jedec.org/category/technology-focus-area/jep30
 
 # Dependencies
 
@@ -124,9 +125,37 @@ select 'BOM ID', UUID from parts where (manufacturer_part_number0 = "CRF0805-FZ-
 
 ```BOM ID``` is to be entered for reference to a spreadsheet 
 
+General lookup: 
+
+```
+select UUID, manufacturer, manufacturer_part_number0 from parts where 
+(UUID = 1532) or
+(UUID = 1716) or
+...
+```
+
 
 # IP Control
 
+Most content is open source but some confidential information
+is inevitable
+
+- Confidential files are stored in dedicated folders and 
+  subfolders
+  - The existence of files and filenames are always 
+    considered non-confidential. Database linking is thus 
+    allowed and "tree" file lists are allowed.
+  - May be moved to non confidential after this is approved 
+    by the manufacturer and this is indicated in the database
+- Users can gain access to confidential section with an NDA
+  and must be very careful to recognize when information 
+  is transferred between the database an a non-confidential area.
+  For example, pin numbering from a confidential datasheet
+  will be added to the symbol. 
+  The symbol may be cached by the project so the project 
+  must become confidential.
+  It is possible to omit pin numbering for exported PDFs 
+  so only the source project remains confidential.
 
 ## License
 

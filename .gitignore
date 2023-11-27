@@ -3,6 +3,8 @@ __pycache__
 *.dcm
 .~lock*
 Siemens/test_project/ProjectBackup/backups/*
+Altium/custom/History/*
+Altium/custom/Project Logs for custom/*
 tools/outputs/*
 tools/kicad_netlist_reader.py
 *.json.bak
