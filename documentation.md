@@ -61,7 +61,7 @@ Not to be confused with Seeed Studio's Open Parts Library
 All CAD tools require copying the repository to an accessible location.
 It is recommended to choose a central location with no spaces in the path name.
 
-For example when admin/root priviliedges are available:
+For example when admin/root priviledges are available:
 
 - "C:\lib\MOPLib"
 - "/opt/MOPLib"
@@ -69,6 +69,9 @@ For example when admin/root priviliedges are available:
 - "/usr/local/lib/MOPLib"
 - "/lib/MOPLib"
 - "/lib64/MOPLib"
+
+When admin/root priveledges are unavailable, install in a 
+home/User folder.
 
 ## Siemens
 
@@ -841,12 +844,14 @@ AccessDatabaseEngine_X64.exe /passive
 
 # TODO
 
--   Table generators
-    -   database to Altium database with dblink file
-    -   database to DxDatabook database
--   Cleanup functions
-    -   CAD entry deduplicator with reference updates
--   Import functions
-    -   Digikey BOM
-    -   Mouser BOM
-    -   General BOM
+- Table generators
+  - database to Altium database with dblink file
+  - database to DxDatabook database
+- Cleanup functions
+  - CAD entry deduplicator with reference updates
+- PADS/Xpedition DxDatabook database generation tool and 
+  setup
+- Import functions
+  - Digikey BOM
+  - Mouser BOM
+  - General BOM

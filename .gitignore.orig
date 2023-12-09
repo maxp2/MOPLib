@@ -1,0 +1,17 @@
+__pycache__
+*.bck
+*.dcm
+.~lock*
+Siemens/test_project/ProjectBackup/backups/*
+<<<<<<< HEAD
+=======
+Siemens/test_project/database/cdbsvr/*
+Siemens/test_project/LogFiles/*
+>>>>>>> refs/remotes/origin/main
+Altium/custom/History/*
+Altium/custom/Project Logs for custom/*
+tools/outputs/*
+tools/kicad_netlist_reader.py
+*.json.bak
+database/*
+temp/*
