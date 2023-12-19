@@ -106,9 +106,16 @@ Alternately, directly edit the text files:
 
 TODO example
 
-~.config/kicad/fp-lib-table
+~/.config/kicad/fp-lib-table
 
-TODO example
+```
+...
+(lib (name MOPLib_custom)(type KiCad)(uri redacted/moplib/KiCAD/custom)(options "")(descr ""))
+(lib (name MOPLib_mfg_import)(type KiCad)(uri redacted/moplib/KiCAD/mfg_import)(options "")(descr ""))
+(lib (name MOPLib_SnapEDA_import)(type KiCad)(uri redacted/moplib/KiCAD/SnapEDA_import)(options "")(descr ""))
+(lib (name MOPLib_import_variant)(type KiCad)(uri redacted/moplib/KiCAD/import_variant)(options "")(descr ""))
+...
+```
 
 # Porting Designs
 

@@ -1,5 +1,5 @@
 
-(footprint SAMTEC-BTH-090-01-X-D-A (layer F.Cu) (tedit 65735533)
+(footprint SAMTEC-BTH-090-01-X-D-A (layer F.Cu) (tedit 65820639)
   (descr "translated Allegro footprint")
   (attr smd)
   (fp_text reference REF** (at -27.5345 -5.9485 0) (layer F.SilkS)
