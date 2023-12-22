@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<PartListerConfiguration version="3">
+  <Entry name="description" value="Custom Exporter - Single line per REFDES"/>
+  <Entry name="outputFormat" value="PLAIN"/>
+  <Entry name="outputFileExt" value="txt"/>
+  <Entry name="pagination" value="NO"/>
+  <Entry name="pagelength" value="65535"/>
+  <Entry name="delimiter" value=" |"/>
+  <Entry name="delimiterbefore" value="YES"/>
+  <Entry name="delimiterafter" value="YES"/>
+  <Entry name="addTitleRow" value="YES"/>
+  <Entry name="ignoreColumnWidths" value="NO"/>
+  <Header>
+    <Line text="Part Lister output for $(NAME)"/>
+    <Line text="Generated on $(DATE)"/>
+  </Header>
+  <Columns>
+    <Column type="NUMBER" label="#" width="3"/>
+    <Column type="SYSTEM" property="Id" label="CAD ID (Hidden)" width="3" visible="NO" display="Full"/>
+    <Column type="QUANTITY" label="QTY" width="5" sum="YES"/>
+    <Column type="PROPERTY" property="PART_ID" label="Part ID" width="8" justification="LEFT" key="PRIMARY" display="Unique"/>
+    <Column type="PROPERTY" property="MANUFACTURER" label="Manufacturer" width="32" justification="LEFT" sort="ASCENDING" priority="-3" key="PRIMARY" display="Unique"/>
+    <Column type="PROPERTY" property="MANUFACTURER_PART_NUMBER" label="Manufacturer Part Number" width="32" justification="LEFT" sort="ASCENDING" priority="-2" key="PRIMARY" display="Unique"/>
+    <Column type="PROPERTY" property="DEVICE" label="Device" width="64" justification="LEFT" display="Unique"/>
+    <Column type="PROPERTY" property="PACKAGE_ID" label="Package ID" width="8" justification="LEFT" display="Unique"/>
+    <Column type="PROPERTY" property="PKG_TYPE" label="Footprint" width="15" justification="LEFT" display="Unique"/>
+    <Column type="PROPERTY" property="SYMBOL_ID" label="Symbol ID" width="9" justification="LEFT" display="Full"/>
+    <Column type="SYSTEM" property="Symbol Name" label="Symbol Name" width="64" display="Full"/>
+    <Column type="PROPERTY" property="REFDES_PREFIX" label="RefDespr" width="8" justification="LEFT" display="Unique"/>
+    <Column type="PROPERTY" property="REFDES" label="Reference Designator" width="15" justification="LEFT" sort="ASCENDING" key="SECONDARY" display="Unique"/>
+    <Column type="PROPERTY" property="DESCRIPTION" label="Description" width="64" justification="LEFT" display="Full"/>
+    <Column type="PROPERTY" property="VALUE" label="Value" width="64" display="Unique"/>
+    <Column type="PROPERTY" property="RESISTANCE" label="Resistance" width="5" justification="LEFT" display="Full"/>
+    <Column type="PROPERTY" property="CAPACITANCE" label="Capacitance" width="11" justification="LEFT" display="Full"/>
+    <Column type="PROPERTY" property="INDUCTANCE" label="Inductance" width="10" justification="LEFT" display="Full"/>
+    <Column type="PROPERTY" property="IMPEDANCE" label="Impedance" width="9" justification="LEFT" display="Full"/>
+    <Column type="PROPERTY" property="IMPEDANCE_FREQUENCY" label="Impedance Frequency" width="19" justification="LEFT" display="Full"/>
+    <Column type="PROPERTY" property="TOLERANCE" label="Tolerance" width="9" justification="LEFT" display="Full"/>
+    <Column type="PROPERTY" property="COUPLING" label="Coupling" width="8" justification="LEFT" display="Full"/>
+    <Column type="PROPERTY" property="DIELECTRIC" label="Dielectric" width="10" justification="LEFT" display="Full"/>
+    <Column type="PROPERTY" property="VOLTAGE" label="Capacitance" width="11" justification="LEFT" display="Full"/>
+    <Column type="PROPERTY" property="MAX_CURRENT" label="Max Current" width="11" justification="LEFT" display="Full"/>
+    <Column type="PROPERTY" property="SAT_CURRENT" label="Saturation Current" width="18" justification="LEFT" display="Full"/>
+    <Column type="PROPERTY" property="POWER" label="Power" width="11" justification="LEFT" display="Full"/>
+    <Column type="PROPERTY" property="TEMPCO" label="Tempco" width="6" justification="LEFT" display="Unique"/>
+    <Column type="PROPERTY" property="ESL" label="ESL" width="5" justification="LEFT" display="Full"/>
+    <Column type="PROPERTY" property="ESR" label="ESR" width="5" justification="LEFT" display="Full"/>
+    <Column type="PROPERTY" property="SRF" label="SRF" width="5" justification="LEFT" display="Full"/>
+    <Column type="PROPERTY" property="COLOR" label="Color" width="5" justification="LEFT" display="Full"/>
+    <Column type="PROPERTY" property="LEVEL" label="Level" width="64" justification="LEFT" display="Full"/>
+    <Column type="PROPERTY" property="SIM_MODEL" label="Simulation Model" width="16" justification="LEFT" display="Unique"/>
+    <Column type="PROPERTY" property="SIM_MODEL_FILE" label="Simulation Model File" width="21" justification="LEFT" display="Unique"/>
+    <Column type="PROPERTY" property="DXDB_LIBNAME" label="DxDatabook Library" width="18" justification="LEFT" display="Full"/>
+    <Column type="PROPERTY" property="HETERO" label="Hetero" width="128" justification="LEFT" display="Full"/>
+    <Column type="PROPERTY" property="HETERO_SYMNAME" label="HETERO_SYMNAME" width="64" justification="LEFT" display="Full"/>
+    <Column type="PROPERTY" property="ASSEMBLY_OPTIONS" label="Assembly Options" width="64" justification="LEFT" display="Full"/>
+    <Column type="PROPERTY" property="IS_INSTALLED" label="Is Installed?" width="13" justification="LEFT" display="Full"/>
+    <Column type="PROPERTY" property="MULTIPLIER" label="Multiplier" width="5" justification="LEFT" display="Full"/>
+    <Column type="PROPERTY" property="DESIGN_NOTE" label="Design Note" width="64" justification="LEFT" display="Full"/>
+    <Column type="SYSTEM" property="Path" label="Path" width="64" display="Full"/>
+    <Column type="SYSTEM" property="Board" label="Board" width="64" display="Full"/>
+    <Column type="SYSTEM" property="Sheet" label="Sheet" width="64" display="Full"/>
+    <Column type="SYSTEM" property="Block" label="Block" width="64" display="Full"/>
+    <Column type="SYSTEM" property="@XYCOORD" label="Coordinates" width="64" display="Full"/>
+    <Column type="SYSTEM" property="Name" label="Name" width="64" display="Full"/>
+    <Column type="PROPERTY" property="Variant Info" label="Variant Info" width="64" display="Full"/>
+  </Columns>
+</PartListerConfiguration>
