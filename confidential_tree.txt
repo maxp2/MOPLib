@@ -1,0 +1,18 @@
+./confidential
+├── [ 806 Nov 24 14:42]  pin_numbering
+│   └── [ 806 Nov 24 14:13]  PI3L2500.csv
+└── [ 41K Dec 22  2:20]  Siemens
+    ├── [7.8K Nov 24 21:26]  custom
+    │   ├── [   0 Nov 24 14:26]  ole
+    │   ├── [   0 Nov 24 21:23]  SCH
+    │   │   ├── [   0 Nov 24 21:23]  BAC
+    │   │   └── [   0 Nov 24 21:23]  SAV
+    │   ├── [7.8K Nov 24 21:26]  sym
+    │   │   ├── [   0 Nov 24 21:23]  BAC
+    │   │   ├── [6.0K Nov 24 14:42]  PI3L2500_io.1
+    │   │   ├── [1.8K Nov 24 14:28]  PI3L2500_pwr.1
+    │   │   └── [   0 Nov 24 21:23]  SAV
+    │   └── [   0 Nov 24 21:23]  WIR
+    └── [ 33K Dec 22  2:04]  netlist.prp
+
+  42K used in 11 directories, 4 files

@@ -1,0 +1,2174 @@
+commit ecd3ec19d3437e504b0bea91236732a9fd70b2d9
+Author: maxp5 <>
+Date:   Fri Dec 22 14:42:55 2023 -0500
+
+    Minor documentation change
+
+M	documentation.md
+
+commit e9ba947a0390fdca0ffe5ad5354634a1e66b6a8a
+Author: maxp5 <>
+Date:   Fri Dec 22 14:42:55 2023 -0500
+
+    Minor documentation change
+
+M	documentation.md
+
+commit 30be921c90fbdef8eebd593e43d156b4ac9b09bc
+Merge: 49ef820 fbd9ffa
+Author: user0 <user0@localhost.localdomain>
+Date:   Fri Dec 22 13:21:25 2023 -0500
+
+    Merge
+
+commit 49ef820246149f8f874722cae497d70e7ce9d31c
+Author: user0 <user0@localhost.localdomain>
+Date:   Fri Dec 22 13:09:40 2023 -0500
+
+    New or updated KiCAD 7 symbols and footprints
+
+M	.gitignore
+A	KiCAD/custom.kicad_sym
+A	KiCAD/custom/Bourns_SRP6030VA.kicad_mod
+M	KiCAD/custom/Bourns_SRP6030WA.kicad_mod
+A	KiCAD/custom/Littelfuse_NANO2_0456_20.kicad_mod
+A	KiCAD/custom/Pulse_PA5140.kicad_mod
+A	KiCAD/custom/lpGBT_BGA-289_17x17_P500_D320.kicad_mod
+A	KiCAD/import_variant/DF40C_CERN_VTRxplus.kicad_mod
+
+commit fbd9ffaf22b3f2f31fd7be93303034061d9cd58b
+Merge: e5afd78 cd66a38
+Author: maxp5 <>
+Date:   Fri Dec 22 12:58:40 2023 -0500
+
+    Merge
+
+commit e5afd78086f852322cd7687b92acd3997bd84a2c
+Author: maxp5 <>
+Date:   Fri Dec 22 12:40:13 2023 -0500
+
+    New PADS symbols. PADS test project update. New PADS BOM exporter template. General documentation improvements including new debug info.
+
+M	.gitignore
+A	Siemens/custom/sym/BUK9Y113_100E.1
+A	Siemens/custom/sym/GCT_USB4055.1
+A	Siemens/custom/sym/ISO1640_8_D.1
+M	Siemens/custom/sym/MP4323.1
+A	Siemens/custom/sym/NCV8730BADJ.1
+D	Siemens/test_project/LogFiles/DxDesigner.log
+D	Siemens/test_project/ProjectBackup/backups/2023-05-01 16.16.04 - symUpd.zip
+M	Siemens/test_project/database/cdbsvr/events/events.dat
+D	Siemens/test_project/database/cdbsvr/log/2023-04-11 16.23.51-2032/2023.04.11.txt
+M	Siemens/test_project/database/icdb.dat
+M	documentation.md
+A	pin_numbering/ISO1640_8_D.csv
+A	tools/SingleLinePerRefDes.ipl
+
+commit cd66a38a4996bf30343295d9e23f124b0e2b518f
+Author: maxp5 <>
+Date:   Fri Dec 22 12:31:46 2023 -0500
+
+    New PADS BOM exporter template. Database additions and general cleanup including part deduplication.
+
+M	database.db
+A	pin_numbering/GCT_USB4055.csv
+A	tools/full_dump_plain_text.ipl
+
+commit b177f55030961b846a30231918c818c74817755f
+Author: maxp5 <>
+Date:   Tue Dec 19 16:16:48 2023 -0500
+
+    New CAD data
+
+A	KiCAD/SnapEDA_import/BSH-090-01-X-D-A-X.step
+A	KiCAD/SnapEDA_import/CONN_DF40C_2.0_-40DS-0.4V_51_.kicad_mod
+M	KiCAD/SnapEDA_import/SAMTEC-BTH-090-01-X-D-A.kicad_mod
+M	KiCAD/SnapEDA_import/SAMTEC-BTH-090-01-X-D-A.step
+A	KiCAD/SnapEDA_import/SAMTEC_BSH-090-01-X-D-A-X.kicad_mod
+A	SnapEDA_supplied/BSH-090-01-X-D-A-X.zip
+A	SnapEDA_supplied/DF40C_2.0_-40DS-0.4V_51_.zip
+M	SnapEDA_supplied/SAMTEC-BTH-090-01-X-D-A.zip
+M	documentation.md
+
+commit a147b7ede77ecb303d3c3047628db398094210c4
+Author: maxp5 <>
+Date:   Fri Dec 8 19:51:15 2023 -0500
+
+    General database additions
+
+A	.gitignore.orig
+A	KiCAD/SnapEDA_import/SAMTEC-BTH-090-01-X-D-A.kicad_mod
+A	KiCAD/SnapEDA_import/SAMTEC-BTH-090-01-X-D-A.step
+A	SnapEDA_supplied/SAMTEC-BTH-090-01-X-D-A.zip
+M	database.db
+M	documentation.md
+A	mergers_acquisitions.md
+A	pin_numbering/VTRxplus_V10.csv
+A	pin_numbering/lpGBT_20220328_manual.csv
+
+commit fd0481a3b3545ebb484e35036048363daf21e0d2
+Merge: 0726bca 0ba8a71
+Author: maxp5 <>
+Date:   Mon Nov 27 13:55:45 2023 -0500
+
+    Merge
+
+commit 0726bca097b8a1745d8745dc242aaf2a5e79bab7
+Author: maxp5 <>
+Date:   Mon Nov 27 13:13:04 2023 -0500
+
+    Part database additions. Documentation.
+
+M	.gitignore
+T	README.md
+M	database.db
+M	documentation.md
+
+commit 0ba8a7101a86ea58be76b4a5e5375771a6a27db9
+Author: maxp5 <>
+Date:   Wed Nov 22 13:24:05 2023 -0500
+
+    Rereferenced test project for new library name. Some new documentation
+
+M	.gitignore
+D	Siemens/test_project/LogFiles/ProjectBackupLog.txt
+M	Siemens/test_project/database/cdbsvr/events/events.dat
+M	Siemens/test_project/database/cdbsvr/events/events.idx
+M	Siemens/test_project/database/icdb.dat
+M	Siemens/test_project/symbols.prj
+M	documentation.md
+
+commit 24cddfd485829d3bd9178267fea8795ce75d234b
+Author: maxp5 <>
+Date:   Wed Nov 22 10:58:53 2023 -0500
+
+    Manual merge from copy. Added Altium history and logs to .gitignore
+
+D	Altium/custom/History/custom.~(1).LibPkg.Zip
+D	Altium/custom/History/custom.~(1).SchLib.Zip
+D	Altium/custom/History/custom.~(12).SchLib.Zip
+D	Altium/custom/History/custom.~(13).SchLib.Zip
+D	Altium/custom/History/custom.~(14).SchLib.Zip
+D	Altium/custom/History/custom.~(15).SchLib.Zip
+D	Altium/custom/History/custom.~(16).SchLib.Zip
+D	Altium/custom/History/custom.~(17).SchLib.Zip
+D	Altium/custom/History/custom.~(18).SchLib.Zip
+D	Altium/custom/History/custom.~(19).SchLib.Zip
+D	Altium/custom/History/custom.~(2).LibPkg.Zip
+D	Altium/custom/History/custom.~(2).SchLib.Zip
+D	Altium/custom/History/custom.~(20).SchLib.Zip
+D	Altium/custom/History/custom.~(21).SchLib.Zip
+D	Altium/custom/History/custom.~(22).SchLib.Zip
+D	Altium/custom/History/custom.~(3).LibPkg.Zip
+D	Altium/custom/History/custom.~(3).SchLib.Zip
+D	Altium/custom/History/custom.~(4).SchLib.Zip
+D	Altium/custom/History/custom.~(5).SchLib.Zip
+D	Altium/custom/History/custom.~(6).SchLib.Zip
+D	Altium/custom/History/custom.~(7).SchLib.Zip
+D	Altium/custom/History/custom.~(8).SchLib.Zip
+D	Altium/custom/History/custom.~(9).SchLib.Zip
+D	Altium/custom/Project Logs for custom/custom SCH ECO 2023-03-02 7-19-38 PM.LOG
+M	Altium/custom/Project Outputs for custom/custom.IntLib
+M	Altium/custom/custom.SchLib
+A	pin_numbering/bPOL12V_V6.csv
+
+commit 20db03c9c5e8e60d3c2ce5ee9a9f24d852de15fe
+Author: maxp5 <>
+Date:   Wed Nov 22 10:29:33 2023 -0500
+
+    Removed pin array generator (wrong repo). General database improvements.
+
+M	.dbeaver/data-sources.json
+A	.dbeaver/project-metadata.json
+M	database.db
+M	documentation.md
+D	tools/main.cpp
+D	tools/pin_array_generator.cpp
+
+commit f0e954dd4e56a41e88a70a5ebe2b3c09ce14a56a
+Author: maxp5 <>
+Date:   Fri Nov 17 15:04:45 2023 -0500
+
+    General part additions to database. Added Siemens symbol replacement script.
+
+M	.dbeaver/data-sources.json
+M	.gitignore
+A	LTSpice/BFU530W.asy
+M	README.md
+M	database.db
+M	documentation.md
+A	images/Altium_error.png
+A	mfg_supplied/BFU530W_SPICE_GP.lib
+A	mfg_supplied/BFU5XX_family_SPICE_GP_v2.zip
+A	pending_additions_deduplication.md
+A	tools/update_symbol.ahk
+
+commit 65419c73fafdb673497c42003a62eeadeac9dd49
+Author: maxp5 <>
+Date:   Fri Oct 13 18:20:55 2023 -0400
+
+    Removed duplicate KiCAD library. New footprints. Fab corrections to existing footprints. Introduction of import variants.
+
+M	.dbeaver/data-sources.json
+A	KiCAD/SnapEDA_import/TRANS_BC847QAS.kicad_mod
+M	KiCAD/custom.lib
+A	KiCAD/custom/Bourns_SRP6030WA.kicad_mod
+A	KiCAD/custom/CandK_GT_SPDT.kicad_mod
+M	KiCAD/custom/EPC_8004.kicad_mod
+M	KiCAD/custom/Wurth_74438336068.kicad_mod
+D	KiCAD/custom/custom.lib
+A	KiCAD/import_variant/CAP_C0510X7R1E473M030BA.kicad_mod
+A	KiCAD/import_variant/DIO_PMEG4030ER,115.kicad_mod
+A	KiCAD/import_variant/GCT_USB4145-03-0230-C_REVA2.kicad_mod
+A	KiCAD/import_variant/LMG1020YFFR.kicad_mod
+A	KiCAD/import_variant/QFN40P250X250X55-16N.kicad_mod
+A	KiCAD/import_variant/TLV9062SIRUGR.kicad_mod
+A	KiCAD/import_variant/TRIM_3223W-1-501.kicad_mod
+A	KiCAD/import_variant/XTAL_TSX-3225_25.0000MF20P-C0.kicad_mod
+A	SnapEDA_supplied/TRANS_BC847QAS.kicad_mod
+M	database.db
+M	documentation.md
+A	tools/genUUID.sql
+
+commit b5906168ec86f43f559838e13ba840661b7e51f6
+Author: maxp5 <>
+Date:   Sun Oct 8 02:14:35 2023 -0400
+
+    Rebrand of the database to MOPLib. Added DBeaver project. Transitioned documentation to Markdown. Database schema improvements including new fields, proper foreign constraints, and new primary key scheme. Merged all database content to SQLite database.
+
+D	.dbeaver/credentials-config.json
+M	.dbeaver/data-sources.json
+M	.dbeaver/project-settings.json
+A	.project
+M	database.db
+D	database.gz
+D	documentation.docx
+M	documentation.md
+D	old_backup_database.xlsx
+D	pending_DB_additions.xlsx
+
+commit d1f75d7a0f1e75490dbe789027c60832b7141564
+Author: maxp5 <>
+Date:   Mon Oct 2 18:45:09 2023 -0400
+
+    Creation of dedicated SQL database
+
+A	.dbeaver/credentials-config.json
+M	.dbeaver/data-sources.json
+M	.gitignore
+A	database.gz
+M	documentation.md
+
+commit fa12449704056e874186b5975e43c6e94ad0d1bf
+Author: maxp5 <>
+Date:   Mon Oct 2 17:24:14 2023 -0400
+
+    New CAD data after project completion. Added DBeaver project
+
+A	.dbeaver/data-sources.json
+A	.dbeaver/project-settings.json
+A	FreeCAD/custom/Gaggione_LLC01S.FCStd
+A	FreeCAD/custom/Gaggione_LLC15N7.FCStd
+R100	SnapEDA_supplied/3223W-1-501.step	KiCAD/SnapEDA_import/3223W-1-501.step
+A	KiCAD/SnapEDA_import/5747193-2.step
+A	KiCAD/SnapEDA_import/C0510X7R1E473M030BA.step
+A	KiCAD/SnapEDA_import/CAP_C0510X7R1E473M030BA.kicad_mod
+R100	SnapEDA_supplied/DIO_PMEG4030ER,115.kicad_mod	KiCAD/SnapEDA_import/DIO_PMEG4030ER,115.kicad_mod
+R100	SnapEDA_supplied/FC-135_32.7680KA-A0.step	KiCAD/SnapEDA_import/FC-135_32.7680KA-A0.step
+A	KiCAD/SnapEDA_import/FIL_NFM15PC474R0J3D.kicad_mod
+R076	SnapEDA_supplied/GCT_USB4145-03-0230-C_REVA2.kicad_mod	KiCAD/SnapEDA_import/GCT_USB4145-03-0230-C_REVA2.kicad_mod
+A	KiCAD/SnapEDA_import/NFM15PC474R0J3D.step
+A	KiCAD/SnapEDA_import/QFN40P250X250X55-16N.kicad_mod
+A	KiCAD/SnapEDA_import/TE_5747193-2.kicad_mod
+R100	SnapEDA_supplied/TRIM_3223W-1-501.kicad_mod	KiCAD/SnapEDA_import/TRIM_3223W-1-501.kicad_mod
+A	KiCAD/SnapEDA_import/TSX-3225_25.0000MF20P-C0.step
+R100	SnapEDA_supplied/USB4145-03-0230-C_REVA2.step	KiCAD/SnapEDA_import/USB4145-03-0230-C_REVA2.step
+R100	SnapEDA_supplied/XTAL_FC-135_32.7680KA-A0.kicad_mod	KiCAD/SnapEDA_import/XTAL_FC-135_32.7680KA-A0.kicad_mod
+A	KiCAD/SnapEDA_import/XTAL_TSX-3225_25.0000MF20P-C0.kicad_mod
+M	KiCAD/custom.lib
+A	KiCAD/custom/EPC_8004.kicad_mod
+A	KiCAD/custom/FIL_NFM15PC474R0J3D.kicad_mod
+A	KiCAD/custom/Gaggione_LLC01S.kicad_mod
+A	KiCAD/custom/Gaggione_LLC15N7.kicad_mod
+A	KiCAD/custom/Gaggione_LLH01XXXX_1618.kicad_mod
+A	KiCAD/custom/Gaggione_LLH02CB10x.kicad_mod
+A	KiCAD/custom/Hirose_DF11C-12DP-2V_57_.kicad_mod
+M	KiCAD/custom/Photon_Wave_PKE_10_F35.kicad_mod
+A	KiCAD/mfg_import/LMG1020YFFR.kicad_mod
+A	SnapEDA_supplied/5747193-2.zip
+A	SnapEDA_supplied/C0510X7R1E473M030BA.zip
+A	SnapEDA_supplied/NFM15PC474R0J3D.zip
+A	SnapEDA_supplied/TSX-3225_25.0000MF20P-C0.zip
+M	documentation.md
+A	mfg_supplied/ul_LMG1020YFFR.zip
+M	pending_DB_additions.xlsx
+
+commit 69f7b29f89b2c67e21b2e06d0b18afed8f5c591c
+Author: maxp5 <>
+Date:   Thu Aug 31 00:11:55 2023 -0400
+
+    General database and CAD data additions. Added quantity distinctions to KiCAD BOM generator.
+
+M	KiCAD/custom.lib
+A	KiCAD/custom/MP4323_QFN12_P0.5mm.kicad_mod
+A	KiCAD/custom/PLCC_2_diode.kicad_mod
+A	KiCAD/custom/Photon_Wave_PKE_10_F35.kicad_mod
+A	KiCAD/custom/Wurth_74438336068.kicad_mod
+M	KiCAD/custom/Wurth_74439369100.kicad_mod
+A	KiCAD/custom/microcoax_bond_1shield.kicad_mod
+A	KiCAD/custom/microcoax_bond_1shield_stacking.kicad_mod
+A	KiCAD/mfg_import/TLV9062SIRUGR.kicad_mod
+A	SnapEDA_supplied/3223W-1-501.step
+A	SnapEDA_supplied/3223W-1-501.zip
+A	SnapEDA_supplied/DIO_PMEG4030ER,115.kicad_mod
+A	SnapEDA_supplied/FC-135_32.7680KA-A0.step
+A	SnapEDA_supplied/FC-135_32.7680KA-A0.zip
+A	SnapEDA_supplied/GCT_USB4145-03-0230-C_REVA2.kicad_mod
+A	SnapEDA_supplied/PMEG4030ER_115.zip
+A	SnapEDA_supplied/QFN40P250X250X55-16N.kicad_mod
+A	SnapEDA_supplied/TRIM_3223W-1-501.kicad_mod
+A	SnapEDA_supplied/USB4145-03-0230-C_REVA2.step
+A	SnapEDA_supplied/USB4145-03-0230-C_REVA2.zip
+A	SnapEDA_supplied/XTAL_FC-135_32.7680KA-A0.kicad_mod
+M	documentation.md
+A	mfg_supplied/ul_TLV9062SIRUGR.zip
+M	pending_DB_additions.xlsx
+M	tools/bom_csv_custom.py
+
+commit d53c3f220a940ac04fde4252ba92d70bd5b8213d
+Author: maxp5 <>
+Date:   Tue Aug 1 11:01:19 2023 -0400
+
+    Small KiCAD footprint update. New DB items. Corrected KiCAD BOM generator multiplier bug.
+
+M	KiCAD/custom/NPTH_1.00mm_drill.kicad_mod
+M	pending_DB_additions.xlsx
+M	tools/bom_csv_custom.py
+
+commit 2c5a72f8fc4b422ef04693cbe1ab0c902969991d
+Author: maxp5 <>
+Date:   Mon Jul 24 19:23:18 2023 -0400
+
+    Fixed multipler merging logic and Reference Designator merging error in flattened BOM.
+
+M	tools/bom_csv_custom.py
+
+commit adb5624ef12b354f2db0ae41770e844e0628acd6
+Author: maxp5 <>
+Date:   Mon Jul 24 18:26:38 2023 -0400
+
+    New KiCAD library additions. New pinouts. Developed KiCAD schematic pin array generator. Major additions to temporary database file.
+
+M	.gitignore
+M	KiCAD/custom.lib
+A	KiCAD/custom/3M_Pak50E_RA_68.kicad_mod
+A	KiCAD/custom/C_and_K_M_36deg_SP.kicad_mod
+A	KiCAD/custom/Deltron_571.kicad_mod
+A	KiCAD/custom/Deltron_571_2.0mm_drill.kicad_mod
+A	KiCAD/custom/Keystone_7771.kicad_mod
+A	KiCAD/custom/Linx_CONSMA001-SMD.kicad_mod
+A	KiCAD/custom/Linx_CONSMA001-SMD_filled.kicad_mod
+A	KiCAD/custom/NPTH_1.00mm_drill.kicad_mod
+A	KiCAD/custom/QBHP684E_LED.kicad_mod
+A	KiCAD/custom/Wurth_74439369100.kicad_mod
+A	KiCAD/custom/brass_terminal.kicad_mod
+A	KiCAD/custom/custom.lib
+A	KiCAD/custom/dummy.kicad_mod
+A	KiCAD/custom/fiducial_cross_2.000mmx2.000mm.kicad_mod
+A	KiCAD/custom/fiducial_cross_5.000mmx5.000mm.kicad_mod
+A	KiCAD/custom/fiducial_cross_5.000x5.000mm_connected.kicad_mod
+A	KiCAD/custom/screw_terminal_1x4_P3.8mm.kicad_mod
+A	KiCAD/custom/xyz_axis_bottom.kicad_mod
+A	KiCAD/custom/xyz_axis_top.kicad_mod
+A	KiCAD/mfg_import/LM5148RGYR.kicad_mod
+A	mfg_supplied/ul_LM5148RGYR.zip
+A	pending_DB_additions.xlsx
+A	pin_numbering/SG4501.csv
+A	pin_numbering/Samtec_SEAF_SEAM.csv
+A	pin_numbering/Samtec_SEAM_SEAF.txt
+M	tools/bom_csv_custom.py
+A	tools/main.cpp
+A	tools/pin_array_generator.cpp
+
+commit 48bdffbb2d5584cafe48bbbd3c3570c5961afe91
+Merge: 8fe83ca 1b899a7
+Author: maxp5 <>
+Date:   Tue May 23 10:27:41 2023 -0400
+
+    Merge branch 'main' of https://github.com/maxp2/ghepplib
+
+commit 8fe83ca87515395e8e2675bf2cb0fda7dd140052
+Author: maxp5 <>
+Date:   Tue May 23 10:22:32 2023 -0400
+
+    Updates to enable packaging of siemens symbols
+
+M	Siemens/custom/sym/3xx63.1
+M	Siemens/custom/sym/AT30TS74.1
+M	Siemens/custom/sym/FMC_HPC_A.1
+M	Siemens/custom/sym/FMC_HPC_B.1
+M	Siemens/custom/sym/FMC_HPC_C.1
+M	Siemens/custom/sym/FMC_HPC_D.1
+M	Siemens/custom/sym/FMC_HPC_E.1
+M	Siemens/custom/sym/FMC_HPC_F.1
+M	Siemens/custom/sym/FMC_HPC_G.1
+M	Siemens/custom/sym/FMC_HPC_H.1
+M	Siemens/custom/sym/FMC_HPC_J.1
+M	Siemens/custom/sym/FMC_HPC_K.1
+M	Siemens/custom/sym/INA228.1
+M	Siemens/custom/sym/LM5148.1
+M	Siemens/custom/sym/MP4323.1
+M	Siemens/custom/sym/THS3110_1.1
+M	Siemens/custom/sym/THS3110_pwr.1
+
+commit 82b6399f1c32059c5515998c68f2187ceb8d49fd
+Author: maxp5 <>
+Date:   Wed May 17 17:51:45 2023 -0400
+
+    Siemens symbol improvements for rotation. New symbols. Recovered ASP-134486-1 E symbol. New imported data. Added supporting BOM export script for KiCAD. Start of transition to Markdown documentation.
+
+A	Siemens/custom/sym/AT30TS74.1
+A	Siemens/custom/sym/FMC_HPC_A.1
+A	Siemens/custom/sym/FMC_HPC_B.1
+A	Siemens/custom/sym/FMC_HPC_C.1
+A	Siemens/custom/sym/FMC_HPC_D.1
+A	Siemens/custom/sym/FMC_HPC_E.1
+A	Siemens/custom/sym/FMC_HPC_F.1
+A	Siemens/custom/sym/FMC_HPC_G.1
+A	Siemens/custom/sym/FMC_HPC_H.1
+A	Siemens/custom/sym/FMC_HPC_J.1
+A	Siemens/custom/sym/FMC_HPC_K.1
+R100	Siemens/custom/sym/fx10a-168p-sv-a.1	Siemens/custom/sym/FX10A-168P-SV-XU1-R4-1.1
+R100	Siemens/custom/sym/fx10a-168p-sv-b.1	Siemens/custom/sym/FX10A-168P-SV-XU1-R4-2.1
+R100	Siemens/custom/sym/fx10a-168p-sv-c.1	Siemens/custom/sym/FX10A-168P-SV-XU1-R4-3.1
+A	Siemens/custom/sym/FX10A-168P-SV.1
+A	Siemens/custom/sym/TLP3475R.1
+A	Siemens/custom/sym/asp_134486_01_e.1
+M	Siemens/custom/sym/hdr_1x3.1
+M	Siemens/custom/sym/hdr_1x4.1
+A	Siemens/custom/sym/hdr_1x6.1
+M	Siemens/custom/sym/ind.1
+M	Siemens/custom/sym/ind_core.1
+A	Siemens/custom/sym/logic_1G3157_1.1
+A	Siemens/custom/sym/logic_1G3157_pwr.1
+A	Siemens/custom/sym/ole/FMC_HPC_D.1
+A	Siemens/custom/sym/solid_state_relay_MOS_generic.1
+A	Siemens/custom/sym/switch_momentary_4pin.1
+A	Siemens/mfg_import/sym/DAC7678RGE.1
+R100	Siemens/custom/sym/PCA9539_DB_24_1.1	Siemens/mfg_import/sym/PCA9539_DB_24_1.1
+R100	Siemens/custom/sym/PCA9539_RGE_24_1.1	Siemens/mfg_import/sym/PCA9539_RGE_24_1.1
+A	Siemens/mfg_mod/sym/PCA9539_DB_24_1.1
+A	Siemens/mfg_mod/sym/PCA9539_RGE_24_1.1
+A	Siemens/mfg_mod/sym/ole/PCA9539_RGE_24_1.1
+M	Siemens/test_project/LogFiles/DxDesigner.log
+M	Siemens/test_project/LogFiles/ProjectBackupLog.txt
+D	Siemens/test_project/ProjectBackup/backups/2023-05-01 18.25.38 - auto.zip
+M	Siemens/test_project/database/cdbsvr/events/events.dat
+D	Siemens/test_project/database/cdbsvr/log/2023-04-10 10.03.18-2548/2023.04.10.txt
+A	Siemens/test_project/database/cdbsvr/log/2023-05-15 12.01.03-2772/2023.05.15.txt
+M	Siemens/test_project/database/icdb.dat
+A	documentation.md
+A	mfg_supplied/ul_DAC7678SRGER.zip
+A	pin_numbering/AT30TS74.csv
+A	pin_numbering/FMC_HPC.csv
+A	pin_numbering/FX10A-168P-SV.csv
+A	pin_numbering/PADS_example.csv
+A	pin_numbering/black_pill.csv
+A	pin_numbering/extracted_FMC_HPC_pinout.csv
+A	tools/bom_csv_custom.py
+
+commit 935b63e8e40df72f2d1c11c341bf2e988a070e2b
+Author: maxp5 <>
+Date:   Tue May 9 10:22:06 2023 -0400
+
+    Siemens new symbols and symbol improvements.
+
+M	.gitignore
+M	Siemens/borders/sym/B11x17_compact.1
+A	Siemens/custom/sym/AP64xxx.1
+A	Siemens/custom/sym/INA228.1
+A	Siemens/custom/sym/MP4323.1
+A	Siemens/custom/sym/OPA209_8pin_1.1
+A	Siemens/custom/sym/OPA209_8pin_pwr.1
+A	Siemens/custom/sym/PMXB43UNE.1
+M	Siemens/custom/sym/Schottky.1
+A	Siemens/custom/sym/THS3110_1.1
+A	Siemens/custom/sym/THS3110_pwr.1
+M	Siemens/custom/sym/cap_np.1
+A	Siemens/custom/sym/ind_core.1
+A	Siemens/custom/sym/ole/OPA209_pwr.1
+M	Siemens/custom/sym/res_US.1
+M	Siemens/custom/sym/tp.1
+M	Siemens/custom/sym/tp_diff.1
+M	Siemens/custom/sym/transformer_air.1
+M	Siemens/custom/sym/transformer_air_inv.1
+M	Siemens/custom/sym/vcc.1
+M	Siemens/test_project/LogFiles/DxDesigner.log
+M	Siemens/test_project/LogFiles/ProjectBackupLog.txt
+D	Siemens/test_project/ProjectBackup/backups/2023-04-29 14.13.33 - auto.zip
+D	Siemens/test_project/ProjectBackup/backups/2023-05-01 14.25.38 - auto.zip
+M	Siemens/test_project/database/cdbsvr/events/events.dat
+D	Siemens/test_project/database/cdbsvr/log/2023-04-06 10.09.25-4728/2023.04.06.txt
+A	Siemens/test_project/database/cdbsvr/log/2023-05-08 12.19.46-1088/2023.05.08.txt
+M	Siemens/test_project/database/icdb.dat
+M	documentation.docx
+A	pin_numbering/AP64xxx.csv
+A	pin_numbering/INA228.csv
+A	pin_numbering/MP4323.csv
+A	pin_numbering/THS3110.csv
+
+commit d38d169d181cbc19a16d44abd8a2a6fccb5803bb
+Author: maxp5 <>
+Date:   Mon May 1 18:44:49 2023 -0400
+
+    Documentation for new (metric) formatting conventions. Major rework of Siemens symbols to meet new metric format conventions, add properties to symbols, and improve general appearance. New variants of symbols.
+
+R100	Altium/History/custom.~(1).LibPkg.Zip	Altium/custom/History/custom.~(1).LibPkg.Zip
+R100	Altium/History/custom.~(1).SchLib.Zip	Altium/custom/History/custom.~(1).SchLib.Zip
+R100	Altium/History/custom.~(12).SchLib.Zip	Altium/custom/History/custom.~(12).SchLib.Zip
+R100	Altium/History/custom.~(13).SchLib.Zip	Altium/custom/History/custom.~(13).SchLib.Zip
+R100	Altium/History/custom.~(14).SchLib.Zip	Altium/custom/History/custom.~(14).SchLib.Zip
+R100	Altium/History/custom.~(15).SchLib.Zip	Altium/custom/History/custom.~(15).SchLib.Zip
+R100	Altium/History/custom.~(16).SchLib.Zip	Altium/custom/History/custom.~(16).SchLib.Zip
+R100	Altium/History/custom.~(17).SchLib.Zip	Altium/custom/History/custom.~(17).SchLib.Zip
+R100	Altium/History/custom.~(18).SchLib.Zip	Altium/custom/History/custom.~(18).SchLib.Zip
+R100	Altium/History/custom.~(19).SchLib.Zip	Altium/custom/History/custom.~(19).SchLib.Zip
+R100	Altium/History/custom.~(2).LibPkg.Zip	Altium/custom/History/custom.~(2).LibPkg.Zip
+R100	Altium/History/custom.~(2).SchLib.Zip	Altium/custom/History/custom.~(2).SchLib.Zip
+R100	Altium/History/custom.~(20).SchLib.Zip	Altium/custom/History/custom.~(20).SchLib.Zip
+R100	Altium/History/custom.~(21).SchLib.Zip	Altium/custom/History/custom.~(21).SchLib.Zip
+R100	Altium/History/custom.~(22).SchLib.Zip	Altium/custom/History/custom.~(22).SchLib.Zip
+R100	Altium/History/custom.~(3).LibPkg.Zip	Altium/custom/History/custom.~(3).LibPkg.Zip
+R100	Altium/History/custom.~(3).SchLib.Zip	Altium/custom/History/custom.~(3).SchLib.Zip
+R100	Altium/History/custom.~(4).SchLib.Zip	Altium/custom/History/custom.~(4).SchLib.Zip
+R100	Altium/History/custom.~(5).SchLib.Zip	Altium/custom/History/custom.~(5).SchLib.Zip
+R100	Altium/History/custom.~(6).SchLib.Zip	Altium/custom/History/custom.~(6).SchLib.Zip
+R100	Altium/History/custom.~(7).SchLib.Zip	Altium/custom/History/custom.~(7).SchLib.Zip
+R100	Altium/History/custom.~(8).SchLib.Zip	Altium/custom/History/custom.~(8).SchLib.Zip
+R100	Altium/History/custom.~(9).SchLib.Zip	Altium/custom/History/custom.~(9).SchLib.Zip
+R100	Altium/Project Logs for custom/custom SCH ECO 2023-03-02 7-19-38 PM.LOG	Altium/custom/Project Logs for custom/custom SCH ECO 2023-03-02 7-19-38 PM.LOG
+R100	Altium/Project Outputs for custom/custom.IntLib	Altium/custom/Project Outputs for custom/custom.IntLib
+R100	Altium/custom.LibPkg	Altium/custom/custom.LibPkg
+R100	Altium/custom.PcbLib	Altium/custom/custom.PcbLib
+R100	Altium/custom.SchLib	Altium/custom/custom.SchLib
+A	Altium/document_templates/History/CarletonU A3 Landscape.~(1).SchDot.Zip
+A	Altium/document_templates/History/CarletonU A3 Landscape.~(2).SchDot.Zip
+A	Altium/document_templates/History/CarletonU A3 Landscape.~(3).SchDot.Zip
+A	Altium/document_templates/History/generic A3 landscape title.~(1).SchDot.Zip
+A	Altium/document_templates/History/generic A3 landscape title.~(2).SchDot.Zip
+A	Altium/document_templates/History/generic A3 landscape title.~(3).SchDot.Zip
+A	Altium/document_templates/History/generic A3 landscape title2.~(1).SchDot.Zip
+A	Altium/document_templates/History/generic A3 landscape title2.~(2).SchDot.Zip
+A	Altium/document_templates/History/generic A3 landscape title2.~(3).SchDot.Zip
+A	Altium/document_templates/History/generic A3 landscape title2.~(4).SchDot.Zip
+A	Altium/document_templates/History/generic A3 landscape title2.~(5).SchDot.Zip
+A	Altium/document_templates/History/generic A3 landscape title2.~(6).SchDot.Zip
+A	Altium/document_templates/History/generic A3 landscape title2.~(7).SchDot.Zip
+A	Altium/document_templates/History/generic A3 landscape title2.~(8).SchDot.Zip
+A	Altium/document_templates/History/generic A3 landscape.~(1).SchDot.Zip
+A	Altium/document_templates/History/generic A3 landscape.~(2).SchDot.Zip
+A	Altium/document_templates/generic A3 landscape title.SchDot
+A	Altium/document_templates/generic A3 landscape.SchDot
+R100	test_projects/Altium/Altium_parts/Altium_parts_test.PrjPcb	Altium/test_project/Altium_parts/Altium_parts_test.PrjPcb
+R100	test_projects/Altium/Altium_parts/Altium_parts_test.PrjPcbStructure	Altium/test_project/Altium_parts/Altium_parts_test.PrjPcbStructure
+R100	test_projects/Altium/Altium_parts/History/Altium_parts_test.~(1).PrjPcb.Zip	Altium/test_project/Altium_parts/History/Altium_parts_test.~(1).PrjPcb.Zip
+R100	test_projects/Altium/Altium_parts/History/Altium_parts_test.~(2).PrjPcb.Zip	Altium/test_project/Altium_parts/History/Altium_parts_test.~(2).PrjPcb.Zip
+R100	test_projects/Altium/Altium_parts/History/small_parts.~(1).SchDoc.Zip	Altium/test_project/Altium_parts/History/small_parts.~(1).SchDoc.Zip
+R100	test_projects/Altium/Altium_parts/Project Logs for Altium_parts_test/small_parts SCH ECO 2023-03-02 7-24-47 PM.LOG	Altium/test_project/Altium_parts/Project Logs for Altium_parts_test/small_parts SCH ECO 2023-03-02 7-24-47 PM.LOG
+R100	test_projects/Altium/Altium_parts/Project Logs for Altium_parts_test/small_parts SCH ECO 2023-03-02 7-25-20 PM.LOG	Altium/test_project/Altium_parts/Project Logs for Altium_parts_test/small_parts SCH ECO 2023-03-02 7-25-20 PM.LOG
+R100	test_projects/Altium/Altium_parts/__Previews/small_parts.SchDocPreview	Altium/test_project/Altium_parts/__Previews/small_parts.SchDocPreview
+R100	test_projects/Altium/Altium_parts/small_parts.SchDoc	Altium/test_project/Altium_parts/small_parts.SchDoc
+R100	Siemens/custom/sym/11x17.1	Siemens/borders/sym/11x17.1
+A	Siemens/borders/sym/B11x17.1
+R090	Siemens/custom/sym/B11x17_EZ.1	Siemens/borders/sym/B11x17_EZ.1
+A	Siemens/borders/sym/B11x17_compact.1
+M	Siemens/custom/sym/3xx63.1
+M	Siemens/custom/sym/555.1
+M	Siemens/custom/sym/AP6330x.1
+M	Siemens/custom/sym/BJT_NPN_123.1
+A	Siemens/custom/sym/BJT_NPN_123_pinnumbers.1
+M	Siemens/custom/sym/BJT_NPN_132.1
+A	Siemens/custom/sym/BJT_NPN_132_pinnumbers.1
+M	Siemens/custom/sym/BJT_NPN_213.1
+A	Siemens/custom/sym/BJT_NPN_213_pinnumbers.1
+M	Siemens/custom/sym/BJT_NPN_231.1
+A	Siemens/custom/sym/BJT_NPN_231_pinnumbers.1
+M	Siemens/custom/sym/BJT_NPN_312.1
+A	Siemens/custom/sym/BJT_NPN_312_pinnumbers.1
+M	Siemens/custom/sym/BJT_NPN_321.1
+A	Siemens/custom/sym/BJT_NPN_321_pinnumbers.1
+M	Siemens/custom/sym/CCPD_v5_dummy.1
+M	Siemens/custom/sym/FET_EM_NMOS_123.1
+A	Siemens/custom/sym/FET_EM_NMOS_123_pinnumbers.1
+M	Siemens/custom/sym/FET_EM_NMOS_132.1
+A	Siemens/custom/sym/FET_EM_NMOS_132_pinnumbers.1
+M	Siemens/custom/sym/FET_EM_NMOS_213.1
+A	Siemens/custom/sym/FET_EM_NMOS_213_pinnumbers.1
+M	Siemens/custom/sym/FET_EM_NMOS_231.1
+A	Siemens/custom/sym/FET_EM_NMOS_231_pinnumbers.1
+M	Siemens/custom/sym/FET_EM_NMOS_312.1
+A	Siemens/custom/sym/FET_EM_NMOS_312_pinnumbers.1
+M	Siemens/custom/sym/FET_EM_NMOS_321.1
+A	Siemens/custom/sym/FET_EM_NMOS_321_pinnumbers.1
+M	Siemens/custom/sym/FET_EM_PMOS_123.1
+A	Siemens/custom/sym/FET_EM_PMOS_123_pinnumbers.1
+M	Siemens/custom/sym/FET_EM_PMOS_132.1
+A	Siemens/custom/sym/FET_EM_PMOS_132_pinnumbers.1
+M	Siemens/custom/sym/FET_EM_PMOS_213.1
+A	Siemens/custom/sym/FET_EM_PMOS_213_pinnumbers.1
+M	Siemens/custom/sym/FET_EM_PMOS_231.1
+A	Siemens/custom/sym/FET_EM_PMOS_231_pinnumbers.1
+M	Siemens/custom/sym/FET_EM_PMOS_312.1
+A	Siemens/custom/sym/FET_EM_PMOS_312_pinnumbers.1
+M	Siemens/custom/sym/FET_EM_PMOS_321.1
+A	Siemens/custom/sym/FET_EM_PMOS_321_pinnumbers.1
+M	Siemens/custom/sym/INA181.1
+M	Siemens/custom/sym/LED.1
+A	Siemens/custom/sym/LED_pinnumbers.1
+M	Siemens/custom/sym/LM193_1.1
+M	Siemens/custom/sym/LM193_2.1
+M	Siemens/custom/sym/LM193_pad_1.1
+M	Siemens/custom/sym/LM193_pad_2.1
+M	Siemens/custom/sym/LM193_pad_pwr.1
+M	Siemens/custom/sym/LM193_pwr.1
+A	Siemens/custom/sym/LM5148.1
+M	Siemens/custom/sym/LT3015xDD.1
+M	Siemens/custom/sym/MAX9032_1.1
+M	Siemens/custom/sym/MAX9032_2.1
+M	Siemens/custom/sym/MAX9032_pwr.1
+M	Siemens/custom/sym/MIC29302.1
+D	Siemens/custom/sym/OPA2186_1.1
+D	Siemens/custom/sym/OPA2186_2.1
+D	Siemens/custom/sym/OPA2186_pwr.1
+M	Siemens/custom/sym/OPA2330_1.1
+M	Siemens/custom/sym/OPA2330_2.1
+M	Siemens/custom/sym/OPA2330_pwr.1
+M	Siemens/custom/sym/OPA4330_1.1
+M	Siemens/custom/sym/OPA4330_2.1
+M	Siemens/custom/sym/OPA4330_3.1
+M	Siemens/custom/sym/OPA4330_4.1
+M	Siemens/custom/sym/OPA4330_pwr.1
+M	Siemens/custom/sym/Schmitt_buf_generic.1
+M	Siemens/custom/sym/Schmitt_inv_generic.1
+M	Siemens/custom/sym/Schottky.1
+M	Siemens/custom/sym/Zener.1
+D	Siemens/custom/sym/amp_2pin_generic.1
+A	Siemens/custom/sym/amp_4pin_generic.1
+M	Siemens/custom/sym/amp_5pin_generic.1
+D	Siemens/custom/sym/amp_6pin_generic.1
+M	Siemens/custom/sym/and2_generic.1
+M	Siemens/custom/sym/buf_generic.1
+M	Siemens/custom/sym/cap_np.1
+A	Siemens/custom/sym/cap_np_pinnumber.1
+M	Siemens/custom/sym/cap_p.1
+M	Siemens/custom/sym/coax_1shield.1
+M	Siemens/custom/sym/coax_2shield.1
+M	Siemens/custom/sym/coax_4shield.1
+M	Siemens/custom/sym/comparator_3pin_generic.1
+M	Siemens/custom/sym/comparator_5pin_generic.1
+A	Siemens/custom/sym/coupled_ind_1.1
+A	Siemens/custom/sym/coupled_ind_2.1
+A	Siemens/custom/sym/diff_opamp_6pin_generic.1
+M	Siemens/custom/sym/diode.1
+A	Siemens/custom/sym/diode_pinnumbers.1
+A	Siemens/custom/sym/feedthrough.1
+M	Siemens/custom/sym/hdr_1x1.1
+M	Siemens/custom/sym/hdr_1x2.1
+M	Siemens/custom/sym/hdr_1x2_flat.1
+M	Siemens/custom/sym/hdr_1x3.1
+M	Siemens/custom/sym/hdr_1x32.1
+M	Siemens/custom/sym/hdr_2x32.1
+M	Siemens/custom/sym/ic_hor_pwr_generic.1
+M	Siemens/custom/sym/ic_vert_pwr_generic.1
+M	Siemens/custom/sym/ind.1
+D	Siemens/custom/sym/inv_generic.1
+M	Siemens/custom/sym/jmpr2.1
+M	Siemens/custom/sym/jmpr2_part.1
+M	Siemens/custom/sym/jmpr3.1
+M	Siemens/custom/sym/logic_x132_1.1
+M	Siemens/custom/sym/logic_x132_2.1
+M	Siemens/custom/sym/logic_x132_3.1
+M	Siemens/custom/sym/logic_x132_4.1
+M	Siemens/custom/sym/logic_x132_pwr.1
+M	Siemens/custom/sym/logic_x1G74_1.1
+M	Siemens/custom/sym/logic_x1G74_pwr.1
+M	Siemens/custom/sym/logic_x74_1.1
+M	Siemens/custom/sym/logic_x74_2.1
+M	Siemens/custom/sym/logic_x74_pwr.1
+M	Siemens/custom/sym/nand2_generic.1
+M	Siemens/custom/sym/nor2_generic.1
+M	Siemens/custom/sym/opamp_3pin_generic.1
+M	Siemens/custom/sym/opamp_5pin_generic.1
+M	Siemens/custom/sym/opamp_6pin_generic.1
+M	Siemens/custom/sym/or2_generic.1
+M	Siemens/custom/sym/photodiode.1
+M	Siemens/custom/sym/res_US.1
+A	Siemens/custom/sym/res_US_1p5x.1
+A	Siemens/custom/sym/res_US_2x.1
+M	Siemens/custom/sym/res_US_adj.1
+M	Siemens/custom/sym/res_US_digipot.1
+A	Siemens/custom/sym/res_US_pinnumbers.1
+M	Siemens/custom/sym/tp.1
+M	Siemens/custom/sym/tp_diff.1
+M	Siemens/custom/sym/tp_thru.1
+A	Siemens/custom/sym/transformer_air.1
+A	Siemens/custom/sym/transformer_air_inv.1
+A	Siemens/custom/sym/transformer_iron.1
+A	Siemens/custom/sym/transformer_iron_inv.1
+A	Siemens/custom/sym/varactor_diode.1
+M	Siemens/custom/sym/vcc.1
+R100	test_projects/Siemens/CAD_test.asc	Siemens/test_project/CAD_test.asc
+R100	test_projects/Siemens/CAD_test.fdc	Siemens/test_project/CAD_test.fdc
+R100	test_projects/Siemens/CAD_test.ndc	Siemens/test_project/CAD_test.ndc
+R100	test_projects/Siemens/CAD_test.p	Siemens/test_project/CAD_test.p
+R070	test_projects/Siemens/LogFiles/DxDesigner.log	Siemens/test_project/LogFiles/DxDesigner.log
+R100	test_projects/Siemens/LogFiles/DxDesignerDiagnostics.log	Siemens/test_project/LogFiles/DxDesignerDiagnostics.log
+R068	test_projects/Siemens/LogFiles/ProjectBackupLog.txt	Siemens/test_project/LogFiles/ProjectBackupLog.txt
+R100	test_projects/Siemens/LogFiles/grc.log	Siemens/test_project/LogFiles/grc.log
+R100	test_projects/Siemens/LogFiles/pcberr.log	Siemens/test_project/LogFiles/pcberr.log
+R100	test_projects/Siemens/LogFiles/vdrc.log	Siemens/test_project/LogFiles/vdrc.log
+R100	test_projects/Siemens/NetlistVerify.ini	Siemens/test_project/NetlistVerify.ini
+R100	test_projects/Siemens/PCB_config.bak	Siemens/test_project/PCB_config.bak
+R100	test_projects/Siemens/PCB_config.cfg	Siemens/test_project/PCB_config.cfg
+R100	test_projects/Siemens/ProjectBackup/ProjectBackup.cfg	Siemens/test_project/ProjectBackup/ProjectBackup.cfg
+R100	test_projects/Siemens/ProjectBackup/ProjectBackup.dat	Siemens/test_project/ProjectBackup/ProjectBackup.dat
+A	Siemens/test_project/ProjectBackup/backups/2023-04-29 14.13.33 - auto.zip
+A	Siemens/test_project/ProjectBackup/backups/2023-05-01 14.25.38 - auto.zip
+A	Siemens/test_project/ProjectBackup/backups/2023-05-01 16.16.04 - symUpd.zip
+A	Siemens/test_project/ProjectBackup/backups/2023-05-01 18.25.38 - auto.zip
+R100	test_projects/Siemens/SCH/CAD_test.oat	Siemens/test_project/SCH/CAD_test.oat
+R100	test_projects/Siemens/SL_borders.ini	Siemens/test_project/SL_borders.ini
+R100	test_projects/Siemens/SL_speccomp.ini	Siemens/test_project/SL_speccomp.ini
+R100	test_projects/Siemens/Schematic1.asc	Siemens/test_project/Schematic1.asc
+R100	test_projects/Siemens/Schematic1.fdc	Siemens/test_project/Schematic1.fdc
+R100	test_projects/Siemens/Schematic1.ndc	Siemens/test_project/Schematic1.ndc
+R100	test_projects/Siemens/Schematic1.p	Siemens/test_project/Schematic1.p
+R100	test_projects/Siemens/Siemens.CAD_test_PADS100.CAD_test.db	Siemens/test_project/Siemens.CAD_test_PADS100.CAD_test.db
+R100	test_projects/Siemens/Siemens.Schematic1_PADS100.Schematic1.db	Siemens/test_project/Siemens.Schematic1_PADS100.Schematic1.db
+R100	test_projects/Siemens/VdrawBindings.txt	Siemens/test_project/VdrawBindings.txt
+R100	test_projects/Siemens/WIR/CAD_test.1	Siemens/test_project/WIR/CAD_test.1
+R100	test_projects/Siemens/WIR/CAD_test.2	Siemens/test_project/WIR/CAD_test.2
+R100	test_projects/Siemens/WIR/CAD_test.3	Siemens/test_project/WIR/CAD_test.3
+R100	test_projects/Siemens/WIR/CAD_test.4	Siemens/test_project/WIR/CAD_test.4
+R100	test_projects/Siemens/WIR/CAD_test.5	Siemens/test_project/WIR/CAD_test.5
+R100	test_projects/Siemens/WIR/icdb2wir.dat	Siemens/test_project/WIR/icdb2wir.dat
+A	Siemens/test_project/database/cdbsvr/events/events.dat
+R084	test_projects/Siemens/database/cdbsvr/events/events.idx	Siemens/test_project/database/cdbsvr/events/events.idx
+R100	test_projects/Siemens/database/cdbsvr/log/2023-04-06 10.09.25-4728/2023.04.06.txt	Siemens/test_project/database/cdbsvr/log/2023-04-06 10.09.25-4728/2023.04.06.txt
+R100	test_projects/Siemens/database/cdbsvr/log/2023-04-10 10.03.18-2548/2023.04.10.txt	Siemens/test_project/database/cdbsvr/log/2023-04-10 10.03.18-2548/2023.04.10.txt
+R100	test_projects/Siemens/database/cdbsvr/log/2023-04-11 16.23.51-2032/2023.04.11.txt	Siemens/test_project/database/cdbsvr/log/2023-04-11 16.23.51-2032/2023.04.11.txt
+A	Siemens/test_project/database/cdbsvr/log/2023-04-25 10.26.11-2336/2023.04.25.txt
+A	Siemens/test_project/database/cdbsvr/log/2023-04-25 15.28.09-8456/2023.04.25.txt
+A	Siemens/test_project/database/cdbsvr/log/2023-04-25 21.20.53-2880/2023.04.25.txt
+A	Siemens/test_project/database/cdbsvr/log/2023-04-26 11.13.52-6724/2023.04.26.txt
+A	Siemens/test_project/database/cdbsvr/log/2023-04-27 15.40.34-8088/2023.04.27.txt
+A	Siemens/test_project/database/cdbsvr/log/2023-04-28 11.04.42-2708/2023.04.28.txt
+A	Siemens/test_project/database/cdbsvr/log/2023-04-29 10.13.32-1112/2023.04.29.txt
+A	Siemens/test_project/database/cdbsvr/log/2023-05-01 14.25.37-7056/2023.05.01.txt
+R100	test_projects/Siemens/database/cdbsvr/plog/2023.03.01.guid.2748.txt	Siemens/test_project/database/cdbsvr/plog/2023.03.01.guid.2748.txt
+R100	test_projects/Siemens/database/cdbsvr/plog/2023.03.03.guid.1328.txt	Siemens/test_project/database/cdbsvr/plog/2023.03.03.guid.1328.txt
+R100	test_projects/Siemens/database/cdbsvr/plog/2023.03.03.guid.5868.txt	Siemens/test_project/database/cdbsvr/plog/2023.03.03.guid.5868.txt
+R100	test_projects/Siemens/database/cdbsvr/plog/2023.03.03.guid.8424.txt	Siemens/test_project/database/cdbsvr/plog/2023.03.03.guid.8424.txt
+A	Siemens/test_project/database/cdbsvr/plog/2023.04.25.guid.7384.txt
+A	Siemens/test_project/database/icdb.dat
+R087	test_projects/Siemens/symbols.prj	Siemens/test_project/symbols.prj
+M	documentation.docx
+A	pin_numbering/LM5148.csv
+D	test_projects/Siemens/ProjectBackup/backups/2023-04-10 10.03.19 - auto.zip
+D	test_projects/Siemens/ProjectBackup/backups/2023-04-10 14.03.19 - auto.zip
+D	test_projects/Siemens/ProjectBackup/backups/2023-04-11 16.23.51 - auto.zip
+D	test_projects/Siemens/ProjectBackup/backups/2023-04-11 17.01.45 - symUpd.zip
+D	test_projects/Siemens/database/cdbsvr/events/events.dat
+D	test_projects/Siemens/database/cdbsvr/log/2023-03-21 11.41.53-8628/2023.03.21.txt
+D	test_projects/Siemens/database/cdbsvr/log/2023-03-22 10.13.29-6868/2023.03.22.txt
+D	test_projects/Siemens/database/cdbsvr/log/2023-03-23 09.52.24-2256/2023.03.23.txt
+D	test_projects/Siemens/database/cdbsvr/log/2023-03-24 11.28.31-9128/2023.03.24.txt
+D	test_projects/Siemens/database/cdbsvr/log/2023-03-31 09.44.29-6228/2023.03.31.txt
+D	test_projects/Siemens/database/cdbsvr/log/2023-04-03 16.37.11-9032/2023.04.03.txt
+D	test_projects/Siemens/database/cdbsvr/log/2023-04-04 11.12.35-2888/2023.04.04.txt
+D	test_projects/Siemens/database/cdbsvr/log/2023-04-05 12.56.04-3828/2023.04.05.txt
+D	test_projects/Siemens/database/icdb.dat
+M	tools/db_manager.py
+
+commit 8238e70b421a7f147ba653715e96aa5165e0a7bf
+Author: maxp5 <>
+Date:   Thu Apr 13 11:22:30 2023 -0400
+
+    Added new Siemens symbols. Updated Siemens symbols. Removed redundant Siemens symbols.
+
+A	Siemens/custom/sym/3xx63.1
+A	Siemens/custom/sym/555.1
+M	Siemens/custom/sym/AP6330x.1
+A	Siemens/custom/sym/FET_EM_NMOS_123.1
+A	Siemens/custom/sym/FET_EM_NMOS_132.1
+A	Siemens/custom/sym/FET_EM_NMOS_213.1
+A	Siemens/custom/sym/FET_EM_NMOS_231.1
+A	Siemens/custom/sym/FET_EM_NMOS_312.1
+A	Siemens/custom/sym/FET_EM_NMOS_321.1
+A	Siemens/custom/sym/FET_EM_PMOS_123.1
+A	Siemens/custom/sym/FET_EM_PMOS_132.1
+A	Siemens/custom/sym/FET_EM_PMOS_213.1
+A	Siemens/custom/sym/FET_EM_PMOS_231.1
+A	Siemens/custom/sym/FET_EM_PMOS_312.1
+A	Siemens/custom/sym/FET_EM_PMOS_321.1
+A	Siemens/custom/sym/LM193_1.1
+A	Siemens/custom/sym/LM193_2.1
+A	Siemens/custom/sym/LM193_pad_1.1
+A	Siemens/custom/sym/LM193_pad_2.1
+A	Siemens/custom/sym/LM193_pad_pwr.1
+A	Siemens/custom/sym/LM193_pwr.1
+M	Siemens/custom/sym/LT3015xDD.1
+M	Siemens/custom/sym/MAX9032_1.1
+M	Siemens/custom/sym/MAX9032_2.1
+M	Siemens/custom/sym/MAX9032_pwr.1
+M	Siemens/custom/sym/MIC29302.1
+M	Siemens/custom/sym/Schmitt_inv_generic.1
+A	Siemens/custom/sym/Schottky.1
+M	Siemens/custom/sym/Zener.1
+M	Siemens/custom/sym/and2_generic.1
+D	Siemens/custom/sym/cc1206_p.1
+D	Siemens/custom/sym/cc1210_470UF.1
+D	Siemens/custom/sym/cc1210_p.1
+D	Siemens/custom/sym/cc3528.1
+D	Siemens/custom/sym/cc5750.1
+D	Siemens/custom/sym/cc6032.1
+D	Siemens/custom/sym/cc7343.1
+D	Siemens/custom/sym/cr0805.1
+D	Siemens/custom/sym/cr2010.1
+D	Siemens/custom/sym/cr2512.1
+D	Siemens/custom/sym/cr4527.1
+R086	Siemens/custom/sym/logic_x57.1	Siemens/custom/sym/logic_1G57_1.1
+A	Siemens/custom/sym/logic_1G57_pwr.1
+R087	Siemens/custom/sym/logic_x97.1	Siemens/custom/sym/logic_1G97_1.1
+A	Siemens/custom/sym/logic_1G97_pwr.1
+R087	Siemens/custom/sym/logic_x98.1	Siemens/custom/sym/logic_1G98_1.1
+A	Siemens/custom/sym/logic_1G98_pwr.1
+M	Siemens/custom/sym/logic_x00_1.1
+M	Siemens/custom/sym/logic_x00_2.1
+M	Siemens/custom/sym/logic_x00_3.1
+M	Siemens/custom/sym/logic_x00_4.1
+M	Siemens/custom/sym/logic_x00_pwr.1
+A	Siemens/custom/sym/logic_x132_1.1
+A	Siemens/custom/sym/logic_x132_2.1
+A	Siemens/custom/sym/logic_x132_3.1
+A	Siemens/custom/sym/logic_x132_4.1
+A	Siemens/custom/sym/logic_x132_pwr.1
+A	Siemens/custom/sym/logic_x1G123_1.1
+A	Siemens/custom/sym/logic_x1G123_pwr.1
+A	Siemens/custom/sym/logic_x1G74_1.1
+A	Siemens/custom/sym/logic_x1G74_pwr.1
+A	Siemens/custom/sym/logic_x74_1.1
+A	Siemens/custom/sym/logic_x74_2.1
+A	Siemens/custom/sym/logic_x74_pwr.1
+M	Siemens/custom/sym/nand2_generic.1
+M	Siemens/custom/sym/nor2_generic.1
+A	Siemens/custom/sym/ole/logic_x132_4.1
+A	Siemens/custom/sym/ole/logic_x1G123_1.1
+M	documentation.docx
+A	pin_numbering/3xx63.csv
+A	pin_numbering/555.csv
+M	test_projects/Siemens/LogFiles/DxDesigner.log
+M	test_projects/Siemens/LogFiles/ProjectBackupLog.txt
+D	test_projects/Siemens/ProjectBackup/backups/2023-03-23 20.03.04 - symUpd.zip
+D	test_projects/Siemens/ProjectBackup/backups/2023-03-24 15.28.31 - auto.zip
+D	test_projects/Siemens/ProjectBackup/backups/2023-03-31 09.44.30 - auto.zip
+D	test_projects/Siemens/ProjectBackup/backups/2023-03-31 13.44.30 - auto.zip
+A	test_projects/Siemens/ProjectBackup/backups/2023-04-10 10.03.19 - auto.zip
+A	test_projects/Siemens/ProjectBackup/backups/2023-04-10 14.03.19 - auto.zip
+A	test_projects/Siemens/ProjectBackup/backups/2023-04-11 16.23.51 - auto.zip
+A	test_projects/Siemens/ProjectBackup/backups/2023-04-11 17.01.45 - symUpd.zip
+M	test_projects/Siemens/database/cdbsvr/events/events.dat
+D	test_projects/Siemens/database/cdbsvr/log/2023-03-08 12.38.54-4308/2023.03.08.txt
+D	test_projects/Siemens/database/cdbsvr/log/2023-03-08 13.22.05-8228/2023.03.08.txt
+D	test_projects/Siemens/database/cdbsvr/log/2023-03-08 17.52.35-1108/2023.03.08.txt
+D	test_projects/Siemens/database/cdbsvr/log/2023-03-08 18.07.21-6804/2023.03.08.txt
+D	test_projects/Siemens/database/cdbsvr/log/2023-03-09 10.50.57-1660/2023.03.09.txt
+D	test_projects/Siemens/database/cdbsvr/log/2023-03-20 13.24.58-6952/2023.03.20.txt
+A	test_projects/Siemens/database/cdbsvr/log/2023-04-03 16.37.11-9032/2023.04.03.txt
+A	test_projects/Siemens/database/cdbsvr/log/2023-04-04 11.12.35-2888/2023.04.04.txt
+A	test_projects/Siemens/database/cdbsvr/log/2023-04-05 12.56.04-3828/2023.04.05.txt
+A	test_projects/Siemens/database/cdbsvr/log/2023-04-06 10.09.25-4728/2023.04.06.txt
+A	test_projects/Siemens/database/cdbsvr/log/2023-04-10 10.03.18-2548/2023.04.10.txt
+A	test_projects/Siemens/database/cdbsvr/log/2023-04-11 16.23.51-2032/2023.04.11.txt
+M	test_projects/Siemens/database/icdb.dat
+
+commit 521e957bdcf509a5bd1f8a00fabae6a22795d94e
+Author: maxp5 <>
+Date:   Fri Mar 31 21:36:21 2023 -0400
+
+    New PADS library. Transitioned database from Excel to SQLITE. Completed db_manager script.
+
+D	Altium/History/custom.~(10).SchLib.Zip
+D	Altium/History/custom.~(11).SchLib.Zip
+A	Altium/History/custom.~(21).SchLib.Zip
+A	Altium/History/custom.~(22).SchLib.Zip
+M	Altium/Project Outputs for custom/custom.IntLib
+M	Altium/custom.SchLib
+A	Siemens/custom/custom.ld9
+A	Siemens/custom/custom.ln9
+A	Siemens/custom/custom.pd9
+A	Siemens/custom/custom.pt9
+A	Siemens/custom/sym/BJT_NPN_123.1
+A	Siemens/custom/sym/BJT_NPN_132.1
+A	Siemens/custom/sym/BJT_NPN_213.1
+A	Siemens/custom/sym/BJT_NPN_231.1
+A	Siemens/custom/sym/BJT_NPN_312.1
+A	Siemens/custom/sym/BJT_NPN_321.1
+M	Siemens/custom/sym/INA181.1
+M	Siemens/custom/sym/LT3015xDD.1
+M	Siemens/custom/sym/MAX9032_1.1
+M	Siemens/custom/sym/MAX9032_2.1
+M	Siemens/custom/sym/MAX9032_pwr.1
+M	Siemens/custom/sym/OPA2186_1.1
+M	Siemens/custom/sym/OPA2186_2.1
+M	Siemens/custom/sym/OPA2186_pwr.1
+A	Siemens/custom/sym/OPA2330_1.1
+A	Siemens/custom/sym/OPA2330_2.1
+M	Siemens/custom/sym/OPA2330_A.1
+M	Siemens/custom/sym/OPA2330_B.1
+D	Siemens/custom/sym/OPA2330_DGK_8_1.1
+A	Siemens/custom/sym/OPA2330_pwr.1
+M	Siemens/custom/sym/OPA4330_1.1
+M	Siemens/custom/sym/OPA4330_2.1
+M	Siemens/custom/sym/OPA4330_3.1
+M	Siemens/custom/sym/OPA4330_4.1
+M	Siemens/custom/sym/OPA4330_pwr.1
+M	Siemens/custom/sym/Zener.1
+M	Siemens/custom/sym/amp_2pin_generic.1
+M	Siemens/custom/sym/amp_5pin_generic.1
+M	Siemens/custom/sym/amp_6pin_generic.1
+A	Siemens/custom/sym/coax_1shield.1
+A	Siemens/custom/sym/coax_2shield.1
+A	Siemens/custom/sym/coax_4shield.1
+M	Siemens/custom/sym/comparator_3pin_generic.1
+M	Siemens/custom/sym/comparator_5pin_generic.1
+D	Siemens/custom/sym/con_mini_smt.1
+R100	Siemens/custom/sym/con_smp.1	Siemens/custom/sym/conn_Molex_UMC.1
+A	Siemens/custom/sym/hdr_1x1.1
+M	Siemens/custom/sym/ic_hor_pwr_generic.1
+M	Siemens/custom/sym/ic_vert_pwr_generic.1
+M	Siemens/custom/sym/opamp_3pin_generic.1
+M	Siemens/custom/sym/opamp_5pin_generic.1
+M	Siemens/custom/sym/opamp_6pin_generic.1
+A	Siemens/custom/sym/photodiode_2x2.1
+M	Siemens/custom/sym/res_US_digipot.1
+D	Siemens/custom/sym/sma-5pin.1
+R100	Siemens/golden_symbols/sym/con_sma.1	Siemens/golden_symbols/sym/SMA-RA-TH111.1
+D	Siemens/golden_symbols/sym/bjt-3pin.1
+D	Siemens/golden_symbols/sym/hdr_1x1.1
+D	Siemens/golden_symbols/sym/hdr_1x2.1
+D	Siemens/golden_symbols/sym/hdr_1x3.1
+D	Siemens/golden_symbols/sym/hdr_2x2.1
+D	Siemens/golden_symbols/sym/hdr_2x20.1
+D	Siemens/golden_symbols/sym/hdr_2x5.1
+D	Siemens/golden_symbols/sym/hdr_2x6.1
+D	Siemens/golden_symbols/sym/sma-5pin.1
+A	Siemens/mfg_import/mfg_import.ld9
+A	Siemens/mfg_import/mfg_import.ln9
+A	Siemens/mfg_import/mfg_import.pd9
+A	Siemens/mfg_import/mfg_import.pt9
+A	database.db
+D	database.xlsx
+M	documentation.docx
+M	mfg_supplied/ul_OPA4330AIRGYR.zip
+A	old_backup_database.xlsx
+M	test_projects/Siemens/LogFiles/DxDesigner.log
+M	test_projects/Siemens/LogFiles/ProjectBackupLog.txt
+D	test_projects/Siemens/ProjectBackup/backups/2023-03-08 17.33.15 - auto.zip
+D	test_projects/Siemens/ProjectBackup/backups/2023-03-09 10.50.57 - auto.zip
+D	test_projects/Siemens/ProjectBackup/backups/2023-03-09 14.50.57 - auto.zip
+D	test_projects/Siemens/ProjectBackup/backups/2023-03-09 16.08.22 - symUpd.zip
+A	test_projects/Siemens/ProjectBackup/backups/2023-03-23 20.03.04 - symUpd.zip
+A	test_projects/Siemens/ProjectBackup/backups/2023-03-24 15.28.31 - auto.zip
+A	test_projects/Siemens/ProjectBackup/backups/2023-03-31 09.44.30 - auto.zip
+A	test_projects/Siemens/ProjectBackup/backups/2023-03-31 13.44.30 - auto.zip
+M	test_projects/Siemens/database/cdbsvr/events/events.dat
+D	test_projects/Siemens/database/cdbsvr/log/2023-03-02 13.12.27-7048/2023.03.02.txt
+D	test_projects/Siemens/database/cdbsvr/log/2023-03-03 09.27.59-1340/2023.03.03.txt
+D	test_projects/Siemens/database/cdbsvr/log/2023-03-03 09.57.08-1572/2023.03.03.txt
+D	test_projects/Siemens/database/cdbsvr/log/2023-03-03 09.59.26-7984/2023.03.03.txt
+D	test_projects/Siemens/database/cdbsvr/log/2023-03-03 11.07.01-1624/2023.03.03.txt
+D	test_projects/Siemens/database/cdbsvr/log/2023-03-03 12.07.06-7640/2023.03.03.txt
+D	test_projects/Siemens/database/cdbsvr/log/2023-03-03 13.00.47-7228/2023.03.03.txt
+D	test_projects/Siemens/database/cdbsvr/log/2023-03-03 13.21.09-8644/2023.03.03.txt
+D	test_projects/Siemens/database/cdbsvr/log/2023-03-03 13.22.38-4316/2023.03.03.txt
+D	test_projects/Siemens/database/cdbsvr/log/2023-03-03 14.03.13-8780/2023.03.03.txt
+D	test_projects/Siemens/database/cdbsvr/log/2023-03-06 16.02.48-1192/2023.03.06.txt
+D	test_projects/Siemens/database/cdbsvr/log/2023-03-07 12.55.18-1960/2023.03.07.txt
+D	test_projects/Siemens/database/cdbsvr/log/2023-03-08 09.33.14-1276/2023.03.08.txt
+D	test_projects/Siemens/database/cdbsvr/log/2023-03-08 09.35.43-2524/2023.03.08.txt
+A	test_projects/Siemens/database/cdbsvr/log/2023-03-20 13.24.58-6952/2023.03.20.txt
+A	test_projects/Siemens/database/cdbsvr/log/2023-03-21 11.41.53-8628/2023.03.21.txt
+A	test_projects/Siemens/database/cdbsvr/log/2023-03-22 10.13.29-6868/2023.03.22.txt
+A	test_projects/Siemens/database/cdbsvr/log/2023-03-23 09.52.24-2256/2023.03.23.txt
+A	test_projects/Siemens/database/cdbsvr/log/2023-03-24 11.28.31-9128/2023.03.24.txt
+A	test_projects/Siemens/database/cdbsvr/log/2023-03-31 09.44.29-6228/2023.03.31.txt
+M	test_projects/Siemens/database/icdb.dat
+M	test_projects/Siemens/symbols.prj
+A	tools/CAD_data_table_template.xlsx
+A	tools/db_manager.py
+A	tools/part_table_template.xlsx
+
+commit 1b899a761b61c662a38b35a0bb338f8c96e58381
+Author: maxp2 <55648010+maxp2@users.noreply.github.com>
+Date:   Mon Mar 13 18:05:38 2023 -0400
+
+    Create README.md
+
+A	README.md
+
+commit dacf24e3ecb3bf171db2f23bb045e9a4f178eee9
+Merge: 7cc6aaf d994273
+Author: maxp5 <>
+Date:   Mon Mar 13 18:01:07 2023 -0400
+
+    Move to Github
+
+commit 7cc6aafdf2749af9b97437c6fed0551d65ab2afa
+Author: maxp5 <>
+Date:   Mon Mar 13 17:27:41 2023 -0400
+
+    Additional Siemens connector symbol cleaning. Updated property conventions
+
+M	Siemens/custom/sym/HEF4052B.1
+M	Siemens/custom/sym/INA181.1
+M	Siemens/custom/sym/LED.1
+M	Siemens/custom/sym/MAX9032_1.1
+M	Siemens/custom/sym/MAX9032_2.1
+M	Siemens/custom/sym/MAX9032_pwr.1
+M	Siemens/custom/sym/OPA2186_1.1
+M	Siemens/custom/sym/OPA2186_2.1
+M	Siemens/custom/sym/OPA2186_pwr.1
+M	Siemens/custom/sym/Schmitt_buf_generic.1
+M	Siemens/custom/sym/Schmitt_inv_generic.1
+M	Siemens/custom/sym/Zener.1
+M	Siemens/custom/sym/amp_2pin_generic.1
+M	Siemens/custom/sym/amp_5pin_generic.1
+M	Siemens/custom/sym/amp_6pin_generic.1
+M	Siemens/custom/sym/and2_generic.1
+M	Siemens/custom/sym/buf_generic.1
+M	Siemens/custom/sym/cap_np.1
+M	Siemens/custom/sym/cap_p.1
+M	Siemens/custom/sym/comparator_3pin_generic.1
+M	Siemens/custom/sym/comparator_5pin_generic.1
+M	Siemens/custom/sym/diode.1
+M	Siemens/custom/sym/hdr_1x2.1
+M	Siemens/custom/sym/hdr_1x2_flat.1
+M	Siemens/custom/sym/hdr_1x3.1
+M	Siemens/custom/sym/hdr_1x32.1
+M	Siemens/custom/sym/hdr_1x5.1
+M	Siemens/custom/sym/ic_hor_pwr_generic.1
+M	Siemens/custom/sym/ic_vert_pwr_generic.1
+M	Siemens/custom/sym/ind.1
+M	Siemens/custom/sym/inv_generic.1
+M	Siemens/custom/sym/jmpr2.1
+A	Siemens/custom/sym/jmpr2_part.1
+D	Siemens/custom/sym/jmpr2_pins.1
+M	Siemens/custom/sym/jmpr3.1
+A	Siemens/custom/sym/logic_x00_1.1
+A	Siemens/custom/sym/logic_x00_2.1
+A	Siemens/custom/sym/logic_x00_3.1
+A	Siemens/custom/sym/logic_x00_4.1
+A	Siemens/custom/sym/logic_x00_pwr.1
+A	Siemens/custom/sym/logic_x02_1.1
+A	Siemens/custom/sym/logic_x02_2.1
+A	Siemens/custom/sym/logic_x02_3.1
+A	Siemens/custom/sym/logic_x02_4.1
+A	Siemens/custom/sym/logic_x02_pwr.1
+R090	Siemens/custom/sym/1G57.1	Siemens/custom/sym/logic_x57.1
+R090	Siemens/custom/sym/1G97.1	Siemens/custom/sym/logic_x97.1
+R091	Siemens/custom/sym/1G98.1	Siemens/custom/sym/logic_x98.1
+M	Siemens/custom/sym/nand2_generic.1
+M	Siemens/custom/sym/nor2_generic.1
+M	Siemens/custom/sym/opamp_3pin_generic.1
+M	Siemens/custom/sym/opamp_5pin_generic.1
+M	Siemens/custom/sym/opamp_6pin_generic.1
+M	Siemens/custom/sym/or2_generic.1
+M	Siemens/custom/sym/photodiode.1
+M	Siemens/custom/sym/res_US.1
+M	Siemens/custom/sym/res_US_adj.1
+M	Siemens/custom/sym/res_US_digipot.1
+M	documentation.docx
+A	test_projects/Siemens/CAD_test.asc
+A	test_projects/Siemens/CAD_test.fdc
+A	test_projects/Siemens/CAD_test.ndc
+A	test_projects/Siemens/CAD_test.p
+M	test_projects/Siemens/LogFiles/DxDesigner.log
+M	test_projects/Siemens/LogFiles/ProjectBackupLog.txt
+M	test_projects/Siemens/LogFiles/pcberr.log
+D	test_projects/Siemens/ProjectBackup/backups/2023-03-07 12.55.18 - auto.zip
+D	test_projects/Siemens/ProjectBackup/backups/2023-03-07 16.55.18 - auto.zip
+D	test_projects/Siemens/ProjectBackup/backups/2023-03-08 09.33.15 - auto.zip
+D	test_projects/Siemens/ProjectBackup/backups/2023-03-08 13.11.58 - symUpd.zip
+A	test_projects/Siemens/ProjectBackup/backups/2023-03-08 17.33.15 - auto.zip
+A	test_projects/Siemens/ProjectBackup/backups/2023-03-09 10.50.57 - auto.zip
+A	test_projects/Siemens/ProjectBackup/backups/2023-03-09 14.50.57 - auto.zip
+A	test_projects/Siemens/ProjectBackup/backups/2023-03-09 16.08.22 - symUpd.zip
+R056	test_projects/Siemens/SCH/Schematic1.oat	test_projects/Siemens/SCH/CAD_test.oat
+A	test_projects/Siemens/Siemens.CAD_test_PADS100.CAD_test.db
+R077	test_projects/Siemens/WIR/Schematic1.1	test_projects/Siemens/WIR/CAD_test.1
+R066	test_projects/Siemens/WIR/Schematic1.2	test_projects/Siemens/WIR/CAD_test.2
+R097	test_projects/Siemens/WIR/Schematic1.3	test_projects/Siemens/WIR/CAD_test.3
+R076	test_projects/Siemens/WIR/Schematic1.4	test_projects/Siemens/WIR/CAD_test.4
+A	test_projects/Siemens/WIR/CAD_test.5
+M	test_projects/Siemens/WIR/icdb2wir.dat
+M	test_projects/Siemens/database/cdbsvr/events/events.dat
+D	test_projects/Siemens/database/cdbsvr/log/2023-03-01 17.25.47-9292/2023.03.01.txt
+D	test_projects/Siemens/database/cdbsvr/log/2023-03-01 17.43.23-884/2023.03.01.txt
+A	test_projects/Siemens/database/cdbsvr/log/2023-03-08 13.22.05-8228/2023.03.08.txt
+A	test_projects/Siemens/database/cdbsvr/log/2023-03-08 17.52.35-1108/2023.03.08.txt
+A	test_projects/Siemens/database/cdbsvr/log/2023-03-08 18.07.21-6804/2023.03.08.txt
+A	test_projects/Siemens/database/cdbsvr/log/2023-03-09 10.50.57-1660/2023.03.09.txt
+M	test_projects/Siemens/database/icdb.dat
+A	tools/replace_part.pmc
+
+commit d9942737897c86cbb81c3063a83989d7b77696d9
+Author: maxp2 <55648010+maxp2@users.noreply.github.com>
+Date:   Mon Mar 13 17:18:55 2023 -0400
+
+    Initial commit
+
+A	LICENSE
+
+commit d538f54b177104cb221fa5382e7d828fbb9f852f
+Author: maxp5 <>
+Date:   Wed Mar 8 13:21:38 2023 -0500
+
+    General cleanup of Siemens header symbols
+
+D	Siemens/custom/sym/hdr2x32.1
+D	Siemens/custom/sym/hdr_1x2_flat (2).1
+D	Siemens/custom/sym/hdr_1x3 (2).1
+M	Siemens/custom/sym/hdr_1x3.1
+A	Siemens/custom/sym/hdr_1x32.1
+D	Siemens/custom/sym/hdr_1x3_N.1
+D	Siemens/custom/sym/hdr_1x4 (2).1
+M	Siemens/custom/sym/hdr_1x4.1
+D	Siemens/custom/sym/hdr_1x4v2.1
+D	Siemens/custom/sym/hdr_1x8.1
+D	Siemens/custom/sym/hdr_2x05.1
+D	Siemens/custom/sym/hdr_2x07.1
+R100	Siemens/custom/sym/hdr2x12.1	Siemens/custom/sym/hdr_2x12.1
+R100	Siemens/custom/sym/hdr2x25.1	Siemens/custom/sym/hdr_2x25.1
+M	Siemens/custom/sym/hdr_2x32.1
+D	Siemens/custom/sym/hdr_2x4.1
+D	Siemens/custom/sym/hdr_2x4v2.1
+D	Siemens/custom/sym/hdr_2x5 (2).1
+R100	Siemens/custom/sym/hdr2x8.1	Siemens/custom/sym/hdr_2x8.1
+M	database.xlsx
+A	pin_numbering/hdr_1x32.csv
+M	test_projects/Siemens/LogFiles/DxDesigner.log
+M	test_projects/Siemens/LogFiles/ProjectBackupLog.txt
+D	test_projects/Siemens/ProjectBackup/backups/2023-03-08 12.21.46 - symUpd.zip
+A	test_projects/Siemens/ProjectBackup/backups/2023-03-08 13.11.58 - symUpd.zip
+M	test_projects/Siemens/database/cdbsvr/events/events.dat
+D	test_projects/Siemens/database/cdbsvr/log/2023-03-01 10.07.56-6628/2023.03.01.txt
+A	test_projects/Siemens/database/cdbsvr/log/2023-03-08 12.38.54-4308/2023.03.08.txt
+M	test_projects/Siemens/database/icdb.dat
+
+commit 006fddc2649a56757f9cf6c40ed5f3b313b41c27
+Author: maxp5 <>
+Date:   Wed Mar 8 12:38:04 2023 -0500
+
+    Useability improvements to Siemens symbols. Addition of digital logic to Siemens symbols. Development of some new components.
+
+A	Siemens/custom/sym/1G57.1
+A	Siemens/custom/sym/1G97.1
+A	Siemens/custom/sym/1G98.1
+A	Siemens/custom/sym/HEF4052B.1
+A	Siemens/custom/sym/INA181.1
+M	Siemens/custom/sym/MAX9032_1.1
+M	Siemens/custom/sym/MAX9032_2.1
+M	Siemens/custom/sym/MAX9032_pwr.1
+A	Siemens/custom/sym/OPA2186_1.1
+A	Siemens/custom/sym/OPA2186_2.1
+A	Siemens/custom/sym/OPA2186_pwr.1
+M	Siemens/custom/sym/OPA4330_1.1
+M	Siemens/custom/sym/OPA4330_2.1
+M	Siemens/custom/sym/OPA4330_3.1
+M	Siemens/custom/sym/OPA4330_4.1
+M	Siemens/custom/sym/OPA4330_pwr.1
+A	Siemens/custom/sym/Schmitt_buf_generic.1
+A	Siemens/custom/sym/Schmitt_inv_generic.1
+A	Siemens/custom/sym/amp_2pin_generic.1
+A	Siemens/custom/sym/amp_5pin_generic.1
+A	Siemens/custom/sym/amp_6pin_generic.1
+A	Siemens/custom/sym/and2_generic.1
+A	Siemens/custom/sym/buf_generic.1
+M	Siemens/custom/sym/cap_np.1
+M	Siemens/custom/sym/comparator_3pin_generic.1
+M	Siemens/custom/sym/comparator_5pin_generic.1
+M	Siemens/custom/sym/ic_hor_pwr_generic.1
+D	Siemens/custom/sym/ic_pwr_2pin_generic.1
+M	Siemens/custom/sym/ic_vert_pwr_generic.1
+A	Siemens/custom/sym/inv_generic.1
+M	Siemens/custom/sym/jmpr2.1
+A	Siemens/custom/sym/jmpr2_pins.1
+M	Siemens/custom/sym/jmpr3.1
+D	Siemens/custom/sym/jumper.1
+A	Siemens/custom/sym/nand2_generic.1
+A	Siemens/custom/sym/nor2_generic.1
+M	Siemens/custom/sym/opamp_3pin_generic.1
+M	Siemens/custom/sym/opamp_5pin_generic.1
+A	Siemens/custom/sym/opamp_6pin_generic.1
+A	Siemens/custom/sym/or2_generic.1
+M	Siemens/custom/sym/res_US.1
+A	Siemens/mfg_import/sym/INA181DBV.1
+A	Siemens/mfg_import/sym/REF6125DGK.1
+A	mfg_supplied/ul_INA181A1IDBVR.zip
+A	mfg_supplied/ul_REF6125IDGKR.zip
+A	pin_numbering/HEF4052B.csv
+M	test_projects/Siemens/LogFiles/DxDesigner.log
+M	test_projects/Siemens/LogFiles/ProjectBackupLog.txt
+M	test_projects/Siemens/LogFiles/pcberr.log
+D	test_projects/Siemens/ProjectBackup/backups/2023-03-02 17.12.28 - auto.zip
+D	test_projects/Siemens/ProjectBackup/backups/2023-03-03 09.28.00 - auto.zip
+D	test_projects/Siemens/ProjectBackup/backups/2023-03-03 13.28.00 - auto.zip
+D	test_projects/Siemens/ProjectBackup/backups/2023-03-03 14.59.33 - symUpd.zip
+A	test_projects/Siemens/ProjectBackup/backups/2023-03-07 12.55.18 - auto.zip
+A	test_projects/Siemens/ProjectBackup/backups/2023-03-07 16.55.18 - auto.zip
+A	test_projects/Siemens/ProjectBackup/backups/2023-03-08 09.33.15 - auto.zip
+A	test_projects/Siemens/ProjectBackup/backups/2023-03-08 12.21.46 - symUpd.zip
+M	test_projects/Siemens/SCH/Schematic1.oat
+M	test_projects/Siemens/Schematic1.asc
+M	test_projects/Siemens/Schematic1.p
+M	test_projects/Siemens/Siemens.Schematic1_PADS100.Schematic1.db
+A	test_projects/Siemens/WIR/Schematic1.1
+M	test_projects/Siemens/WIR/Schematic1.2
+A	test_projects/Siemens/WIR/Schematic1.3
+A	test_projects/Siemens/WIR/Schematic1.4
+M	test_projects/Siemens/WIR/icdb2wir.dat
+M	test_projects/Siemens/database/cdbsvr/events/events.dat
+D	test_projects/Siemens/database/cdbsvr/log/2023-02-24 15.48.32-6184/2023.02.24.txt
+D	test_projects/Siemens/database/cdbsvr/log/2023-02-24 15.48.32-6184/2023.02.25.txt
+A	test_projects/Siemens/database/cdbsvr/log/2023-03-06 16.02.48-1192/2023.03.06.txt
+A	test_projects/Siemens/database/cdbsvr/log/2023-03-07 12.55.18-1960/2023.03.07.txt
+A	test_projects/Siemens/database/cdbsvr/log/2023-03-08 09.33.14-1276/2023.03.08.txt
+A	test_projects/Siemens/database/cdbsvr/log/2023-03-08 09.35.43-2524/2023.03.08.txt
+M	test_projects/Siemens/database/icdb.dat
+M	test_projects/Siemens/symbols.prj
+
+commit 9a33cb76bcd72349274b6dcd97762b062ebea5aa
+Author: maxp5 <>
+Date:   Fri Mar 3 16:33:03 2023 -0500
+
+    Removed symbols from Siements custom library which were already in golden_symbols library (exact duplicates)
+
+D	Siemens/custom/sym/0201_short.1
+D	Siemens/custom/sym/0603_short.1
+D	Siemens/custom/sym/12v_rt_angle_mini_fit_jack.1
+D	Siemens/custom/sym/24aa64.1
+D	Siemens/custom/sym/500254-1927.1
+D	Siemens/custom/sym/67840-8001.1
+D	Siemens/custom/sym/88e1116r_a.1
+D	Siemens/custom/sym/88e1116r_b.1
+D	Siemens/custom/sym/B11x17.1
+D	Siemens/custom/sym/adg707bru.1
+D	Siemens/custom/sym/adp123.1
+D	Siemens/custom/sym/adv7511.1
+D	Siemens/custom/sym/agnd1.1
+D	Siemens/custom/sym/agnd8.1
+D	Siemens/custom/sym/asp_134486_01_e.1
+D	Siemens/custom/sym/bas40-04.1
+D	Siemens/custom/sym/bat54t1g.1
+D	Siemens/custom/sym/battery.1
+D	Siemens/custom/sym/bjt-3pin.1
+D	Siemens/custom/sym/bsheetl.1
+D	Siemens/custom/sym/btn_moment.1
+D	Siemens/custom/sym/con_sma.1
+D	Siemens/custom/sym/conn_idc_14_smt.1
+D	Siemens/custom/sym/conn_usb_micro_b_th.1
+D	Siemens/custom/sym/conn_usb_mini_b_th.1
+D	Siemens/custom/sym/cp2103.1
+D	Siemens/custom/sym/cpack-4.1
+D	Siemens/custom/sym/crys_2.1
+D	Siemens/custom/sym/ddr3_so-dimm_shielded.1
+D	Siemens/custom/sym/dfls1150.1
+D	Siemens/custom/sym/digilent_usb_jtag2.1
+D	Siemens/custom/sym/edge4lanepcie.1
+D	Siemens/custom/sym/fanhdr3.1
+D	Siemens/custom/sym/fet-3pin_s.1
+D	Siemens/custom/sym/fuse_pl.1
+D	Siemens/custom/sym/gnd_short.1
+D	Siemens/custom/sym/hdr_1x1.1
+D	Siemens/custom/sym/hsmf_c155.1
+D	Siemens/custom/sym/idtqs3vh253qg8.1
+D	Siemens/custom/sym/ina333.1
+D	Siemens/custom/sym/ind0805.1
+D	Siemens/custom/sym/lmz12002.1
+D	Siemens/custom/sym/low_offse_amp.1
+D	Siemens/custom/sym/ma506.1
+D	Siemens/custom/sym/max13035e.1
+D	Siemens/custom/sym/max16025.1
+D	Siemens/custom/sym/mech_2-pin_jumper.1
+D	Siemens/custom/sym/mech_ddr3_sodimm.1
+D	Siemens/custom/sym/mech_pcie_adapter_cable.1
+D	Siemens/custom/sym/mech_pcie_plate.1
+D	Siemens/custom/sym/mech_pciepower_sticker.1
+D	Siemens/custom/sym/mech_power_cable.1
+D	Siemens/custom/sym/mech_pwr_brick_12v.1
+D	Siemens/custom/sym/mech_rubber_bumper.1
+D	Siemens/custom/sym/mech_screw_4-40x1-4.1
+D	Siemens/custom/sym/mech_sodimm_cage.1
+D	Siemens/custom/sym/mech_standoff.1
+D	Siemens/custom/sym/mech_usb_micro_cable.1
+D	Siemens/custom/sym/mech_usb_minib_cable.1
+D	Siemens/custom/sym/mic2025-2b.1
+D	Siemens/custom/sym/mm3z2v7b.1
+D	Siemens/custom/sym/mt41j256m8hx_15e.1
+D	Siemens/custom/sym/nc7sz66_sc70_5.1
+D	Siemens/custom/sym/nc7wz07.1
+D	Siemens/custom/sym/ndt3055l.1
+D	Siemens/custom/sym/note.1
+D	Siemens/custom/sym/pca9517.1
+D	Siemens/custom/sym/pca9548a.1
+D	Siemens/custom/sym/port_in.1
+D	Siemens/custom/sym/port_out.1
+D	Siemens/custom/sym/pushbutton-4.1
+D	Siemens/custom/sym/radian_xlx1002.1
+D	Siemens/custom/sym/rclamp0524p.1
+D	Siemens/custom/sym/ref3012.1
+D	Siemens/custom/sym/res_ohmite_lvk25.1
+D	Siemens/custom/sym/res_vishay_wsl.1
+D	Siemens/custom/sym/rtc8564je.1
+D	Siemens/custom/sym/s25fl128s.1
+D	Siemens/custom/sym/shrouded_hdr_2x10.1
+D	Siemens/custom/sym/si5324.1
+D	Siemens/custom/sym/sit8102.1
+D	Siemens/custom/sym/sit8103.1
+D	Siemens/custom/sym/sit9102.1
+D	Siemens/custom/sym/sn74avc1t45.1
+D	Siemens/custom/sym/sn74avc2t245.1
+D	Siemens/custom/sym/sn74avc4t245.1
+D	Siemens/custom/sym/sn74lv541apwr.1
+D	Siemens/custom/sym/sn74lvc1g11.1
+D	Siemens/custom/sym/sp0503baht.1
+D	Siemens/custom/sym/spdt_sw_8.1
+D	Siemens/custom/sym/spdt_sw_dip_5.1
+D	Siemens/custom/sym/sw_dip_2.1
+D	Siemens/custom/sym/sw_dip_4.1
+D	Siemens/custom/sym/tca6416a.1
+D	Siemens/custom/sym/tl1963.1
+D	Siemens/custom/sym/tps51200.1
+D	Siemens/custom/sym/tps54291.1
+D	Siemens/custom/sym/tps74901.1
+D	Siemens/custom/sym/tps79433dcq.1
+D	Siemens/custom/sym/tps84621ruq.1
+D	Siemens/custom/sym/ts5a3359.1
+D	Siemens/custom/sym/txs0102.1
+D	Siemens/custom/sym/txs0108e.1
+D	Siemens/custom/sym/ucd90120argc_vqfn64.1
+D	Siemens/custom/sym/usb3320_qfn32.1
+D	Siemens/custom/sym/washer_flat_4.1
+D	Siemens/custom/sym/xtal_114mhz.1
+D	Siemens/golden_symbols/sym/res.1
+D	Siemens/golden_symbols/sym/tp.1
+
+commit b841ee2048b2670e6c1b9708b3f3728a29cb09d0
+Author: maxp5 <>
+Date:   Fri Mar 3 16:00:23 2023 -0500
+
+    Start of Altium library. Verification of new Siemens parts. Addition of test projects. Documentation updates.
+
+A	Altium/History/custom.~(1).LibPkg.Zip
+A	Altium/History/custom.~(1).SchLib.Zip
+A	Altium/History/custom.~(10).SchLib.Zip
+A	Altium/History/custom.~(11).SchLib.Zip
+A	Altium/History/custom.~(12).SchLib.Zip
+A	Altium/History/custom.~(13).SchLib.Zip
+A	Altium/History/custom.~(14).SchLib.Zip
+A	Altium/History/custom.~(15).SchLib.Zip
+A	Altium/History/custom.~(16).SchLib.Zip
+A	Altium/History/custom.~(17).SchLib.Zip
+A	Altium/History/custom.~(18).SchLib.Zip
+A	Altium/History/custom.~(19).SchLib.Zip
+A	Altium/History/custom.~(2).LibPkg.Zip
+A	Altium/History/custom.~(2).SchLib.Zip
+A	Altium/History/custom.~(20).SchLib.Zip
+A	Altium/History/custom.~(3).LibPkg.Zip
+A	Altium/History/custom.~(3).SchLib.Zip
+A	Altium/History/custom.~(4).SchLib.Zip
+A	Altium/History/custom.~(5).SchLib.Zip
+A	Altium/History/custom.~(6).SchLib.Zip
+A	Altium/History/custom.~(7).SchLib.Zip
+A	Altium/History/custom.~(8).SchLib.Zip
+A	Altium/History/custom.~(9).SchLib.Zip
+A	Altium/Project Logs for custom/custom SCH ECO 2023-03-02 7-19-38 PM.LOG
+A	Altium/Project Outputs for custom/custom.IntLib
+A	Altium/custom.LibPkg
+A	Altium/custom.PcbLib
+A	Altium/custom.SchLib
+M	Siemens/custom/sym/AP6330x.1
+D	Siemens/custom/sym/B11x17_Dimitrios_Shaochun.1
+R074	Siemens/custom/sym/led.1	Siemens/custom/sym/LED.1
+M	Siemens/custom/sym/LT3015xDD.1
+M	Siemens/custom/sym/MAX9032_1.1
+M	Siemens/custom/sym/MAX9032_2.1
+M	Siemens/custom/sym/MAX9032_pwr.1
+M	Siemens/custom/sym/MCP41x1_1.1
+M	Siemens/custom/sym/MCP41x1_QFN_pwr.1
+M	Siemens/custom/sym/MCP44x1_QFN_1.1
+M	Siemens/custom/sym/MCP44x1_QFN_2.1
+M	Siemens/custom/sym/MCP44x1_QFN_3.1
+M	Siemens/custom/sym/MCP44x1_QFN_4.1
+M	Siemens/custom/sym/MCP44x1_QFN_pwr.1
+M	Siemens/custom/sym/MIC29302.1
+M	Siemens/custom/sym/OPA4330_1.1
+M	Siemens/custom/sym/OPA4330_2.1
+M	Siemens/custom/sym/OPA4330_3.1
+M	Siemens/custom/sym/OPA4330_4.1
+M	Siemens/custom/sym/OPA4330_pwr.1
+R065	Siemens/custom/sym/zener.1	Siemens/custom/sym/Zener.1
+M	Siemens/custom/sym/cap_np.1
+M	Siemens/custom/sym/cap_p.1
+D	Siemens/custom/sym/cc0402.1
+D	Siemens/custom/sym/cc0402_S.1
+D	Siemens/custom/sym/cc0603.1
+D	Siemens/custom/sym/cc0805.1
+D	Siemens/custom/sym/cc1206.1
+D	Siemens/custom/sym/cc1210.1
+M	Siemens/custom/sym/comparator_3pin_generic.1
+M	Siemens/custom/sym/comparator_5pin_generic.1
+D	Siemens/custom/sym/cr0402.1
+D	Siemens/custom/sym/cr0603.1
+D	Siemens/custom/sym/cr1206.1
+M	Siemens/custom/sym/diode.1
+A	Siemens/custom/sym/ic_pwr_2pin_generic.1
+M	Siemens/custom/sym/ind.1
+M	Siemens/custom/sym/opamp_3pin_generic.1
+M	Siemens/custom/sym/opamp_5pin_generic.1
+M	Siemens/custom/sym/photodiode.1
+R075	Siemens/custom/sym/res.1	Siemens/custom/sym/res_US.1
+R072	Siemens/custom/sym/res_adj.1	Siemens/custom/sym/res_US_adj.1
+R068	Siemens/custom/sym/res_digipot.1	Siemens/custom/sym/res_US_digipot.1
+D	Siemens/golden_symbols/sym/cap_np.1
+D	Siemens/golden_symbols/sym/cap_p.1
+D	Siemens/golden_symbols/sym/ind.1
+M	database.xlsx
+M	documentation.docx
+A	test_projects/Altium/Altium_parts/Altium_parts_test.PrjPcb
+A	test_projects/Altium/Altium_parts/Altium_parts_test.PrjPcbStructure
+A	test_projects/Altium/Altium_parts/History/Altium_parts_test.~(1).PrjPcb.Zip
+A	test_projects/Altium/Altium_parts/History/Altium_parts_test.~(2).PrjPcb.Zip
+A	test_projects/Altium/Altium_parts/History/small_parts.~(1).SchDoc.Zip
+A	test_projects/Altium/Altium_parts/Project Logs for Altium_parts_test/small_parts SCH ECO 2023-03-02 7-24-47 PM.LOG
+A	test_projects/Altium/Altium_parts/Project Logs for Altium_parts_test/small_parts SCH ECO 2023-03-02 7-25-20 PM.LOG
+A	test_projects/Altium/Altium_parts/__Previews/small_parts.SchDocPreview
+A	test_projects/Altium/Altium_parts/small_parts.SchDoc
+A	test_projects/Siemens/LogFiles/DxDesigner.log
+A	test_projects/Siemens/LogFiles/DxDesignerDiagnostics.log
+A	test_projects/Siemens/LogFiles/ProjectBackupLog.txt
+A	test_projects/Siemens/LogFiles/grc.log
+A	test_projects/Siemens/LogFiles/pcberr.log
+A	test_projects/Siemens/LogFiles/vdrc.log
+A	test_projects/Siemens/NetlistVerify.ini
+A	test_projects/Siemens/PCB_config.bak
+A	test_projects/Siemens/PCB_config.cfg
+A	test_projects/Siemens/ProjectBackup/ProjectBackup.cfg
+A	test_projects/Siemens/ProjectBackup/ProjectBackup.dat
+A	test_projects/Siemens/ProjectBackup/backups/2023-03-02 17.12.28 - auto.zip
+A	test_projects/Siemens/ProjectBackup/backups/2023-03-03 09.28.00 - auto.zip
+A	test_projects/Siemens/ProjectBackup/backups/2023-03-03 13.28.00 - auto.zip
+A	test_projects/Siemens/ProjectBackup/backups/2023-03-03 14.59.33 - symUpd.zip
+A	test_projects/Siemens/SCH/Schematic1.oat
+A	test_projects/Siemens/SL_borders.ini
+A	test_projects/Siemens/SL_speccomp.ini
+A	test_projects/Siemens/Schematic1.asc
+A	test_projects/Siemens/Schematic1.fdc
+A	test_projects/Siemens/Schematic1.ndc
+A	test_projects/Siemens/Schematic1.p
+A	test_projects/Siemens/Siemens.Schematic1_PADS100.Schematic1.db
+A	test_projects/Siemens/VdrawBindings.txt
+A	test_projects/Siemens/WIR/Schematic1.2
+A	test_projects/Siemens/WIR/icdb2wir.dat
+A	test_projects/Siemens/database/cdbsvr/events/events.dat
+A	test_projects/Siemens/database/cdbsvr/events/events.idx
+A	test_projects/Siemens/database/cdbsvr/log/2023-02-24 15.48.32-6184/2023.02.24.txt
+A	test_projects/Siemens/database/cdbsvr/log/2023-02-24 15.48.32-6184/2023.02.25.txt
+A	test_projects/Siemens/database/cdbsvr/log/2023-03-01 10.07.56-6628/2023.03.01.txt
+A	test_projects/Siemens/database/cdbsvr/log/2023-03-01 17.25.47-9292/2023.03.01.txt
+A	test_projects/Siemens/database/cdbsvr/log/2023-03-01 17.43.23-884/2023.03.01.txt
+A	test_projects/Siemens/database/cdbsvr/log/2023-03-02 13.12.27-7048/2023.03.02.txt
+A	test_projects/Siemens/database/cdbsvr/log/2023-03-03 09.27.59-1340/2023.03.03.txt
+A	test_projects/Siemens/database/cdbsvr/log/2023-03-03 09.57.08-1572/2023.03.03.txt
+A	test_projects/Siemens/database/cdbsvr/log/2023-03-03 09.59.26-7984/2023.03.03.txt
+A	test_projects/Siemens/database/cdbsvr/log/2023-03-03 11.07.01-1624/2023.03.03.txt
+A	test_projects/Siemens/database/cdbsvr/log/2023-03-03 12.07.06-7640/2023.03.03.txt
+A	test_projects/Siemens/database/cdbsvr/log/2023-03-03 13.00.47-7228/2023.03.03.txt
+A	test_projects/Siemens/database/cdbsvr/log/2023-03-03 13.21.09-8644/2023.03.03.txt
+A	test_projects/Siemens/database/cdbsvr/log/2023-03-03 13.22.38-4316/2023.03.03.txt
+A	test_projects/Siemens/database/cdbsvr/log/2023-03-03 14.03.13-8780/2023.03.03.txt
+A	test_projects/Siemens/database/cdbsvr/plog/2023.03.01.guid.2748.txt
+A	test_projects/Siemens/database/cdbsvr/plog/2023.03.03.guid.1328.txt
+A	test_projects/Siemens/database/cdbsvr/plog/2023.03.03.guid.5868.txt
+A	test_projects/Siemens/database/cdbsvr/plog/2023.03.03.guid.8424.txt
+A	test_projects/Siemens/database/icdb.dat
+A	test_projects/Siemens/symbols.prj
+
+commit be459642d536cd21acc0fe879e4c649b54a2bca1
+Author: maxp5 <>
+Date:   Mon Feb 27 18:03:20 2023 -0500
+
+    Addition of Siemens symbols. Basic import of Caribou v1.4 and FETBV2 part data into database
+
+A	Siemens/custom/sym/0201_short.1
+A	Siemens/custom/sym/0603_short.1
+A	Siemens/custom/sym/111.1
+A	Siemens/custom/sym/11x17.1
+A	Siemens/custom/sym/1201M2S3AQE2.1
+A	Siemens/custom/sym/12v_rt_angle_mini_fit_jack.1
+A	Siemens/custom/sym/12v_rt_angle_mini_fit_jack_hcur.1
+A	Siemens/custom/sym/2129320-3.1
+A	Siemens/custom/sym/24LC32A.1
+A	Siemens/custom/sym/24aa64.1
+A	Siemens/custom/sym/333.1
+A	Siemens/custom/sym/39-30-1060.1
+A	Siemens/custom/sym/47334-0001.1
+A	Siemens/custom/sym/500254-1927.1
+A	Siemens/custom/sym/6-2301994-1.1
+A	Siemens/custom/sym/61900211121.1
+A	Siemens/custom/sym/61900311121.1
+A	Siemens/custom/sym/67840-8001.1
+A	Siemens/custom/sym/7685.1
+A	Siemens/custom/sym/7M48072002.1
+A	Siemens/custom/sym/88e1116r_a.1
+A	Siemens/custom/sym/88e1116r_b.1
+A	Siemens/custom/sym/AD9249-65.1
+A	Siemens/custom/sym/ADA4932.1
+A	Siemens/custom/sym/ADM1066ASUZ_1.1
+A	Siemens/custom/sym/ADM1266ACPZ.1
+A	Siemens/custom/sym/ADP124ARHZ.1
+A	Siemens/custom/sym/ADP125ACPZ-R7_1.1
+A	Siemens/custom/sym/ADP125ARHZ.1
+A	Siemens/custom/sym/ADP1755.1
+A	Siemens/custom/sym/ADP7159.1
+A	Siemens/custom/sym/ADP7185.1
+A	Siemens/custom/sym/ADS5292_PFP_80_1.1
+A	Siemens/custom/sym/ADS52J65_1.1
+A	Siemens/custom/sym/ADS52J65_2.1
+A	Siemens/custom/sym/ADS7828_PW_16_1.1
+A	Siemens/custom/sym/AP6330x.1
+A	Siemens/custom/sym/ASP_134603_01_C.1
+A	Siemens/custom/sym/ASP_134603_01_D.1
+A	Siemens/custom/sym/ASP_134603_01_G.1
+A	Siemens/custom/sym/ASP_134603_01_GND.1
+A	Siemens/custom/sym/ASP_134603_01_H.1
+A	Siemens/custom/sym/ASP_134604_01_C.1
+A	Siemens/custom/sym/ASP_134604_01_D.1
+A	Siemens/custom/sym/ASP_134604_01_G.1
+A	Siemens/custom/sym/ASP_134604_01_GND.1
+A	Siemens/custom/sym/ASP_134604_01_H.1
+A	Siemens/custom/sym/B11x17.1
+A	Siemens/custom/sym/B11x17_Dimitrios_Shaochun.1
+A	Siemens/custom/sym/B11x17_EZ.1
+A	Siemens/custom/sym/BONDIND_STRIP.1
+A	Siemens/custom/sym/BSH103.1
+A	Siemens/custom/sym/BSH203.1
+A	Siemens/custom/sym/CCPD.1
+A	Siemens/custom/sym/CCPD_v5_dummy.1
+A	Siemens/custom/sym/CDCLVD1204.1
+A	Siemens/custom/sym/CMPT3904E.1
+A	Siemens/custom/sym/CP2105-F01-GM.1
+A	Siemens/custom/sym/CSD17551Q3A.1
+A	Siemens/custom/sym/DAC7678_PW_16_1.1
+A	Siemens/custom/sym/DAC7678_RGE_24_1.1
+A	Siemens/custom/sym/DIGILENT_USB_JTAG_2_NC.1
+A	Siemens/custom/sym/DIP_SWITCH_4.1
+A	Siemens/custom/sym/DS15BR401TSQ.1
+A	Siemens/custom/sym/DS90LV004TVS_1.1
+A	Siemens/custom/sym/DS90LV048A.1
+A	Siemens/custom/sym/EEE-FK1E331P.1
+A	Siemens/custom/sym/FEAST2MOD.1
+A	Siemens/custom/sym/FEI4A_1.1
+A	Siemens/custom/sym/FEI4B_1.1
+A	Siemens/custom/sym/FEI4B_2.1
+A	Siemens/custom/sym/FEI4B_3.1
+A	Siemens/custom/sym/FEI4B_4.1
+A	Siemens/custom/sym/FEI4B_5.1
+A	Siemens/custom/sym/FEI4_2.1
+A	Siemens/custom/sym/FEI4_3.1
+A	Siemens/custom/sym/FEI4_4.1
+A	Siemens/custom/sym/FEI4_5.1
+A	Siemens/custom/sym/FEI4_6.1
+A	Siemens/custom/sym/FEI4_B.1
+A	Siemens/custom/sym/FE_I4B.1
+A	Siemens/custom/sym/FIN1019MTC.1
+A	Siemens/custom/sym/FSA1.1
+A	Siemens/custom/sym/H18V4.1
+A	Siemens/custom/sym/H35DEMO_ANA1_1.1
+A	Siemens/custom/sym/H35DEMO_ANA1_2.1
+A	Siemens/custom/sym/H35DEMO_ANA2_1.1
+A	Siemens/custom/sym/H35DEMO_ANA2_2.1
+A	Siemens/custom/sym/H35DEMO_CMOS_1.1
+A	Siemens/custom/sym/H35DEMO_CMOS_2.1
+A	Siemens/custom/sym/H35DEMO_DOWN.1
+A	Siemens/custom/sym/H35DEMO_NMOS_1.1
+A	Siemens/custom/sym/H35DEMO_NMOS_2.1
+A	Siemens/custom/sym/H35DEMO_TEST_DOWN.1
+A	Siemens/custom/sym/H35DEMO_TEST_UP.1
+A	Siemens/custom/sym/H35DEMO_UP.1
+A	Siemens/custom/sym/HFJ11-1G41E-L12RL.1
+A	Siemens/custom/sym/INA226_DGS_10_1.1
+A	Siemens/custom/sym/IO-1786-1.1
+A	Siemens/custom/sym/IP4856CX25_SHIFTER_ADAPTER.1
+A	Siemens/custom/sym/KEL_8831E_A.1
+A	Siemens/custom/sym/KEL_8831E_B.1
+A	Siemens/custom/sym/LMV721.1
+A	Siemens/custom/sym/LMV722_A.1
+A	Siemens/custom/sym/LMV722_B.1
+A	Siemens/custom/sym/LT3015xDD.1
+A	Siemens/custom/sym/LTM4616_ABCD.1
+A	Siemens/custom/sym/LTM4616_ABGH_BACK.1
+A	Siemens/custom/sym/LTM4616_CDJK_BACK.1
+A	Siemens/custom/sym/LTM4616_EFGH.1
+A	Siemens/custom/sym/LTM4616_EFLM_BACK.1
+A	Siemens/custom/sym/LTM4616_JKLM.1
+A	Siemens/custom/sym/LTM4616_LINEAR.1
+A	Siemens/custom/sym/LTM4619_LINEAR.1
+A	Siemens/custom/sym/LTM8022.1
+A	Siemens/custom/sym/LTM8023.1
+A	Siemens/custom/sym/LTM8063.1
+A	Siemens/custom/sym/MAX6698.1
+A	Siemens/custom/sym/MAX9032_1.1
+A	Siemens/custom/sym/MAX9032_2.1
+A	Siemens/custom/sym/MAX9032_pwr.1
+A	Siemens/custom/sym/MCP41x1_1.1
+A	Siemens/custom/sym/MCP41x1_QFN_pwr.1
+A	Siemens/custom/sym/MCP44x1_QFN_1.1
+A	Siemens/custom/sym/MCP44x1_QFN_2.1
+A	Siemens/custom/sym/MCP44x1_QFN_3.1
+A	Siemens/custom/sym/MCP44x1_QFN_4.1
+A	Siemens/custom/sym/MCP44x1_QFN_pwr.1
+A	Siemens/custom/sym/ME-MTH-BASE_74X54.1
+A	Siemens/custom/sym/MIC2544A-1YMM.1
+A	Siemens/custom/sym/MIC29302.1
+A	Siemens/custom/sym/NDS331N.1
+A	Siemens/custom/sym/NMOS.1
+A	Siemens/custom/sym/NO_CONNECT.1
+A	Siemens/custom/sym/OPA2330_A.1
+A	Siemens/custom/sym/OPA2330_B.1
+A	Siemens/custom/sym/OPA2330_DGK_8_1.1
+A	Siemens/custom/sym/OPA4330_1.1
+A	Siemens/custom/sym/OPA4330_2.1
+A	Siemens/custom/sym/OPA4330_3.1
+A	Siemens/custom/sym/OPA4330_4.1
+A	Siemens/custom/sym/OPA4330_pwr.1
+A	Siemens/custom/sym/OSC_4.1
+A	Siemens/custom/sym/PCA9539_DB_24_1.1
+A	Siemens/custom/sym/PCA9539_RGE_24_1.1
+A	Siemens/custom/sym/PCA9546A_RGV_16_1.1
+A	Siemens/custom/sym/PCA9615.1
+A	Siemens/custom/sym/PCA9846BS.1
+A	Siemens/custom/sym/PCA9846PW.1
+A	Siemens/custom/sym/REF5030_DGK_8_1.1
+A	Siemens/custom/sym/REF5040.1
+A	Siemens/custom/sym/REF5040_DGK_8_1.1
+A	Siemens/custom/sym/REF5040_D_8_1.1
+A	Siemens/custom/sym/RJ45.1
+A	Siemens/custom/sym/SC18IS602B.1
+A	Siemens/custom/sym/SEAF_40x8_AB.1
+A	Siemens/custom/sym/SEAF_40x8_CD.1
+A	Siemens/custom/sym/SEAF_40x8_EF.1
+A	Siemens/custom/sym/SEAF_40x8_GH.1
+A	Siemens/custom/sym/SEAF_8_160_DIF.1
+A	Siemens/custom/sym/SEAF_8_160_GND.1
+A	Siemens/custom/sym/SEAF_8_160_PWR.1
+A	Siemens/custom/sym/SEAF_8_160_SIG.1
+A	Siemens/custom/sym/SEAM_40x8_AB.1
+A	Siemens/custom/sym/SEAM_40x8_CD.1
+A	Siemens/custom/sym/SEAM_40x8_EF.1
+A	Siemens/custom/sym/SEAM_40x8_GH.1
+A	Siemens/custom/sym/SEAX_20_XXX_X_04-A.1
+A	Siemens/custom/sym/SEAX_20_XXX_X_04_B.1
+A	Siemens/custom/sym/SEAX_20_XXX_X_04_C.1
+A	Siemens/custom/sym/SEAX_20_XXX_X_04_D.1
+A	Siemens/custom/sym/SI531.1
+A	Siemens/custom/sym/SI5344_1.1
+A	Siemens/custom/sym/SI5345A_B_GM.1
+A	Siemens/custom/sym/SI5345_1.1
+A	Siemens/custom/sym/SI5395.1
+A	Siemens/custom/sym/SI570.1
+A	Siemens/custom/sym/SN65LVDS386_DGG_64_1.1
+A	Siemens/custom/sym/SN65LVDS387_DGG_64_1.1
+A	Siemens/custom/sym/SN65LVDS388A_DBT_38_1.1
+A	Siemens/custom/sym/SN65LVDS389_DBT_38_1.1
+A	Siemens/custom/sym/SN65LVDS391_PW_16_1.1
+A	Siemens/custom/sym/SN65LVDS4_RSE_10_1.1
+A	Siemens/custom/sym/SN74AVC4T245PWR.1
+A	Siemens/custom/sym/SN74LVC08.1
+A	Siemens/custom/sym/SN74LVC08_POWER.1
+A	Siemens/custom/sym/TCA9509_DGK_8_1.1
+A	Siemens/custom/sym/TCA9509_RVH_8_1.1
+A	Siemens/custom/sym/TCA9617A.1
+A	Siemens/custom/sym/TEST_BGA25.1
+A	Siemens/custom/sym/THS4522IPWR_1.1
+A	Siemens/custom/sym/THS4522IPWR_2.1
+A	Siemens/custom/sym/TLV3201.1
+A	Siemens/custom/sym/TLV321.1
+A	Siemens/custom/sym/TMP100_DBV_6_1.1
+A	Siemens/custom/sym/TMP101_DBV_6.1
+A	Siemens/custom/sym/TPD4E05U06DQAR.1
+A	Siemens/custom/sym/TPD4S012DRYR.1
+A	Siemens/custom/sym/TPD8S009DSMR.1
+A	Siemens/custom/sym/TPS22810.1
+A	Siemens/custom/sym/TPS74401RGWR_1.1
+A	Siemens/custom/sym/TPS7A33.1
+A	Siemens/custom/sym/TPS7A4700_RGW_20.1
+A	Siemens/custom/sym/TPS7A52.1
+A	Siemens/custom/sym/TS5A22362_DGS_10_1.1
+A	Siemens/custom/sym/TS5A3166.1
+A	Siemens/custom/sym/TXB0302.1
+A	Siemens/custom/sym/TXB0304_RSV_16_1.1
+A	Siemens/custom/sym/TXS0108PWR.1
+A	Siemens/custom/sym/TXS02612RTWR.1
+A	Siemens/custom/sym/VHDCI_68.1
+A	Siemens/custom/sym/XTAL_4PIN.1
+A	Siemens/custom/sym/ZX62-AB-5PA.1
+A	Siemens/custom/sym/adg707bru.1
+A	Siemens/custom/sym/adp123.1
+A	Siemens/custom/sym/adv7511.1
+A	Siemens/custom/sym/agnd.1
+A	Siemens/custom/sym/agnd1.1
+A	Siemens/custom/sym/agnd8.1
+A	Siemens/custom/sym/and_gate_single.1
+A	Siemens/custom/sym/asp_134486_01_a.1
+A	Siemens/custom/sym/asp_134486_01_b.1
+A	Siemens/custom/sym/asp_134486_01_c.1
+A	Siemens/custom/sym/asp_134486_01_d.1
+A	Siemens/custom/sym/asp_134486_01_e.1
+A	Siemens/custom/sym/asp_134486_01_f.1
+A	Siemens/custom/sym/asp_134486_01_g.1
+A	Siemens/custom/sym/asp_134486_01_gnd.1
+A	Siemens/custom/sym/asp_134486_01_h.1
+A	Siemens/custom/sym/asp_134486_01_j.1
+A	Siemens/custom/sym/asp_134486_01_k.1
+A	Siemens/custom/sym/bas40-04.1
+A	Siemens/custom/sym/bat54t1g.1
+A	Siemens/custom/sym/battery.1
+A	Siemens/custom/sym/battery3pin.1
+A	Siemens/custom/sym/battery_holder_cr1220.1
+A	Siemens/custom/sym/bead.1
+A	Siemens/custom/sym/bjt-3pin.1
+A	Siemens/custom/sym/bnx016-01.1
+A	Siemens/custom/sym/bsheetl.1
+A	Siemens/custom/sym/btn_moment.1
+A	Siemens/custom/sym/cap_np.1
+A	Siemens/custom/sym/cap_p.1
+A	Siemens/custom/sym/cc0402.1
+A	Siemens/custom/sym/cc0402_S.1
+A	Siemens/custom/sym/cc0603.1
+A	Siemens/custom/sym/cc0805.1
+A	Siemens/custom/sym/cc1206.1
+A	Siemens/custom/sym/cc1206_p.1
+A	Siemens/custom/sym/cc1210.1
+A	Siemens/custom/sym/cc1210_470UF.1
+A	Siemens/custom/sym/cc1210_p.1
+A	Siemens/custom/sym/cc3528.1
+A	Siemens/custom/sym/cc5750.1
+A	Siemens/custom/sym/cc6032.1
+A	Siemens/custom/sym/cc7343.1
+A	Siemens/custom/sym/comparator_3pin_generic.1
+A	Siemens/custom/sym/comparator_5pin_generic.1
+A	Siemens/custom/sym/con_mini_smt.1
+A	Siemens/custom/sym/con_sma.1
+A	Siemens/custom/sym/con_smp.1
+A	Siemens/custom/sym/conn_idc_14_smt.1
+A	Siemens/custom/sym/conn_usb_micro_b_th.1
+A	Siemens/custom/sym/conn_usb_micro_b_th_alt.1
+A	Siemens/custom/sym/conn_usb_mini_b_th.1
+A	Siemens/custom/sym/cp2103.1
+A	Siemens/custom/sym/cp2105.1
+A	Siemens/custom/sym/cpack-4.1
+A	Siemens/custom/sym/cr0402.1
+A	Siemens/custom/sym/cr0603.1
+A	Siemens/custom/sym/cr0805.1
+A	Siemens/custom/sym/cr1206.1
+A	Siemens/custom/sym/cr2010.1
+A	Siemens/custom/sym/cr2512.1
+A	Siemens/custom/sym/cr4527.1
+A	Siemens/custom/sym/crys_2.1
+A	Siemens/custom/sym/crystal.1
+A	Siemens/custom/sym/ddr3_so-dimm_shielded.1
+A	Siemens/custom/sym/dfls1150.1
+A	Siemens/custom/sym/digilent_usb_jtag2.1
+A	Siemens/custom/sym/diode.1
+A	Siemens/custom/sym/edge4lanepcie.1
+A	Siemens/custom/sym/fanhdr3.1
+A	Siemens/custom/sym/fb0603.1
+A	Siemens/custom/sym/fet-3pin.1
+A	Siemens/custom/sym/fet-3pin_s.1
+A	Siemens/custom/sym/fin1019.1
+A	Siemens/custom/sym/fuse.1
+A	Siemens/custom/sym/fuse_pl.1
+A	Siemens/custom/sym/fx10a-168p-sv-a.1
+A	Siemens/custom/sym/fx10a-168p-sv-b.1
+A	Siemens/custom/sym/fx10a-168p-sv-c.1
+A	Siemens/custom/sym/gnd.1
+A	Siemens/custom/sym/gnd_short.1
+A	Siemens/custom/sym/hdr2x12.1
+A	Siemens/custom/sym/hdr2x25.1
+A	Siemens/custom/sym/hdr2x32.1
+A	Siemens/custom/sym/hdr2x8.1
+A	Siemens/custom/sym/hdr_1x1.1
+A	Siemens/custom/sym/hdr_1x2.1
+A	Siemens/custom/sym/hdr_1x2_flat (2).1
+A	Siemens/custom/sym/hdr_1x2_flat.1
+A	Siemens/custom/sym/hdr_1x3 (2).1
+A	Siemens/custom/sym/hdr_1x3.1
+A	Siemens/custom/sym/hdr_1x3_N.1
+A	Siemens/custom/sym/hdr_1x4 (2).1
+A	Siemens/custom/sym/hdr_1x4.1
+A	Siemens/custom/sym/hdr_1x4v2.1
+A	Siemens/custom/sym/hdr_1x5.1
+A	Siemens/custom/sym/hdr_1x8.1
+A	Siemens/custom/sym/hdr_2x05.1
+A	Siemens/custom/sym/hdr_2x07.1
+A	Siemens/custom/sym/hdr_2x10.1
+A	Siemens/custom/sym/hdr_2x14.1
+A	Siemens/custom/sym/hdr_2x16.1
+A	Siemens/custom/sym/hdr_2x2.1
+A	Siemens/custom/sym/hdr_2x20.1
+A	Siemens/custom/sym/hdr_2x3.1
+A	Siemens/custom/sym/hdr_2x32.1
+A	Siemens/custom/sym/hdr_2x4.1
+A	Siemens/custom/sym/hdr_2x4v2.1
+A	Siemens/custom/sym/hdr_2x5 (2).1
+A	Siemens/custom/sym/hdr_2x5.1
+A	Siemens/custom/sym/hdr_2x6.1
+A	Siemens/custom/sym/hdr_2x7.1
+A	Siemens/custom/sym/hfj11_1g01e.1
+A	Siemens/custom/sym/hole.1
+A	Siemens/custom/sym/hole_a.1
+A	Siemens/custom/sym/hole_b.1
+A	Siemens/custom/sym/hole_m3.1
+A	Siemens/custom/sym/hole_s.1
+A	Siemens/custom/sym/hsmf_c155.1
+A	Siemens/custom/sym/ic_hor_pwr_generic.1
+A	Siemens/custom/sym/ic_vert_pwr_generic.1
+A	Siemens/custom/sym/idtqs3vh253qg8.1
+A	Siemens/custom/sym/ina226.1
+A	Siemens/custom/sym/ina333.1
+A	Siemens/custom/sym/ind.1
+A	Siemens/custom/sym/ind0805.1
+A	Siemens/custom/sym/jmpr2.1
+A	Siemens/custom/sym/jmpr3.1
+A	Siemens/custom/sym/jr_2x2.1
+A	Siemens/custom/sym/jtag_con_14_pin.1
+A	Siemens/custom/sym/jumper.1
+A	Siemens/custom/sym/led.1
+A	Siemens/custom/sym/led_0603.1
+A	Siemens/custom/sym/lemo.1
+A	Siemens/custom/sym/lmz12002.1
+A	Siemens/custom/sym/low_offse_amp.1
+A	Siemens/custom/sym/ltc2914.1
+A	Siemens/custom/sym/ltm4630.1
+A	Siemens/custom/sym/ltm8045.1
+A	Siemens/custom/sym/ma506.1
+A	Siemens/custom/sym/max13035e.1
+A	Siemens/custom/sym/max16025.1
+A	Siemens/custom/sym/mcp120t.1
+A	Siemens/custom/sym/mech_2-pin_jumper.1
+A	Siemens/custom/sym/mech_ddr3_sodimm.1
+A	Siemens/custom/sym/mech_pcie_adapter_cable.1
+A	Siemens/custom/sym/mech_pcie_plate.1
+A	Siemens/custom/sym/mech_pciepower_sticker.1
+A	Siemens/custom/sym/mech_power_cable.1
+A	Siemens/custom/sym/mech_pwr_brick_12v.1
+A	Siemens/custom/sym/mech_rubber_bumper.1
+A	Siemens/custom/sym/mech_screw_4-40x1-4.1
+A	Siemens/custom/sym/mech_sfp_plus_cage.1
+A	Siemens/custom/sym/mech_sodimm_cage.1
+A	Siemens/custom/sym/mech_standoff.1
+A	Siemens/custom/sym/mech_usb_micro_cable.1
+A	Siemens/custom/sym/mech_usb_minib_cable.1
+A	Siemens/custom/sym/mic2025-2b.1
+A	Siemens/custom/sym/mic2544a_1ym.1
+A	Siemens/custom/sym/mm3z2v7b.1
+A	Siemens/custom/sym/mt41j256m8hx_15e.1
+A	Siemens/custom/sym/nc7sz66_sc70_5.1
+A	Siemens/custom/sym/nc7wz07.1
+A	Siemens/custom/sym/ndt3055l.1
+A	Siemens/custom/sym/note.1
+A	Siemens/custom/sym/opamp_3pin_generic.1
+A	Siemens/custom/sym/opamp_5pin_generic.1
+A	Siemens/custom/sym/osc_4_pin.1
+A	Siemens/custom/sym/osc_6_pins.1
+A	Siemens/custom/sym/pca9517.1
+A	Siemens/custom/sym/pca9548a.1
+A	Siemens/custom/sym/pca9614.1
+A	Siemens/custom/sym/pcie_mini.1
+A	Siemens/custom/sym/photodiode.1
+A	Siemens/custom/sym/port_in.1
+A	Siemens/custom/sym/port_out.1
+A	Siemens/custom/sym/powerconn_2.1
+A	Siemens/custom/sym/powerconn_4.1
+A	Siemens/custom/sym/powerconn_6.1
+A	Siemens/custom/sym/pushbutton-4.1
+A	Siemens/custom/sym/radian_xlx1002.1
+A	Siemens/custom/sym/rclamp0524p.1
+A	Siemens/custom/sym/ref3012.1
+A	Siemens/custom/sym/res.1
+A	Siemens/custom/sym/res_adj.1
+A	Siemens/custom/sym/res_digipot.1
+A	Siemens/custom/sym/res_ohmite_lvk25.1
+A	Siemens/custom/sym/res_vishay_wsl.1
+A	Siemens/custom/sym/rtc8564je.1
+A	Siemens/custom/sym/rw-108-ns.1
+A	Siemens/custom/sym/rw-1106-ns.1
+A	Siemens/custom/sym/s25fl128s.1
+A	Siemens/custom/sym/sfp_plus_connector.1
+A	Siemens/custom/sym/sfp_plus_connector_2x2.1
+A	Siemens/custom/sym/sfp_plus_connector_no_cage.1
+A	Siemens/custom/sym/sfp_plus_dual_cage.1
+A	Siemens/custom/sym/shrouded_hdr_2x10.1
+A	Siemens/custom/sym/si5324.1
+A	Siemens/custom/sym/sit8102.1
+A	Siemens/custom/sym/sit8103.1
+A	Siemens/custom/sym/sit9102.1
+A	Siemens/custom/sym/sma-5pin.1
+A	Siemens/custom/sym/sn74avc1t45.1
+A	Siemens/custom/sym/sn74avc2t245.1
+A	Siemens/custom/sym/sn74avc4t245.1
+A	Siemens/custom/sym/sn74avc4t245a.1
+A	Siemens/custom/sym/sn74lv541apwr.1
+A	Siemens/custom/sym/sn74lvc1g11.1
+A	Siemens/custom/sym/sp0503baht.1
+A	Siemens/custom/sym/spdt_sw_8.1
+A	Siemens/custom/sym/spdt_sw_dip_5.1
+A	Siemens/custom/sym/sw_12A_ra_slide_dpdt.1
+A	Siemens/custom/sym/sw_12a_slide_dpdt.1
+A	Siemens/custom/sym/sw_dip_2.1
+A	Siemens/custom/sym/sw_dip_4.1
+A	Siemens/custom/sym/sw_dip_5.1
+A	Siemens/custom/sym/tca6416a.1
+A	Siemens/custom/sym/tca9548apwr.1
+A	Siemens/custom/sym/tl1963.1
+A	Siemens/custom/sym/tp.1
+A	Siemens/custom/sym/tp_diff.1
+A	Siemens/custom/sym/tp_thru.1
+A	Siemens/custom/sym/tpd4s012.1
+A	Siemens/custom/sym/tps51200.1
+A	Siemens/custom/sym/tps54291.1
+A	Siemens/custom/sym/tps74901.1
+A	Siemens/custom/sym/tps79433dcq.1
+A	Siemens/custom/sym/tps84621ruq.1
+A	Siemens/custom/sym/ts5a3359.1
+A	Siemens/custom/sym/txs0102.1
+A	Siemens/custom/sym/txs0108e.1
+A	Siemens/custom/sym/txs02612.1
+A	Siemens/custom/sym/ucd90120argc_vqfn64.1
+A	Siemens/custom/sym/usb3320_qfn32.1
+A	Siemens/custom/sym/usb_standard_a_3_0.1
+A	Siemens/custom/sym/vcc.1
+A	Siemens/custom/sym/washer_flat_4.1
+A	Siemens/custom/sym/wsl3637.1
+A	Siemens/custom/sym/xtal_114mhz.1
+A	Siemens/custom/sym/zener.1
+A	Siemens/golden_symbols/sym/0201_short.1
+A	Siemens/golden_symbols/sym/0603_short.1
+A	Siemens/golden_symbols/sym/12v_rt_angle_mini_fit_jack.1
+A	Siemens/golden_symbols/sym/24aa64.1
+A	Siemens/golden_symbols/sym/500254-1927.1
+A	Siemens/golden_symbols/sym/67840-8001.1
+A	Siemens/golden_symbols/sym/88e1116r_a.1
+A	Siemens/golden_symbols/sym/88e1116r_b.1
+A	Siemens/golden_symbols/sym/B11x17.1
+A	Siemens/golden_symbols/sym/adg707bru.1
+A	Siemens/golden_symbols/sym/adp123.1
+A	Siemens/golden_symbols/sym/adv7511.1
+A	Siemens/golden_symbols/sym/agnd.1
+A	Siemens/golden_symbols/sym/agnd1.1
+A	Siemens/golden_symbols/sym/agnd8.1
+A	Siemens/golden_symbols/sym/and_gate_single.1
+A	Siemens/golden_symbols/sym/asp_134486_01_a.1
+A	Siemens/golden_symbols/sym/asp_134486_01_b.1
+A	Siemens/golden_symbols/sym/asp_134486_01_c.1
+A	Siemens/golden_symbols/sym/asp_134486_01_d.1
+A	Siemens/golden_symbols/sym/asp_134486_01_e.1
+A	Siemens/golden_symbols/sym/asp_134486_01_f.1
+A	Siemens/golden_symbols/sym/asp_134486_01_g.1
+A	Siemens/golden_symbols/sym/asp_134486_01_gnd.1
+A	Siemens/golden_symbols/sym/asp_134486_01_h.1
+A	Siemens/golden_symbols/sym/asp_134486_01_j.1
+A	Siemens/golden_symbols/sym/asp_134486_01_k.1
+A	Siemens/golden_symbols/sym/asp_134603_01_c.1
+A	Siemens/golden_symbols/sym/asp_134603_01_d.1
+A	Siemens/golden_symbols/sym/asp_134603_01_g.1
+A	Siemens/golden_symbols/sym/asp_134603_01_gnd.1
+A	Siemens/golden_symbols/sym/asp_134603_01_h.1
+A	Siemens/golden_symbols/sym/bac/$tmp$346192384$$$mytempname$$10626.1
+A	Siemens/golden_symbols/sym/bac/low_offse_amp.1
+A	Siemens/golden_symbols/sym/bas40-04.1
+A	Siemens/golden_symbols/sym/bat54t1g.1
+A	Siemens/golden_symbols/sym/battery.1
+A	Siemens/golden_symbols/sym/bjt-3pin.1
+A	Siemens/golden_symbols/sym/bnx016-01.1
+A	Siemens/golden_symbols/sym/bsheetl.1
+A	Siemens/golden_symbols/sym/btn_moment.1
+A	Siemens/golden_symbols/sym/cap_np.1
+A	Siemens/golden_symbols/sym/cap_p.1
+A	Siemens/golden_symbols/sym/con_sma.1
+A	Siemens/golden_symbols/sym/conn_idc_14_smt.1
+A	Siemens/golden_symbols/sym/conn_usb_micro_b_th.1
+A	Siemens/golden_symbols/sym/conn_usb_mini_b_th.1
+A	Siemens/golden_symbols/sym/cp2103.1
+A	Siemens/golden_symbols/sym/cpack-4.1
+A	Siemens/golden_symbols/sym/crys_2.1
+A	Siemens/golden_symbols/sym/ddr3_so-dimm_shielded.1
+A	Siemens/golden_symbols/sym/dfls1150.1
+A	Siemens/golden_symbols/sym/digilent_usb_jtag2.1
+A	Siemens/golden_symbols/sym/diode.1
+A	Siemens/golden_symbols/sym/diode_zener.1
+A	Siemens/golden_symbols/sym/edge4lanepcie.1
+A	Siemens/golden_symbols/sym/fanhdr3.1
+A	Siemens/golden_symbols/sym/fet-3pin.1
+A	Siemens/golden_symbols/sym/fet-3pin_s.1
+A	Siemens/golden_symbols/sym/fuse_pl.1
+A	Siemens/golden_symbols/sym/gnd.1
+A	Siemens/golden_symbols/sym/gnd_short.1
+A	Siemens/golden_symbols/sym/hdr_1x1.1
+A	Siemens/golden_symbols/sym/hdr_1x2.1
+A	Siemens/golden_symbols/sym/hdr_1x3.1
+A	Siemens/golden_symbols/sym/hdr_2x2.1
+A	Siemens/golden_symbols/sym/hdr_2x20.1
+A	Siemens/golden_symbols/sym/hdr_2x5.1
+A	Siemens/golden_symbols/sym/hdr_2x6.1
+A	Siemens/golden_symbols/sym/hfj11_1g01e.1
+A	Siemens/golden_symbols/sym/hole.1
+A	Siemens/golden_symbols/sym/hsmf_c155.1
+A	Siemens/golden_symbols/sym/idtqs3vh253qg8.1
+A	Siemens/golden_symbols/sym/ina333.1
+A	Siemens/golden_symbols/sym/ind.1
+A	Siemens/golden_symbols/sym/led.1
+A	Siemens/golden_symbols/sym/lmz12002.1
+A	Siemens/golden_symbols/sym/lmz22008tz.1
+A	Siemens/golden_symbols/sym/lmz22010tze.1
+A	Siemens/golden_symbols/sym/low_offse_amp.1
+A	Siemens/golden_symbols/sym/ma506.1
+A	Siemens/golden_symbols/sym/max13035e.1
+A	Siemens/golden_symbols/sym/max16025.1
+A	Siemens/golden_symbols/sym/mech_2-pin_jumper.1
+A	Siemens/golden_symbols/sym/mech_ddr3_sodimm.1
+A	Siemens/golden_symbols/sym/mech_pcie_adapter_cable.1
+A	Siemens/golden_symbols/sym/mech_pcie_plate.1
+A	Siemens/golden_symbols/sym/mech_pciepower_sticker.1
+A	Siemens/golden_symbols/sym/mech_power_cable.1
+A	Siemens/golden_symbols/sym/mech_pwr_brick_12v.1
+A	Siemens/golden_symbols/sym/mech_rubber_bumper.1
+A	Siemens/golden_symbols/sym/mech_screw_4-40x1-4.1
+A	Siemens/golden_symbols/sym/mech_sfp_plus_cage.1
+A	Siemens/golden_symbols/sym/mech_sodimm_cage.1
+A	Siemens/golden_symbols/sym/mech_standoff.1
+A	Siemens/golden_symbols/sym/mech_usb_micro_cable.1
+A	Siemens/golden_symbols/sym/mech_usb_minib_cable.1
+A	Siemens/golden_symbols/sym/mic2025-2b.1
+A	Siemens/golden_symbols/sym/mm3z2v7b.1
+A	Siemens/golden_symbols/sym/mt41j256m8hx_15e.1
+A	Siemens/golden_symbols/sym/nc7sz66_sc70_5.1
+A	Siemens/golden_symbols/sym/nc7wz07.1
+A	Siemens/golden_symbols/sym/ndt3055l.1
+A	Siemens/golden_symbols/sym/note.1
+A	Siemens/golden_symbols/sym/op_amp_5pin.1
+A	Siemens/golden_symbols/sym/pca9517.1
+A	Siemens/golden_symbols/sym/pca9548a.1
+A	Siemens/golden_symbols/sym/port_in.1
+A	Siemens/golden_symbols/sym/port_out.1
+A	Siemens/golden_symbols/sym/pushbutton-4.1
+A	Siemens/golden_symbols/sym/radian_xlx1002.1
+A	Siemens/golden_symbols/sym/rclamp0524p.1
+A	Siemens/golden_symbols/sym/ref3012.1
+A	Siemens/golden_symbols/sym/res.1
+A	Siemens/golden_symbols/sym/res_ohmite_lvk25.1
+A	Siemens/golden_symbols/sym/res_vishay_wsl.1
+A	Siemens/golden_symbols/sym/rtc8564je.1
+A	Siemens/golden_symbols/sym/s25fl128s.1
+A	Siemens/golden_symbols/sym/sfp_plus_connector.1
+A	Siemens/golden_symbols/sym/shrouded_hdr_2x10.1
+A	Siemens/golden_symbols/sym/si5324.1
+A	Siemens/golden_symbols/sym/si570.1
+A	Siemens/golden_symbols/sym/sit8102.1
+A	Siemens/golden_symbols/sym/sit8103.1
+A	Siemens/golden_symbols/sym/sit9102.1
+A	Siemens/golden_symbols/sym/sma-5pin.1
+A	Siemens/golden_symbols/sym/sn74avc1t45.1
+A	Siemens/golden_symbols/sym/sn74avc2t245.1
+A	Siemens/golden_symbols/sym/sn74avc4t245.1
+A	Siemens/golden_symbols/sym/sn74lv541apwr.1
+A	Siemens/golden_symbols/sym/sn74lvc1g11.1
+A	Siemens/golden_symbols/sym/sp0503baht.1
+A	Siemens/golden_symbols/sym/spdt_sw_8.1
+A	Siemens/golden_symbols/sym/spdt_sw_dip_5.1
+A	Siemens/golden_symbols/sym/sw_12a_ra_slide_dpdt.1
+A	Siemens/golden_symbols/sym/sw_dip_2.1
+A	Siemens/golden_symbols/sym/sw_dip_4.1
+A	Siemens/golden_symbols/sym/tca6416a.1
+A	Siemens/golden_symbols/sym/tl1963.1
+A	Siemens/golden_symbols/sym/tp.1
+A	Siemens/golden_symbols/sym/tps51200.1
+A	Siemens/golden_symbols/sym/tps54291.1
+A	Siemens/golden_symbols/sym/tps74901.1
+A	Siemens/golden_symbols/sym/tps79433dcq.1
+A	Siemens/golden_symbols/sym/tps84621ruq.1
+A	Siemens/golden_symbols/sym/ts5a3359.1
+A	Siemens/golden_symbols/sym/txs0102.1
+A	Siemens/golden_symbols/sym/txs0108e.1
+A	Siemens/golden_symbols/sym/ucd90120argc_vqfn64.1
+A	Siemens/golden_symbols/sym/usb3320_qfn32.1
+A	Siemens/golden_symbols/sym/vcc12_p.1
+A	Siemens/golden_symbols/sym/vcc1v8.1
+A	Siemens/golden_symbols/sym/vcc2v5.1
+A	Siemens/golden_symbols/sym/vcc3v3.1
+A	Siemens/golden_symbols/sym/vcc5v0.1
+A	Siemens/golden_symbols/sym/vcc_generic.1
+A	Siemens/golden_symbols/sym/vccaux.1
+A	Siemens/golden_symbols/sym/vccaux_io.1
+A	Siemens/golden_symbols/sym/vccint.1
+A	Siemens/golden_symbols/sym/vcco.1
+A	Siemens/golden_symbols/sym/vcco_p0.1
+A	Siemens/golden_symbols/sym/washer_flat_4.1
+A	Siemens/golden_symbols/sym/xtal_114mhz.1
+A	Siemens/mfg_import/sym/LMP8481DGK.1
+A	Siemens/mfg_import/sym/LT3015EDD-TRPBF.1
+A	Siemens/mfg_import/sym/MAX9032AKA&plus_T.1
+A	Siemens/mfg_import/sym/OPA4330AIRGYR.1
+M	database.xlsx
+
+commit d741b3db50bb9d0eaa15f4375e40192d8a201104
+Author: maxp5 <>
+Date:   Sat Feb 25 01:16:35 2023 -0500
+
+    Initial commit. Includes database schema, some basic parts, and initial documentation
+
+A	.gitignore
+A	KiCAD/custom.lib
+A	database.xlsx
+A	documentation.docx
+A	mfg_supplied/LT3015_footprints_symbols.zip
+A	mfg_supplied/ul_LMP8481MM-H-NOPB.zip
+A	mfg_supplied/ul_MAX9032AKA-T.zip
+A	mfg_supplied/ul_OPA4330AIRGYR.zip
+A	part_specs/IC.xlsx
+A	part_specs/SoC.xlsx
+A	part_specs/capacitors.xlsx
+A	part_specs/communications.xlsx
+A	part_specs/fuse.xlsx
+A	part_specs/inductors.xlsx
+A	part_specs/instruments.xlsx
+A	part_specs/interconnect.xlsx
+A	part_specs/logic.xlsx
+A	part_specs/memory.xlsx
+A	part_specs/modules.xlsx
+A	part_specs/motors.xlsx
+A	part_specs/opamp.xlsx
+A	part_specs/potentiometers.xlsx
+A	part_specs/psus.xlsx
+A	part_specs/regulator.xlsx
+A	part_specs/resistors.xlsx
+A	part_specs/switch_controller.xlsx
+A	part_specs/thermistors.xlsx
+A	part_specs/transistors.xlsx
+A	pin_numbering/AP6330x.csv
+A	pin_numbering/MAX9032.csv
+A	pin_numbering/MCP41x1.csv
+A	pin_numbering/MCP44x1_QFN.csv
+A	pin_numbering/MIC29302.csv
