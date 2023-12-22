@@ -23,12 +23,11 @@ Not to be confused with Seeed Studio's Open Parts Library
     density, formatting preferences, etc.)
 -   Wide manufacturing technology support
 
-# Related Tools and Standards
+# Related Tools
 
 - https://www.footprintku.com/Home
 - https://www.snapeda.com/home/
 - https://octopart.com/
-- https://www.jedec.org/category/technology-focus-area/jep30
 
 # Dependencies
 
@@ -61,7 +60,7 @@ Not to be confused with Seeed Studio's Open Parts Library
 All CAD tools require copying the repository to an accessible location.
 It is recommended to choose a central location with no spaces in the path name.
 
-For example when admin/root priviledges are available:
+For example when admin/root priviliedges are available:
 
 - "C:\lib\MOPLib"
 - "/opt/MOPLib"
@@ -69,9 +68,6 @@ For example when admin/root priviledges are available:
 - "/usr/local/lib/MOPLib"
 - "/lib/MOPLib"
 - "/lib64/MOPLib"
-
-When admin/root priveledges are unavailable, install in a 
-home/User folder.
 
 ## Siemens
 
@@ -106,16 +102,9 @@ Alternately, directly edit the text files:
 
 TODO example
 
-~/.config/kicad/fp-lib-table
+~.config/kicad/fp-lib-table
 
-```
-...
-(lib (name MOPLib_custom)(type KiCad)(uri redacted/moplib/KiCAD/custom)(options "")(descr ""))
-(lib (name MOPLib_mfg_import)(type KiCad)(uri redacted/moplib/KiCAD/mfg_import)(options "")(descr ""))
-(lib (name MOPLib_SnapEDA_import)(type KiCad)(uri redacted/moplib/KiCAD/SnapEDA_import)(options "")(descr ""))
-(lib (name MOPLib_import_variant)(type KiCad)(uri redacted/moplib/KiCAD/import_variant)(options "")(descr ""))
-...
-```
+TODO example
 
 # Porting Designs
 
@@ -126,6 +115,11 @@ for older designs which are meant to transition to this library.
 
 #. Change symbol names to those that are desired from the library
 #. Tools -> Update Library Partitions...
+
+Select symbol-> Right click -> Symbol-> Reposition Properties
+Select symbol-> Right click -> Symbol-> Reset Text Properties
+
+May be very useful to rapidly clean up a schematic
 
 ## KiCAD
 
@@ -202,37 +196,9 @@ select 'BOM ID', UUID from parts where (manufacturer_part_number0 = "CRF0805-FZ-
 
 ```BOM ID``` is to be entered for reference to a spreadsheet 
 
-General lookup: 
-
-```
-select UUID, manufacturer, manufacturer_part_number0 from parts where 
-(UUID = 1532) or
-(UUID = 1716) or
-...
-```
-
 
 # IP Control
 
-Most content is open source but some confidential information
-is inevitable
-
-- Confidential files are stored in dedicated folders and 
-  subfolders
-  - The existence of files and filenames are always 
-    considered non-confidential. Database linking is thus 
-    allowed and "tree" file lists are allowed.
-  - May be moved to non confidential after this is approved 
-    by the manufacturer and this is indicated in the database
-- Users can gain access to confidential section with an NDA
-  and must be very careful to recognize when information 
-  is transferred between the database an a non-confidential area.
-  For example, pin numbering from a confidential datasheet
-  will be added to the symbol. 
-  The symbol may be cached by the project so the project 
-  must become confidential.
-  It is possible to omit pin numbering for exported PDFs 
-  so only the source project remains confidential.
 
 ## License
 
@@ -765,7 +731,17 @@ Part specifications: May vary but typically must be close
         -   This is typically, DEVICE, PKG_TYPE, PART_NUMBER, REFDES
         -   Note: For some reason, properties can only be moved if they
             don't contain the default value
-            
+			
+# BOM Exporters
+
+## Siemens
+
+A template to dump most of the useful design info within a design was developed.
+Grouping and deduplicatation during the export is based on the primary and secondary key settings.
+Primary keys will result in separate BOM lines and the grouping will be done based on the secondary key (2x nested loop implementation).
+For example, Reference designators are often a secondary key but, to force the export of parts without 
+annotated reference designators, the CAD database ID was set to a primary key.
+           
 # Verification Flows
 
 -   PADS example project holds all newly developed symbols
@@ -825,7 +801,17 @@ Part specifications: May vary but typically must be close
         -   \@DATETIME function worked correctly with \@DATETIME="" and
             \@DATETIME="@DATETIME". \@DATETIME="@DATETIME" is more
             practical for seeing and placing the property.
+- PADS locally caches symbols within the project and a forced update of the libraries doesn't seem to always work.
+- One odd issue that was observed was that nets connected to two separate symbol pins would automatically be renamed to the same net.
+  Any net renames one net would automatically rename the other.
+  The nets had separate IDs and the problem was isolated to the new schematic symbol which was developed.
+  Initially, it was believed that the pin names and ID numbers were unacceptable but extensive testing 
+  (working around symbol caching issues) showed that this was not the case.
+  Verification showed that the symbol was of the same version (schema) as newer symbols that were developed from scratch (non-copy, V54).
+  The only solution to this was to fully delete the problematic pin pair and add them from scratch.
 - PADS standard library location: "C:\MentorGraphics\PADSVX.2.10\SDD_HOME\Libraries\xDX_Designer\StarterLibrary\StarterLibrary.dbc"
+- PADS BOM Exporter Formatting files have a .ipl extension and the templates are available at "C:\MentorGraphics\PADSVX.2.10\SDD_HOME\standard\templates\dxdesigner\netlist"
+  After modifying one during export, a copy is made in the project folder.
 
 ## Altium
 
@@ -851,14 +837,13 @@ AccessDatabaseEngine_X64.exe /passive
 
 # TODO
 
-- Table generators
-  - database to Altium database with dblink file
-  - database to DxDatabook database
-- Cleanup functions
-  - CAD entry deduplicator with reference updates
-- PADS/Xpedition DxDatabook database generation tool and 
-  setup
-- Import functions
-  - Digikey BOM
-  - Mouser BOM
-  - General BOM
+-   Table generators
+    -   database to Altium database with dblink file
+    -   database to DxDatabook database
+-   Cleanup functions
+    -   CAD entry deduplicator with reference updates
+-   Import functions
+    -   Digikey BOM
+    -   Mouser BOM
+    -   General BOM
+- Document C:\MentorGraphics\PADSVX.2.10\SDD_HOME\standard\netlist.prp

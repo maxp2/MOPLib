@@ -13,3 +13,4 @@ tools/kicad_netlist_reader.py
 *.json.bak
 database/*
 temp/*
+confidential/*

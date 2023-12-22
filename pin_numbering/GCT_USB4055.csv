@@ -1,0 +1,27 @@
+Name,Pin ID,Direction
+A1,GND,bi
+A2,SSTXp1,out
+A3,SSTXn1,out
+A4,VBUS,bi
+A5,CC1,bi
+A6,Dp1,bi
+A7,Dn1,bi
+A8,SBU1,bi
+A9,VBUS,bi
+A10,SSRXn2,in
+A11,SSRXp2,in
+A12,GND,bi
+B12,GND,bi
+B11,SSRXp1,in
+B10,SSRXn1,in
+B9,VBUS,bi
+B8,SBU2,bi
+B7,Dn2,bi
+B6,Dp2,bi
+B5,CC2,bi
+B4,VBUS,bi
+B3,SSTXn2,out
+B2,SSTXp2,out
+B1,GND,bi
+SHELL0,SHELL,bi
+SHELL1,SHELL,bi
