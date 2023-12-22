@@ -116,6 +116,11 @@ for older designs which are meant to transition to this library.
 #. Change symbol names to those that are desired from the library
 #. Tools -> Update Library Partitions...
 
+Select symbol-> Right click -> Symbol-> Reposition Properties
+Select symbol-> Right click -> Symbol-> Reset Text Properties
+
+May be very useful to rapidly clean up a schematic
+
 ## KiCAD
 
 #. Clever text based search and replacements can be done on the schematic and layout files
@@ -726,7 +731,17 @@ Part specifications: May vary but typically must be close
         -   This is typically, DEVICE, PKG_TYPE, PART_NUMBER, REFDES
         -   Note: For some reason, properties can only be moved if they
             don't contain the default value
-            
+			
+# BOM Exporters
+
+## Siemens
+
+A template to dump most of the useful design info within a design was developed.
+Grouping and deduplicatation during the export is based on the primary and secondary key settings.
+Primary keys will result in separate BOM lines and the grouping will be done based on the secondary key (2x nested loop implementation).
+For example, Reference designators are often a secondary key but, to force the export of parts without 
+annotated reference designators, the CAD database ID was set to a primary key.
+           
 # Verification Flows
 
 -   PADS example project holds all newly developed symbols
@@ -786,7 +801,17 @@ Part specifications: May vary but typically must be close
         -   \@DATETIME function worked correctly with \@DATETIME="" and
             \@DATETIME="@DATETIME". \@DATETIME="@DATETIME" is more
             practical for seeing and placing the property.
+- PADS locally caches symbols within the project and a forced update of the libraries doesn't seem to always work.
+- One odd issue that was observed was that nets connected to two separate symbol pins would automatically be renamed to the same net.
+  Any net renames one net would automatically rename the other.
+  The nets had separate IDs and the problem was isolated to the new schematic symbol which was developed.
+  Initially, it was believed that the pin names and ID numbers were unacceptable but extensive testing 
+  (working around symbol caching issues) showed that this was not the case.
+  Verification showed that the symbol was of the same version (schema) as newer symbols that were developed from scratch (non-copy, V54).
+  The only solution to this was to fully delete the problematic pin pair and add them from scratch.
 - PADS standard library location: "C:\MentorGraphics\PADSVX.2.10\SDD_HOME\Libraries\xDX_Designer\StarterLibrary\StarterLibrary.dbc"
+- PADS BOM Exporter Formatting files have a .ipl extension and the templates are available at "C:\MentorGraphics\PADSVX.2.10\SDD_HOME\standard\templates\dxdesigner\netlist"
+  After modifying one during export, a copy is made in the project folder.
 
 ## Altium
 
@@ -821,3 +846,4 @@ AccessDatabaseEngine_X64.exe /passive
     -   Digikey BOM
     -   Mouser BOM
     -   General BOM
+- Document C:\MentorGraphics\PADSVX.2.10\SDD_HOME\standard\netlist.prp

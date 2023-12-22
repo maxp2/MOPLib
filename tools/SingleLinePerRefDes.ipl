@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<PartListerConfiguration version="3">
+  <Entry name="description" value="Single line per REFDES"/>
+  <Entry name="outputFormat" value="PLAIN"/>
+  <Entry name="outputFileExt" value="txt" />
+  <Entry name="pagination" value="NO"/>
+  <Entry name="pagelength" value="65535"/>
+  <Entry name="delimiter" value=" |"/>
+  <Entry name="delimiterbefore" value="YES"/>
+  <Entry name="delimiterafter" value="YES"/>
+  <Entry name="addTitleRow" value="YES"/>
+  <Entry name="ignoreColumnWidths" value="NO"/>
+  <Header>
+    <Line text="Part Lister output for $(NAME)"/>
+    <Line text="Generated on $(DATE)"/>
+  </Header>
+  <Columns>
+    <Column type="NUMBER" label="#" width="3"/>
+    <Column type="QUANTITY" label="QTY" width="5" sum="YES"/>
+    <Column type="PROPERTY" property="DEVICE" label="Part Number" width="16" justification="LEFT" key="SECONDARY" display="Unique"/>
+    <Column type="PROPERTY" property="PKG_TYPE" label="Footprint" width="15" justification="LEFT" display="Unique"/>
+    <Column type="PROPERTY" property="VALUE" label="Value" width="5" key="SECONDARY" display="Unique"/>
+    <Column type="PROPERTY" property="REFDES" label="Reference" width="15" justification="LEFT" sort="ASCENDING" key="PRIMARY" display="Unique"/>
+  </Columns>
+</PartListerConfiguration>
