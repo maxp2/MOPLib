@@ -272,6 +272,11 @@ Top options are InvenTree and PartKeepr
 
 # Conventions
 
+## General ECAD
+
+- Use dedicated "BOM Item" symbols or fiducial place holders for connection-less additional BOM items (gender adapters, screws, mechanical items, if mechanical items are stored in electrical schematics for the given project)
+- Use resistors and proper connectivity for placeholders of additional BOM items that can be represented as parasitics: pin inserts, wires, etc.
+
 ## Pin Mapping for CAD Data Reuse / "Generic Parts"
 
 There are multiple ways to handle generic symbols and footprints:
@@ -728,32 +733,7 @@ Requires kicad_netlist_reader.py which ships with KiCAD.
 This can be copied or symlinked to the script directory.
 
 Command line (OpenSUSE Leap 15.4 tested):
-python3 "pathToFile/bom_csv_custom.py" "%I" "%O"_BOM.csv
-
-1. Custom Fields:
-    1. “Part_Number”
-        1. Set Value = “PN” when this is used
-        2. In general should never be empty unless parts are sourced at construction.
-    2. “Manufacturer”
-        1. In general should never be empty unless parts are sourced at construction.
-        2. “Manufacturer”;”Part_Number” are the primary lookup key in the parts database
-    3. “BOM_Multiplier”
-        TODO review
-        The 'multiplier' field is a BOM quantity multiplier
-        and not a design multiplier. Some CAD tools support 
-        design multipliers ("block instances") but typically 
-        assign unique reference designators to each subcomponent 
-        of each instance.
-        1. Supported aliases: “DNP” = 0 = “DNI”
-        2. Supported aliases: “” (blank) = " " = 1. This is per standard 1 Refdes per part convention
-        3. For other CAD tools, may or may not have native multi-component / arrayed Refdes support
-        4. May be fractional (e.g. ¼, ½ ) for ganged parts (subject to how CAD tool handles this)
-    4. “Layout_Multiplier”
-        1. Supported aliases: “DNL” = 0, “ ” (blank) = “1”
-        2. For CAD tools which do not have native layout omission.
-2. Use fiducial place holders for connection-less additional BOM items (gender adapters, screws, mechanical items, if mechanical items are stored in electrical schematics for the given project)
-3. Use resistors and proper connectivity for placeholders of additional BOM items that can be represented as parasitics: pin inserts, wires, etc.
-
+python3 "pathToFile/bom_csv_custom.py" "%I" "   %O"_BOM.csv
 
 Originally based on bom_csv_grouped_by_value_with_fp.py
 Components are sorted by ref and grouped by value and footprint
@@ -815,6 +795,29 @@ Overall, the exported data includes:
 'Tolerance'               
 'Value'                   
 'Voltage'                 
+
+1. "Part ID" MOPLib database identifier (uint64_t)
+2. “Part_Number”
+   - Set Value = “PN” when this is used
+   - In general should never be empty unless parts are sourced at construction.
+3. “Manufacturer”
+   - In general should never be empty unless parts are sourced at construction.
+4. “BOM_Multiplier”
+    TODO review
+    The 'multiplier' field is a BOM quantity multiplier
+    and not a design multiplier. 
+    Some CAD tools support this feature or some variety of it natively. For example:
+    - design multipliers
+    - "block instances"
+    - "arrayed components"
+    - RefDes array
+    - sub-units
+    - fractional units (e.g. ¼, ½ ) / ganged parts
+    Typically, CAD tools assign unique reference 
+    designators to each subcomponent of each instance.
+5. “Is In Layout”
+    1. Supported aliases: “DNL” = 0, “ ” (blank) = “1”
+    2. For CAD tools which do not have native layout omission.
 
 This script converts the multiplier from text to an 
 integer based on the following rules:

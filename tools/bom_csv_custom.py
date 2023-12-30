@@ -22,6 +22,7 @@ class BOM_component_t:
         True
     def friendly_field_names(self):
         fields = [
+        'Part ID'                 ,
         'Capacitance'             ,
         'Coupling'                ,
         'Dielectric'              ,
@@ -54,6 +55,7 @@ class BOM_component_t:
     
     def to_dict(self):
         ret = {
+        'Part ID'                   : self.part_ID                 ,
         'capacitance'               : self.capacitance             ,
         'coupling'                  : self.coupling                ,
         'dielectric'                : self.dielectric              ,
@@ -87,6 +89,7 @@ class BOM_component_t:
     
     def to_CSV_row(self, delimiter):
         row =""
+        row +=self.part_ID                       + delimiter
         row +=self.capacitance                   + delimiter
         row +=self.coupling                      + delimiter
         row +=self.dielectric                    + delimiter
@@ -117,6 +120,7 @@ class BOM_component_t:
         row +=self.voltage                       + "\n"
         
     def from_KiCAD_component(self, component):
+        self.part_ID                   = component.getField("Part ID")
         self.capacitance               = component.getField("Capacitance")
         self.coupling                  = component.getField("Coupling"   )
         self.dielectric                = component.getField("Dielectric" )
@@ -163,6 +167,7 @@ class BOM_component_t:
             self.multiplier = int(local_multiplier)
     
     # All except
+    # - part_ID
     # - design_quantity
     # - usage_quantity
     # - reference_designator
@@ -200,6 +205,7 @@ class BOM_component_t:
         return True
     
     # All except
+    # - part_ID
     # - multiplier
     # - design_quantity
     # - usage_quantity
