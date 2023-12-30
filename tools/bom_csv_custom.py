@@ -2,97 +2,8 @@
 """
     @package
     Custom KiCAD BOM exporter.
-    - CSV formatted
-    - Dual flat BOM and deduplicated BOM
-    
-    Originally based on bom_csv_grouped_by_value_with_fp.py
-    Components are sorted by ref and grouped by value and footprint
-    
-    This exporter supports the following custom fields in 
-    KiCAD in addition to some normal KiCAD fields. 
-    It is recommended to add them to the KiCAD custom
-    field settings.
-    
-    - 'capacitance'             
-    - 'coupling'                
-    - 'dielectric'              
-    - 'ESL'                     
-    - 'ESR'                     
-    - 'footprint'               
-    - 'inductance'              
-    - 'impedance'               
-    - 'impedance_frequency'     
-    - 'manufacturer'            
-    - 'manufacturer_part_number'
-    - 'max_current'             
-    - 'multiplier'              
-    - 'note'                    
-    - 'power'                   
-    - 'resistance'              
-    - 'sat_current'             
-    - 'SRF'                     
-    - 'tempco'                  
-    - 'tolerance'               
-    - 'voltage'                 
-    
-    Overall, the exported data includes:
-    'capacitance'             
-    'coupling'                
-    'dielectric'              
-    'ESL'                     
-    'ESR'                     
-    'footprint'               
-    'inductance'              
-    'impedance'               
-    'impedance_frequency'     
-    'manufacturer'            
-    'manufacturer_part_number'
-    'max_current'             
-    'multiplier'              
-    'note'                    
-    'power'                   
-    'design_quantity'         
-    'usage_quantity'          
-    'reference_designator'    
-    'resistance'              
-    'sat_current'             
-    'SRF'                     
-    'symbol_description'      
-    'symbol_lib_name'         
-    'tempco'                  
-    'tolerance'               
-    'value'                   
-    'voltage'                 
-    
-    The 'multiplier' field is a BOM quantity multiplier
-    and not a design multiplier. Some CAD tools support 
-    design multipliers ("block instances") but typically 
-    assign unique reference designators to each subcomponent 
-    of each instance.
-    
-    This script converts the multiplier from text to an 
-    integer based on the following rules:
-    ◦ Empty ("") → 1
-    ◦ NP → 0
-    ◦ DNI → 0
-    ◦ DNP → 0
-    ◦ Integer → 1xinteger
-    
-    Since multiplier is annoted for a single design 
-    component, the total number of components after 
-    deduplication is then the sum of the multipliers.
-    
-    TODO: split DNI functionality from 0 in multiplier field
-     to "is_used" flag for clarity and more flexibility.
-    
-    Script last tested 2023-08-30 in KiCAD 5.1.8 release 
-    build
-    
-    Requires kicad_netlist_reader.py which ships with KiCAD.
-    This can be copied or symlinked to the script directory.
-    
-    Command line (OpenSUSE Leap 15.4 tested):
-    python3 "pathToFile/bom_csv_custom.py" "%I" "%O"_BOM.csv
+    Part of the MOPLib project. 
+    More documentation is available there.
 """
 
 # Import the KiCad python helper module and the csv formatter
@@ -123,6 +34,7 @@ class BOM_component_t:
         'Manufacturer'            ,
         'Manufacturer Part Number',
         'Max Current'             ,
+        'Is Installed'            ,
         'Multiplier'              ,
         'Note'                    ,
         'Power'                   ,
@@ -154,6 +66,7 @@ class BOM_component_t:
         'manufacturer'              : self.manufacturer            ,
         'manufacturer_part_number'  : self.manufacturer_part_number,
         'max_current'               : self.max_current             ,
+        'Is Installed'              : self.is_installed            ,
         'multiplier'                : self.multiplier              ,
         'note'                      : self.note                    ,
         'power'                     : self.power                   ,
@@ -186,6 +99,7 @@ class BOM_component_t:
         row +=self.manufacturer                  + delimiter
         row +=self.manufacturer_part_number      + delimiter
         row +=self.max_current                   + delimiter
+        row +=self.is_installed                  + delimiter
         row +=self.multiplier                    + delimiter
         row +=self.note                          + delimiter
         row +=self.power                         + delimiter
@@ -203,44 +117,48 @@ class BOM_component_t:
         row +=self.voltage                       + "\n"
         
     def from_KiCAD_component(self, component):
-        self.capacitance               = component.getField("capacitance")
-        self.coupling                  = component.getField("coupling"   )
-        self.dielectric                = component.getField("dielectric" )
+        self.capacitance               = component.getField("Capacitance")
+        self.coupling                  = component.getField("Coupling"   )
+        self.dielectric                = component.getField("Dielectric" )
         self.ESL                       = component.getField("ESL"        )
         self.ESR                       = component.getField("ESR"        )
         self.footprint                 = component.getFootprint()
-        self.inductance                = component.getField("inductance"              )
-        self.impedance                 = component.getField("impedance"               )
-        self.impedance_frequency       = component.getField("impedance_frequency"     )
-        self.manufacturer              = component.getField("manufacturer"            )
-        self.manufacturer_part_number  = component.getField("manufacturer_part_number")
-        self.max_current               = component.getField("max_current"             )
-        self.note                      = component.getField("note"                    )
-        self.power                     = component.getField("power"                   )
+        self.inductance                = component.getField("Inductance"              )
+        self.impedance                 = component.getField("Impedance"               )
+        self.impedance_frequency       = component.getField("Impedance Frequency"     )
+        self.manufacturer              = component.getField("Manufacturer"            )
+        self.manufacturer_part_number  = component.getField("Manufacturer Part Number")
+        self.max_current               = component.getField("Max Current"             )
+        self.note                      = component.getField("Note"                    )
+        self.power                     = component.getField("Power"                   )
         self.design_quantity           = 0
         self.usage_quantity            = 0
         self.reference_designator      = component.getRef()
-        self.resistance                = component.getField("resistance" )
-        self.sat_current               = component.getField("sat_current")
+        self.resistance                = component.getField("Resistance" )
+        self.sat_current               = component.getField("Saturation Current")
         self.SRF                       = component.getField("SRF"        )
         self.symbol_description        = component.getDescription()
         self.symbol_lib_name           = component.getLibName()+":"+component.getPartName()
-        self.tempco                    = component.getField("tempco"   )
-        self.tolerance                 = component.getField("tolerance")
+        self.tempco                    = component.getField("Temperature Coefficient"   )
+        self.tolerance                 = component.getField("Tolerance")
         self.value                     = component.getValue()
-        self.voltage                   = component.getField("voltage")
+        self.voltage                   = component.getField("Voltage")
         
         
-        local_multiplier               = component.getField("multiplier"              )
+        local_is_installed             = component.getField("Is Installed"            )
+        local_is_installed = local_is_installed.strip()
+        if ((local_is_installed == "") or (local_is_installed == "true") or (local_is_installed == "TRUE") or (local_is_installed == "True") or (local_is_installed == "yes") or (local_is_installed == "Yes") or (local_is_installed == "1") or (local_is_installed == "Y") or (local_is_installed == "y")):
+            self.is_installed = True
+        elif ((local_is_installed == "false") or (local_is_installed == "FALSE") or (local_is_installed == "False") or (local_is_installed == "no") or (local_is_installed == "No") or (local_is_installed == "0") or (local_is_installed == "N") or (local_is_installed == "n") or (local_is_installed == "DNP") or (local_is_installed == "DNI") or (local_is_installed == "NP")):
+            self.is_installed = False
+        else :
+            # No error handling for bad input - script crashes
+            raise ValueError
+        
+        local_multiplier               = component.getField("Multiplier"              )
         if (local_multiplier == ""):
             self.multiplier = 1
-        elif (local_multiplier == "DNP"):
-            self.multiplier = 0
-        elif (local_multiplier == "DNI"):
-            self.multiplier = 0
-        elif (local_multiplier == "NP"):
-            self.multiplier = 0
-        else :
+        else:
             # No error handling for bad input - script crashes
             self.multiplier = int(local_multiplier)
     
@@ -248,6 +166,7 @@ class BOM_component_t:
     # - design_quantity
     # - usage_quantity
     # - reference_designator
+    # - multiplier
     # The multiplier can represent whether a component is 
     # optional and thus considered a design detail
     def compare_design_data(self, BOM_component2):
@@ -263,7 +182,7 @@ class BOM_component_t:
         if(self.manufacturer             != BOM_component2.manufacturer             ): return False
         if(self.manufacturer_part_number != BOM_component2.manufacturer_part_number ): return False
         if(self.max_current              != BOM_component2.max_current              ): return False
-        if(self.note                     != BOM_component2.note                     ): return False
+        #if(self.note                     != BOM_component2.note                     ): return False
         if(self.power                    != BOM_component2.power                    ): return False
         if(self.resistance               != BOM_component2.resistance               ): return False
         if(self.sat_current              != BOM_component2.sat_current              ): return False
@@ -275,8 +194,8 @@ class BOM_component_t:
         if(self.value                    != BOM_component2.value                    ): return False
         if(self.voltage                  != BOM_component2.voltage                  ): return False
         
-        if(self.multiplier == 0 and BOM_component2.multiplier != 0): return False
-        if(self.multiplier != 0 and BOM_component2.multiplier == 0): return False
+        if(self.is_installed == False and BOM_component2.is_installed != False): return False
+        if(self.is_installed != False and BOM_component2.is_installed == False): return False
         
         return True
     
@@ -301,7 +220,7 @@ class BOM_component_t:
         if(self.manufacturer             != BOM_component2.manufacturer             ): return False
         if(self.manufacturer_part_number != BOM_component2.manufacturer_part_number ): return False
         if(self.max_current              != BOM_component2.max_current              ): return False
-        if(self.note                     != BOM_component2.note                     ): return False
+        #if(self.note                     != BOM_component2.note                     ): return False
         if(self.power                    != BOM_component2.power                    ): return False
         if(self.resistance               != BOM_component2.resistance               ): return False
         if(self.sat_current              != BOM_component2.sat_current              ): return False
@@ -367,6 +286,8 @@ for comp1i in range(0,len(icomps)):
 # commit changes)
 ddcomps = copy.deepcopy(icomps)
 for compi in range(0, len(ddcomps)):
+    if(ddcomps[compi].note.strip() != ""):
+            ddcomps[compi].note = ddcomps[compi].reference_designator + " : "  + ddcomps[compi].note
     if (duplicate_info[compi].is_duplicate == False):
         ddcomps[compi].design_quantity += max(ddcomps[compi].multiplier,1)
         ddcomps[compi].usage_quantity  += ddcomps[compi].multiplier
@@ -375,7 +296,8 @@ for compi in range(0, len(ddcomps)):
         # ddcomps[compi].quantity*local_multiplier is not 
         # correct - multiplier applies to a single component
         # instance
-        
+        if(ddcomps[compi].note.strip() != ""):
+            ddcomps[duplicate_info[compi].duplicate_of].note += "\n" + ddcomps[compi].note
         ddcomps[duplicate_info[compi].duplicate_of].design_quantity += max(ddcomps[compi].multiplier,1)
         ddcomps[duplicate_info[compi].duplicate_of].usage_quantity  += ddcomps[compi].multiplier
         ddcomps[duplicate_info[compi].duplicate_of].reference_designator += ", " + ddcomps[compi].reference_designator

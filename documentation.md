@@ -244,27 +244,6 @@ select 'BOM ID', UUID from parts where (manufacturer_part_number0 = "CRF0805-FZ-
 ├── SnapEDA_supplied : source CAD data as provided by SnapEDA
 └── tools
 
-# ECAD Conventions 
-These are necessary for BOM exporter compatibility
-KiCAD:
-    1. Custom Fields:
-        1. “Part_Number”
-            1. Set Value = “PN” when this is used
-            2. In general should never be empty unless parts are sourced at construction.
-        2. “Manufacturer”
-            1. In general should never be empty unless parts are sourced at construction.
-            2. “Manufacturer”;”Part_Number” are the primary lookup key in the parts database
-        3. “BOM_Multiplier”
-            1. Supported aliases: “DNP” = 0 = “DNI”
-            2. Supported aliases: “ ” (blank) = 1. This is per standard 1 Refdes per part convention
-            3. For other CAD tools, may or may not have native multi-component / arrayed Refdes support
-            4. May be fractional (e.g. ¼, ½ ) for ganged parts (subject to how CAD tool handles this)
-        4. “Layout_Multiplier”
-            1. Supported aliases: “DNL” = 0, “ ” (blank) = “1”
-            2. For CAD tools which do not have native layout omission.
-    2. Use fiducial place holders for connection-less additional BOM items (gender adapters, screws, mechanical items, if mechanical items are stored in electrical schematics for the given project)
-    3. Use resistors and proper connectivity for placeholders of additional BOM items that can be represented as parasitics: pin inserts, wires, etc.
-
 # Inventory Integration
 
 Some options:
@@ -733,6 +712,133 @@ Part specifications: May vary but typically must be close
             don't contain the default value
 			
 # BOM Exporters
+
+Specific Field Names must be used for compatibility with BOM exporters. 
+
+## KiCAD
+
+- CSV formatted
+- Dual flat BOM and deduplicated BOM
+
+Script last tested 2023-12-30 in KiCAD 7.0.7 release 
+build
+Previous versions tested in in KiCAD 5.1.8
+
+Requires kicad_netlist_reader.py which ships with KiCAD.
+This can be copied or symlinked to the script directory.
+
+Command line (OpenSUSE Leap 15.4 tested):
+python3 "pathToFile/bom_csv_custom.py" "%I" "%O"_BOM.csv
+
+1. Custom Fields:
+    1. “Part_Number”
+        1. Set Value = “PN” when this is used
+        2. In general should never be empty unless parts are sourced at construction.
+    2. “Manufacturer”
+        1. In general should never be empty unless parts are sourced at construction.
+        2. “Manufacturer”;”Part_Number” are the primary lookup key in the parts database
+    3. “BOM_Multiplier”
+        TODO review
+        The 'multiplier' field is a BOM quantity multiplier
+        and not a design multiplier. Some CAD tools support 
+        design multipliers ("block instances") but typically 
+        assign unique reference designators to each subcomponent 
+        of each instance.
+        1. Supported aliases: “DNP” = 0 = “DNI”
+        2. Supported aliases: “” (blank) = " " = 1. This is per standard 1 Refdes per part convention
+        3. For other CAD tools, may or may not have native multi-component / arrayed Refdes support
+        4. May be fractional (e.g. ¼, ½ ) for ganged parts (subject to how CAD tool handles this)
+    4. “Layout_Multiplier”
+        1. Supported aliases: “DNL” = 0, “ ” (blank) = “1”
+        2. For CAD tools which do not have native layout omission.
+2. Use fiducial place holders for connection-less additional BOM items (gender adapters, screws, mechanical items, if mechanical items are stored in electrical schematics for the given project)
+3. Use resistors and proper connectivity for placeholders of additional BOM items that can be represented as parasitics: pin inserts, wires, etc.
+
+
+Originally based on bom_csv_grouped_by_value_with_fp.py
+Components are sorted by ref and grouped by value and footprint
+
+This exporter supports the following custom fields in 
+KiCAD in addition to some normal KiCAD fields. 
+It is recommended to add them to the KiCAD custom
+field settings.
+
+- 'Capacitance'             
+- 'Coupling'                
+- 'Dielectric'              
+- 'ESL'                     
+- 'ESR'                     
+- 'Footprint'               
+- 'Inductance'              
+- 'Impedance'               
+- 'Impedance Frequency'     
+- 'Manufacturer'            
+- 'Manufacturer Part Number'
+- 'Max Current'             
+- 'Multiplier'              
+- 'Is Installed'
+- 'Note'                    
+- 'Power'                   
+- 'Resistance'              
+- 'Sat Current'             
+- 'SRF'                     
+- 'Tempco'                  
+- 'Tolerance'               
+- 'Voltage'                 
+
+Overall, the exported data includes:
+'Capacitance'             
+'Coupling'                
+'Dielectric'              
+'ESL'                     
+'ESR'                     
+'Footprint'               
+'Inductance'              
+'Impedance'               
+'impedance_frequency'     
+'Manufacturer'            
+'Manufacturer_part_number'
+'Max Current'             
+'Multiplier'              
+'Is Installed'            
+'Note'                    
+'Power'                   
+'Design Quantity'         
+'Usage Quantity'          
+'Reference Designator'    
+'Resistance'              
+'Sat Current'             
+'SRF'                     
+'Symbol Description'      
+'Symbol Lib Name'         
+'Tempco'                  
+'Tolerance'               
+'Value'                   
+'Voltage'                 
+
+This script converts the multiplier from text to an 
+integer based on the following rules:
+- Empty ("") → 1
+- Integer → 1xinteger
+
+The "Is Installed" flag supports the following values:
+- true
+- True
+- false
+- False
+- 0
+- 1
+- yes
+- no
+- TRUE
+- FALSE
+- NP → 0
+- DNI → 0
+- DNP → 0
+
+Since the multiplier field applies to a single design 
+component, the total number of components after 
+deduplication is then the sum of the multipliers.
 
 ## Siemens
 
