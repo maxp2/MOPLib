@@ -946,13 +946,28 @@ AccessDatabaseEngine_X64.exe /passive
 
 # Release Info
 
+Release Commands : 
+```
+tree -a -D --du -h ./confidential > confidential_tree.txt
+```
+
+## UUID 132
+
 PROJECT RELEASE ID 1
-UUID 132
 DATE 2023-12-22T20:55:17+00:00
+Git COMMIT 29dc0e139c4fa1718c18f1990c7dd2c5887772bf
 
 - General purpose release.
 - No verification done specifically for release.
 
+## UUID 137
+
+PROJECT RELEASE ID 2
+DATE 2024-01-01T10:37:24+00:00
+Git COMMIT null
+
+- General purpose release.
+- No verification done specifically for release.
 
 # TODO
 
